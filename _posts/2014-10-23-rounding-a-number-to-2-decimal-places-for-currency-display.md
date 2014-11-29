@@ -2,11 +2,11 @@
 title: Rounding a number to 2 decimal places for currency display
 author: Ben
 layout: post
-categories:
+categories: 
   - Code Snippets
   - Resources
   - JavaScript
-tags:
+tags: 
   - currency
   - cash
   - financial
@@ -15,7 +15,10 @@ tags:
   - code
   - toFixed
   - round
+published: true
 ---
+
+THIS IS *WORKING*
 
 A little helper function I wrote to play nicely with cash figures in JavaScript. Pass it any number `v` and it will return either:
 
