@@ -7,7 +7,7 @@
     min-height: 56px;
 
     background-color: $background-color;
-    background-image: url(/images/noise.gif);
+    // background-image: url(/images/noise.gif);
     box-shadow: $base-shadow-vert;
     padding-top: 0.3em;
 
@@ -240,6 +240,10 @@ figure {
 .home h2 {
     box-shadow: 0 6px 6px -6px rgba(0,0,0,0.5);
     // box-shadow: 0 5px 7px -4px black;
+}
+.thumb {
+  width: 25%;
+  margin-bottom: 10px;
 }
 
 /**
