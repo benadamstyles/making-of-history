@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: default
 published: true
 title: Sick Sketches
 ---

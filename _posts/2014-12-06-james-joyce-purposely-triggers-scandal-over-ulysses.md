@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: default
 published: true
 title: James Joyce purposely triggers scandal over Ulysses
 ---
