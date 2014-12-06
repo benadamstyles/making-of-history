@@ -3,28 +3,18 @@ layout: default
 is_home: true
 ---
 
-<div class="home" data-masonry-options='{ "columnWidth":".home:first-child", "itemSelector":"div", "gutter":10 }'>
-  <div class="thumb" style="background-color:red" id="sizer">
-    j eher glehkjeh rgerg erkkjg e
-  </div>
-  <div class="thumb" style="background-color:red">
-    kjhf rehg kefghek ghkjdfjkeglkjehglkjehf
-  </div>
-  <div class="thumb" style="background-color:red">
-    jkhfe gergk ehlkergul erglke hkj gkjlhekjlejk ejkjefvkj ekjefvkj ejkh g
-  </div>
-  <div class="thumb" style="background-color:red">
-    ksdjf hgkefkl hfgkje hgkj eg
-  </div>
-  <div class="thumb" style="background-color:red">
-    kjd gfkjefhjfbj df fjdfk kje flkje hhiuh eifvh ev v vhj jkjf vkjefvkj bv
-  </div>
+<div class="home">
+  {% for post in site.posts %}
+    <div class="thumb" style="background-color:black">
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </div>
+  {% endfor %}
 </div>
 
 <script>
   var msnry=new Masonry(".home", {
-    "columnWidth":"#sizer",
-    "itemSelector":"div",
+    "columnWidth":".thumb",
+    "itemSelector":".thumb",
     "gutter":10
   });
 </script>
