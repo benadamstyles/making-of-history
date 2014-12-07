@@ -8,7 +8,7 @@ baseurl: "/making-of-history" # the subpath of your site, e.g. /blog/
 # twitter_username: BenStyles
 # github_username:  leeds-ebooks
 
-permalink: /:period/:title/
+permalink: /:categories/:title/
 
 # Assets
 sass:
@@ -32,7 +32,7 @@ prose:
           element: "text"
           label: "article title"
           type: "text"
-      - name: "period"
+      - name: "category"
         field:
           element: "select"
           label: "period"
