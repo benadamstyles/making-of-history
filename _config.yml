@@ -8,7 +8,7 @@ baseurl: "/making-of-history" # the subpath of your site, e.g. /blog/
 # twitter_username: BenStyles
 # github_username:  leeds-ebooks
 
-permalink: /:category/:title/
+permalink: /:period/:title/
 
 # Assets
 sass:
