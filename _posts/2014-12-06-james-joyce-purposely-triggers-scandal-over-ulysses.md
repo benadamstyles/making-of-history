@@ -2,6 +2,7 @@
 layout: default
 published: true
 title: James Joyce purposely triggers scandal over Ulysses
+period: "1001-1100"
 ---
 
 ## James Joyce purposely triggers scandal over Ulysses
