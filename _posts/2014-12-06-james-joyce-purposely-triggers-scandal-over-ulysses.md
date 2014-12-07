@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 title: James Joyce purposely triggers scandal over Ulysses
 category: "1001-1100"

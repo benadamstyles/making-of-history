@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 title: Sick Sketches
 category: "701-800"
