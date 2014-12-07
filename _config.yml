@@ -1,20 +1,21 @@
 # Site settings
 title: Making of History
-email: enquiries@leeds-ebooks.co.uk
+# email: enquiries@leeds-ebooks.co.uk
 description: > # this means to ignore newlines until "baseurl:"
-  Affordable handmade digital products for writers, artists and creators.
+  Discover the Making of History.
 baseurl: "/making-of-history" # the subpath of your site, e.g. /blog/
 # url: "http://leeds-ebooks.co.uk" # the base hostname & protocol for your site
-twitter_username: BenStyles
-github_username:  leeds-ebooks
+# twitter_username: BenStyles
+# github_username:  leeds-ebooks
 
-permalink: /blog/:year/:month/:title/
+permalink: /:category/:title/
 
 # Assets
 sass:
   style: compressed
 
 prose:
+  rooturl: "_posts"
   media: "images"
   metadata:
     _posts:
@@ -25,9 +26,36 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "default"
+          value: "post"
       - name: "title"
         field:
           element: "text"
           label: "article title"
           type: "text"
+      - name: "period"
+        field:
+          element: "select"
+          label: "period"
+          options:
+            - name: "701-800 CE"
+              value: "701-800"
+            - name: "801-900 CE"
+              value: "801-900"
+            - name: "901-1000 CE"
+              value: "901-1000"
+            - name: "1001-1100 CE"
+              value: "1001-1100"
+            - name: "1101-1200 CE"
+              value: "1101-1200"
+            - name: "1201-1300 CE"
+              value: "1201-1300"
+            - name: "1301-1400 CE"
+              value: "1301-1400"
+            - name: "1401-1500 CE"
+              value: "1401-1500"
+            - name: "1501-1600 CE"
+              value: "1501-1600"
+            - name: "1601-1700 CE"
+              value: "1601-1700"
+            - name: "1701-1800 CE"
+              value: "1701-1800"
