@@ -2,4 +2,4 @@
 ---
 
 {% include rivets.bundled.min.js %}
-{% include pricing.js %}
+{% include grisly.js %}
