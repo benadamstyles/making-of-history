@@ -23,7 +23,8 @@ function init() {
           }
         }
       },
-      transitionEvent=whichTransitionEvent();
+      transitionEvent=whichTransitionEvent(),
+      loadedGrisly;
 
   function picker(event) {
     event.preventDefault();
@@ -58,7 +59,10 @@ function init() {
     spans.push(span);
   }
 
-  count=1+grislies.indexOf(firstSpan.innerHTML);
+  loadedGrisly=grislies.indexOf(firstSpan.innerHTML);
+  count=loadedGrisly===grislies.length-1 ?
+    0 :
+    loadedGrisly+1;
 
   document.querySelector(".site-title").addEventListener("click", picker, false);
   document.removeEventListener("DOMContentLoaded", init, false);
