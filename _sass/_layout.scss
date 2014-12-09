@@ -273,6 +273,7 @@ figure {
     // box-shadow: 0 5px 7px -4px black;
 }
 .thumb {
+  overflow: hidden;
   background-color: $alt-bg;
   border: 5px solid $detail;
   border-radius: 5px;
