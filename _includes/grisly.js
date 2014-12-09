@@ -1,11 +1,14 @@
+window.Q=function(fn) {setTimeout(fn,0);};
+window.log=function(x) {console.log(x);};
+
 function init() {
   var txtAdj=localStorage.getItem("txtAdj"),
       firstSpan=document.getElementById("firstGrisly"),
+      prevSpan=firstSpan,
       mainSpan=document.getElementById("grisly"),
       grislies=["Horrid","Slimy","Weird","Dreadful","Grim","Kooky","Scandalous","Wild","Nasty","Lousy","Grisly"],
       spans=[],
       count=0,
-      prevSpan=document.getElementById("firstGrisly"),
       newSpan,
       whichTransitionEvent=function whichTransitionEvent() {
         var t,
@@ -16,38 +19,37 @@ function init() {
               'MozTransition':'transitionend',
               'WebkitTransition':'webkitTransitionEnd'
             };
-
         for (t in transitions) {
           if (el.style[t]!==undefined) {
             return transitions[t];
           }
         }
       },
-      transitionEvent=whichTransitionEvent(),
+      transitionEvent=whichTransitionEvent()||"transitionend",
       loadedGrisly;
 
   function picker(event) {
-    event.preventDefault();
-    newSpan=spans[count];
-    mainSpan.appendChild(newSpan);
-    prevSpan.className+=" posAbs";
-
-    if (transitionEvent) {
-      prevSpan.addEventListener(transitionEvent, function(e) {
-        prevSpan.parentNode.removeChild(prevSpan);
+    function handler(e) {
+      prevSpan.removeEventListener(transitionEvent, handler, false);
+      prevSpan.parentNode.removeChild(prevSpan);
+      localStorage.setItem("txtAdj", grislies[count]);
+      if (count===grislies.length-1) {count=0;} else {count+=1;}
+      Q(function() {
         prevSpan.className="grislies";
-        setTimeout(function() {
-          prevSpan=newSpan;
-          localStorage.setItem("txtAdj", grislies[count]);
-          if (count===grislies.length-1) {count=0;} else {count+=1;}
-        },0);
+        prevSpan=newSpan;
       });
     }
-
-    setTimeout(function() {
-      newSpan.className+=" grisly-slide-in";
-      prevSpan.className+=" grisly-slide-out";
-    }, 0);
+    if (MOH.isHome) {
+      event.preventDefault();
+      newSpan=spans[count];
+      mainSpan.appendChild(newSpan);
+      prevSpan.className+=" posAbs";
+      prevSpan.addEventListener(transitionEvent, handler, false);
+      Q(function() {
+        newSpan.className+=" grisly-slide-in";
+        prevSpan.className+=" grisly-slide-out";
+      });
+    }
   }
 
   if (txtAdj) {firstSpan.innerHTML=txtAdj;}
@@ -64,7 +66,7 @@ function init() {
     0 :
     loadedGrisly+1;
 
-  document.querySelector(".site-title").addEventListener("click", picker, false);
+  document.querySelector(".site-title").addEventListener("tap", picker, false);
   document.removeEventListener("DOMContentLoaded", init, false);
 }
 document.addEventListener('DOMContentLoaded', init, false);

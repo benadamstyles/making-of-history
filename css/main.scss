@@ -14,6 +14,7 @@ $base-font-size:    16pt;
 $small-font-size:   $base-font-size * 0.875;
 $small-sans-size:   $base-font-size * 0.7;
 $base-line-height:  1.5;
+$tight-line-height: 1.25;
 
 $base-shadow:       0.2em 0.2em 0.4em rgba(0,0,0,0.5);
 $base-shadow-vert:  0 0.2em 0.4em rgba(0,0,0,0.5);
@@ -22,13 +23,15 @@ $base-trans-timing: 0.15s ease-out;
 
 $spacing-unit:      1.3em;
 
-$text-color:        #fff;
-$background-color:  #201d27;
-$brand-color-orig:  #ff0000; // ORIGINAL!
-// $brand-color:       #FF225A;
-$brand-color:       #F00;
+$text-color:        #222;
+$background-color:  #E4F2F4;
+$alt-bg:            #400403;
+$detail:            #0AABBA;
+$brand-color-orig:  #FE8B05; // ORIGINAL!
+$brand-color:       #FE8B05;
+$highlight-colour:  #FE0557;
 
-$grey-color:        #bbb;
+$grey-color:        #777;
 $grey-color-light:  lighten($grey-color, 15%);
 $grey-color-dark:   darken($grey-color, 25%);
 

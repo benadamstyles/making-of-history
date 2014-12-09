@@ -23,8 +23,9 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    // background-image: url(/images/noise.gif);
-    background-color: $background-color;
+    background-image: url(../images/papers-faded.jpg);
+    background-size: cover;
+    // background-color: $background-color;
     // background-attachment: fixed;
     -webkit-text-size-adjust: 100%;
 }
@@ -177,7 +178,7 @@ a {
     }
 
     &:hover {
-        color: lighten($brand-color,20%) !important;
+        color: lighten($highlight-colour,20%) !important;
         text-decoration: none;
         text-shadow: 0 0 0.5em rgba(255,255,255,0.5);
     }

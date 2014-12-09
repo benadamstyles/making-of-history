@@ -28,7 +28,7 @@
 
     &,
     &:visited {
-        color: $brand-color;
+        color: $highlight-colour;
     }
 
     img {
@@ -39,7 +39,7 @@
 
 /* grisly */
 #grisly {
-	text-shadow: 0px 0px 5px #ffff00, 5px 3px 4px rgba(0,0,0,0.5);;
+	text-shadow: 0px 0px 5px rgba(255,255,150,0.2), 2px 2px 3px rgba(0,0,0,0.3);;
 	position: relative;
 }
 .grislies {
@@ -99,6 +99,7 @@
             height: 26px;
             line-height: 0;
             padding-top: 10px;
+            margin-bottom: 8px;
             text-align: center;
 
             > svg {
@@ -106,7 +107,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $highlight-colour;
                 }
             }
         }
@@ -228,6 +229,7 @@
 .post-link {
     display: block;
     font-size: 24px;
+    line-height: $tight-line-height;
 }
 
 /**
@@ -271,9 +273,13 @@ figure {
     // box-shadow: 0 5px 7px -4px black;
 }
 .thumb {
+  background-color: $alt-bg;
+  border: 5px solid $detail;
+  border-radius: 5px;
   width: 23%;
   margin-bottom: 10px;
   padding: 5px;
+  text-align: center;
   @include media-query($on-palm) {
     width: 48%;
   }
@@ -321,6 +327,14 @@ figure {
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+
+    p {
+      display: inline-block;
+      width: 48%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid $grey-color-light;
     }
 }
 
