@@ -277,12 +277,12 @@ figure {
   background-color: $alt-bg;
   border: 5px solid $detail;
   border-radius: 5px;
-  width: 23%;
-  margin-bottom: 10px;
-  padding: 5px;
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 20px;
   text-align: center;
   @include media-query($on-palm) {
-    width: 48%;
+    width: 45%;
   }
 }
 
@@ -332,8 +332,10 @@ figure {
 
     p {
       display: inline-block;
+      box-shadow: $base-shadow;
       width: 48%;
-      padding: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
       border-radius: 5px;
       border: 1px solid $grey-color-light;
     }
