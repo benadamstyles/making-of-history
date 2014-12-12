@@ -281,11 +281,18 @@ figure {
   margin-bottom: 20px;
   padding: 20px;
   text-align: center;
+  box-shadow: $base-shadow-vert;
   @include media-query($on-palm) {
     width: 45%;
   }
+  @for $i from 1 through $number-of-posts {
+    &:nth-child(#{$i}) {
+      -webkit-transform: rotate(random(4)-2deg);
+          -ms-transform: rotate(random(4)-2deg);
+              transform: rotate(random(4)-2deg);
+    }
+  }
 }
-
 /**
  * Posts
  */

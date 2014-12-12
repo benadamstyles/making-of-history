@@ -3,7 +3,7 @@
 ---
 @charset "utf-8";
 
-
+$number-of-posts: {{ site.posts.size }};
 
 // Our variables
 $header-font:       "Bangers", cursive;
