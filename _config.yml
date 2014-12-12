@@ -59,3 +59,8 @@ prose:
               value: "1601-1700"
             - name: "1701-1800 CE"
               value: "1701-1800"
+      - name: "location"
+        field:
+          element: "text"
+          label: "city or country"
+          type: "text"
