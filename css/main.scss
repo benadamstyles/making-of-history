@@ -8,7 +8,7 @@ $number-of-posts: {{ site.posts.size }};
 // Our variables
 $header-font:       "Bangers", cursive;
 $joke-font:         "Eater", cursive;
-$base-font-family:  "Crimson Text", serif;
+$base-font-family:  "Signika", sans-serif;
 $base-sans-face:    "Open Sans", sans-serif;
 $base-font-size:    16pt;
 $small-font-size:   $base-font-size * 0.875;
@@ -69,6 +69,13 @@ $on-laptop:         800px;
   @if $h==right {
     left: auto;
   }
+}
+
+@mixin basic-trans($properties...) {
+  -webkit-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+  -webkit-transition-property: $properties;
+          transition-property: $properties;
 }
 
 
