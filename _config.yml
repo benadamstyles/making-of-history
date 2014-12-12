@@ -16,7 +16,7 @@ sass:
 
 prose:
   rooturl: "_posts"
-  media: "images"
+  media: baseurl+"images"
   metadata:
     _posts:
       - name: "published"
