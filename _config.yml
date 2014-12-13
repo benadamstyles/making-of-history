@@ -33,6 +33,13 @@ prose:
           element: "text"
           label: "article title"
           type: "text"
+      - name: "featured-image"
+        field:
+          element: "text"
+          label: "featured image url"
+          help: "Paste here the url from the body of the article"
+          placeholder: "url/to/the/image.jpg"
+          type: "text"
       - name: "category"
         field:
           element: "select"

@@ -23,7 +23,7 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background-image: url(../images/papers-faded.jpg);
+    background-image: url(../images/stripe-opt.jpg);
     background-size: cover;
     // background-color: $background-color;
     // background-attachment: fixed;
@@ -178,7 +178,7 @@ a {
     }
 
     &:hover {
-        color: lighten($highlight-colour,20%) !important;
+        color: lighten(adjust-hue($highlight-colour,15),20%) !important;
         text-decoration: none;
         text-shadow: 0 0 0.5em rgba(255,255,255,0.5);
     }
