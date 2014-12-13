@@ -15,6 +15,7 @@ sass:
   style: compressed
 
 prose:
+  baseurl: "/making-of-history"
   siteurl: "http://leeds-ebooks.github.io/making-of-history"
   rooturl: "_posts"
   media: "images"
