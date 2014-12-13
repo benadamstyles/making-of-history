@@ -1,6 +1,11 @@
 ---
+layout: post
+published: true
 title: Queen Maria I of Portugal
 author: Lee Bellamy
-layout: post
+category: "701-800"
 ---
+
+![papers.jpg](/images/papers.jpg)
+
 insane
