@@ -6,6 +6,6 @@ author: Lee Bellamy
 category: "701-800"
 ---
 
-![papers.jpg](/images/papers.jpg)
+![es-1936.gif](/images/es-1936.gif)
 
 insane
