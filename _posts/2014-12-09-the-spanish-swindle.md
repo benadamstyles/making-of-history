@@ -5,7 +5,10 @@ title: The Spanish swindle
 author: Lee Bellamy
 category: "701-800"
 location: Spain
+"featured-image": "{{site.baseurl}}/images/es-1936.gif"
 ---
+
+![es-1936.gif]({{site.baseurl}}/images/es-1936.gif)
 
 like the Nigerian Prince scam, but this has been around since the 16th century
 
