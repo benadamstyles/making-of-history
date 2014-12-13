@@ -291,7 +291,7 @@ figure {
 
   @for $i from 1 through $number-of-posts {
     &:nth-child(#{$i}) {
-      border-color: rgb(random(106)+99,random(106)+99,random(106)+99);
+      border-color: rgb(random(156)+49,random(156)+49,random(156)+49);
       -webkit-transform: rotate(random(4)-2deg);
           -ms-transform: rotate(random(4)-2deg);
               transform: rotate(random(4)-2deg);
