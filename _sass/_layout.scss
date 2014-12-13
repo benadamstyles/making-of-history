@@ -351,6 +351,7 @@ figure {
     }
 
     p {
+      background-color: $background-color;
       display: inline-block;
       box-shadow: $base-shadow;
       width: 48%;
