@@ -5,7 +5,7 @@ title: The Spanish swindle
 author: Lee Bellamy
 category: "701-800"
 location: Spain
-"featured-image": "{{site.baseurl}}/images/es-1936.gif"
+featuredimage: "/images/es-1936.gif"
 ---
 
 ![es-1936.gif]({{site.baseurl}}/images/es-1936.gif)

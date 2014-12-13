@@ -5,7 +5,7 @@ is_home: true
 
 <div class="home">
   {% for post in site.posts %}
-    <a class="thumb post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    <a class="thumb post-link" href="{{ post.url | prepend: site.baseurl }}" style="background-image: url( {{ post.featuredimage | prepend: site.baseurl }} )">{{ post.title }}</a>
   {% endfor %}
 </div>
 

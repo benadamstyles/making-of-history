@@ -178,7 +178,7 @@ a {
     }
 
     &:hover {
-        color: lighten(adjust-hue($highlight-colour,15),20%) !important;
+        color: lighten(adjust-hue($highlight-colour,15),30%) !important;
         text-decoration: none;
         text-shadow: 0 0 0.5em rgba(255,255,255,0.5);
     }

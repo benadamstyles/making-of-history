@@ -33,11 +33,11 @@ prose:
           element: "text"
           label: "article title"
           type: "text"
-      - name: "featured-image"
+      - name: "featuredimage"
         field:
           element: "text"
           label: "featured image url"
-          help: "Paste here the url from the body of the article"
+          help: 'Paste here the url from the body of the article, without "{{site.baseurl}}" e.g. "/images/lovely-picture.jpg"'
           placeholder: "url/to/the/image.jpg"
           type: "text"
       - name: "category"

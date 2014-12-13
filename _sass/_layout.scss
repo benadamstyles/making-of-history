@@ -275,14 +275,16 @@ figure {
 }
 .thumb {
   @include basic-trans(-webkit-transform,-ms-transform,transform, color);
+  background-size: cover;
   overflow: hidden;
   background-color: $alt-bg;
   border: 10px solid $detail;
-  // border-radius: 5px;
+  border-radius: 1px;
   width: 30%;
   margin-bottom: 20px;
   padding: 20px;
   text-align: center;
+  text-shadow: $base-shadow-strong;
   box-shadow: $base-shadow-vert;
 
   @include media-query($on-palm) {
