@@ -4,7 +4,7 @@ title: The Making of History
 description: > # this means to ignore newlines until "baseurl:"
   Site description goes here.
 baseurl: /making-of-history # the subpath of your site, e.g. /blog/
-url: "http://leeds-ebooks.github.io" # the base hostname & protocol for your site
+url: http://leeds-ebooks.github.io # the base hostname & protocol for your site
 # twitter_username: BenStyles
 # github_username:  leeds-ebooks
 
@@ -16,8 +16,9 @@ sass:
 
 prose:
   siteurl: "http://leeds-ebooks.github.io/making-of-history"
-  rooturl: "_posts"
+  # rooturl: "_posts"
   media: "images"
+  ignore: ['_includes','_layouts','_sass','css','js','_config.yml','.gitignore','feed.xml','index.html']
   metadata:
     _posts:
       - name: "published"
