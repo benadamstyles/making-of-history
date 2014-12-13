@@ -7,4 +7,4 @@ category: "701-800"
 featuredimage: "/images/paisley-opt.jpg"
 ---
 
-![paisley-opt.jpg]({{site.baseurl}}/images/paisley-opt.jpg)insane
+insane
