@@ -16,7 +16,6 @@ sass:
 
 prose:
   siteurl: "http://leeds-ebooks.github.io/making-of-history"
-  # rooturl: "_posts"
   media: "images"
   ignore: ['_includes','_layouts','_sass','css','images','js','_config.yml','.gitignore','feed.xml','index.html']
   metadata:
