@@ -26,7 +26,8 @@ function init() {
         }
       },
       transitionEvent=whichTransitionEvent()||"transitionend",
-      loadedGrisly;
+      loadedGrisly,
+      stickyElements=document.getElementsByClassName('sticky');
 
   function picker(event) {
     function handler(e) {
@@ -65,6 +66,10 @@ function init() {
   count=loadedGrisly===grislies.length-1 ?
     0 :
     loadedGrisly+1;
+
+  for (var j=stickyElements.length-1;j>=0;j--) {
+    Stickyfill.add(stickyElements[j]);
+  }
 
   document.querySelector(".site-title").addEventListener("tap", picker, false);
   document.removeEventListener("DOMContentLoaded", init, false);

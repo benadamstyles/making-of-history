@@ -1,4 +1,8 @@
-<header class="site-header">
+{% if page.is_home %}
+<div class="hero"></div>
+{% endif %}
+
+<header class="site-header sticky">
 
   <div class="wrapper">
 
@@ -14,7 +18,7 @@
       </a>
 
       <div class="trigger">
-        {% assign pages = site.pages | sort:"weight"  %}
+        {% assign pages = site.pages | sort:"weight" %}
         {% for page in pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
@@ -22,12 +26,17 @@
         {% endfor %}
       </div>
     </nav>
-    <!-- <div class="periods">
-      {% for period in site.categories %}
-        <a class="period-link" href="{{ period.url | prepend: site.baseurl }}">{{ period | first }}</a>
-      {% endfor %}
-    </div> -->
-
   </div>
+
+  <div class="wrapper periods">
+    {% assign categories = site.categories | sort %}
+    {% for period in categories %}
+      {% if page.url contains period[0] %}
+      <a class="period-link active-period" href="{{ period | first | prepend: '/' | prepend: site.baseurl }}">{{ period | first }}</a>
+      {% else %}
+      <a class="period-link" href="{{ period | first | prepend: '/' | prepend: site.baseurl }}">{{ period | first }}</a>
+      {% endif %}
+    {% endfor %}
+</div>
 
 </header>

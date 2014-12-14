@@ -1,6 +1,14 @@
 /**
  * Site header
  */
+.hero {
+ width: 100%;
+ height: 400px;
+ background-image: url(http://www.wga.hu/art/zzdeco/2tapestr/2bayeux/03bayeux.jpg);
+ background-size: cover;
+ background-position: center center;
+}
+
 .site-header {
     // border-top: 5px solid $grey-color-dark;
     // border-bottom: 1px solid $grey-color-dark;
@@ -13,9 +21,9 @@
     padding-top: 0.3em;
 
     // Positioning context for the mobile navigation icon
-    // position: relative;
-    position: fixed;
-    z-index: 10;
+    position: relative;
+    // position: fixed;
+    // z-index: 10;
     width: 100%;
 }
 
@@ -36,6 +44,13 @@
         max-height: 1.4em;
         margin: 0 0.4em 0.4em 0;
     }
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 /* grisly */
@@ -130,6 +145,20 @@
     }
 }
 
+.period-link {
+  color: $text-color;
+
+  &:visited {
+    color: inherit;
+  }
+
+  & + & {
+    margin-left: $spacing-unit;
+  }
+}
+.active-period {
+  border-bottom: 3px solid $highlight-colour;
+}
 
 
 /**

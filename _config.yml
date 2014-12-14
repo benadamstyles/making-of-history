@@ -17,7 +17,28 @@ sass:
 prose:
   siteurl: "http://leeds-ebooks.github.io/making-of-history"
   media: "images"
-  ignore: ['_includes','_layouts','_sass','css','images','js','_config.yml','.gitignore','feed.xml','index.html']
+  ignore: > [
+    '_includes',
+    '_layouts',
+    '_sass',
+    'css',
+    'images',
+    'js',
+    '_config.yml',
+    '.gitignore',
+    'feed.xml',
+    'index.html',
+    "701-800",
+    "801-900",
+    "901-1000",
+    "1001-1100",
+    "1101-1200",
+    "1201-1300",
+    "1301-1400",
+    "1401-1500",
+    "1501-1600",
+    "1601-1700",
+    "1701-1800"]
   metadata:
     _posts:
       - name: "published"
