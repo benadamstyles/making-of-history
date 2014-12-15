@@ -8,6 +8,17 @@
 
     <a class="site-title" href="{{ site.baseurl }}/">The <span id="grisly"><span id="firstGrisly" class="grislies grisly-slide-in">Grisly</span></span> Making of History</a>
 
+    <div class="periods">
+      {% assign categories = site.categories | sort %}
+      {% for period in categories %}
+        {% if page.url contains period[0] %}
+        <a class="period-link active-period" href="{{ period | first | prepend: '/' | prepend: site.baseurl }}">{{ period | first }}</a>
+        {% else %}
+        <a class="period-link" href="{{ period | first | prepend: '/' | prepend: site.baseurl }}">{{ period | first }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+
     <nav class="site-nav">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
@@ -27,16 +38,5 @@
       </div>
     </nav>
   </div>
-
-  <div class="wrapper periods">
-    {% assign categories = site.categories | sort %}
-    {% for period in categories %}
-      {% if page.url contains period[0] %}
-      <a class="period-link active-period" href="{{ period | first | prepend: '/' | prepend: site.baseurl }}">{{ period | first }}</a>
-      {% else %}
-      <a class="period-link" href="{{ period | first | prepend: '/' | prepend: site.baseurl }}">{{ period | first }}</a>
-      {% endif %}
-    {% endfor %}
-</div>
 
 </header>
