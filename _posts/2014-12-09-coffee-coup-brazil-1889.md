@@ -1,5 +1,8 @@
 ---
-title: 'Coffee Coup &#8211; Brazil 1889'
-author: Lee Bellamy
 layout: post
+published: false
+title: Coffee Coup – Brazil 1889
+author: Lee Bellamy
+category: "701-800"
 ---
+
