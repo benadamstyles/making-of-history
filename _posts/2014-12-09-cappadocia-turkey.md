@@ -1,5 +1,8 @@
 ---
-title: 'Cappadocia &#8211; Turkey'
-author: Lee Bellamy
 layout: post
+published: false
+title: Cappadocia – Turkey
+author: Lee Bellamy
+category: "701-800"
 ---
+
