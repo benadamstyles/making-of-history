@@ -1,9 +1,11 @@
 ---
+layout: post
+published: false
 title: Dom Pedro I
 author: Lee Bellamy
-layout: post
 category: "1201-1300"
 ---
+
 He was apparently something of a dandy &#8211; bathed often in the Brazilian tradition, unlike his father
 
 http://latinamericanhistory.about.com/od/thehistoryofbrazil/p/Dom-Pedro-I-First-Emperor-Of-Brazil.htm
