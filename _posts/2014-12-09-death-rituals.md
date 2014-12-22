@@ -1,8 +1,11 @@
 ---
+layout: post
+published: false
 title: Death rituals
 author: Lee Bellamy
-layout: post
+category: "701-800"
 ---
+
 http://www.cracked.com/article\_21343\_the-5-creepiest-death-rituals-from-around-world-part-2.html
 
 &nbsp;
