@@ -26,8 +26,8 @@ Absolutely! If you have something that you’d like us to consider adding to the
 
 Submission Guidelines:
 
-All submissions are welcome. Write an article, create a cartoon or piece of art, write a historical poem or perform a historical rap. Anything goes -- unless it’s going to get us sued.
+All varieties of submissions are welcome. Write an article, create a cartoon or piece of art, write a historical poem or perform a historical rap. Anything goes, as long as your submission meets the following criteria:
 
-All submissions must be your own work and must not use any copyrighted material. We really aren’t fond of being sued.
+All submissions must be your own work and must not use any copyrighted material. We are not fond of being sued and we would have to pay our attorneys in instant noodle cups.
 
-All submissions must include a detailed list of the sources for your research. If we can’t verify your stories, we won’t put them on the site. 
+All submissions must include a detailed list of the sources for your research. And unfortunately, your main sources cannot be rare tomes only available in the libraries of Cambridge or the walls of the tomb of Tutankhamun. If we can’t verify your stories, we won’t put them on the site.
