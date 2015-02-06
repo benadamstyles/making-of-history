@@ -18,3 +18,13 @@ _An 18th century artist’s representation of Empress Kachiko._
 When Kachiko died at 64, she left an unusual will. Instead of asking for a royal funeral, a statue, or a nice commemorative park bench, Kachiko asked for her rotting corpse to be left lying in the street. The empress hoped that seeing her beautiful body develop a smell and be torn apart by wild animals would finally teach her people to think less of earthly pleasures.
 
 So Kachiko’s body was dressed in simple robes and put on the streets of Kyōto, where it rotted away until only bone fragments were left. The spot became known as _Katabira no Tsuji_, the Crossroad of Corpses.
+
+
+
+## More Information:
+
+- Kachiko’s morbid final farewell was tied to a Buddhist tradition that originated in India around the 3rd century CE. It was not unusual for people who could not afford a funeral to leave the bodies of their deceased family members in the open, where anyone could watch them decay. Buddhist monks were rumored to watch bodies decay to remind themselves not to be tempted by beautiful women.
+ 
+- item
+- item
+
