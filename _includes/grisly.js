@@ -71,7 +71,8 @@ function init() {
     Stickyfill.add(stickyElements[j]);
   }
 
-  document.querySelector(".site-title").addEventListener("tap", picker, false);
+  // document.querySelector(".site-title").addEventListener("tap", picker, false);
+  document.querySelector(".site-title").addEventListener("click", picker, false);
   document.removeEventListener("DOMContentLoaded", init, false);
 }
 document.addEventListener('DOMContentLoaded', init, false);
