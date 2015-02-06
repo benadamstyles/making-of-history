@@ -21,10 +21,12 @@ So Kachiko’s body was dressed in simple robes and put on the streets of Kyōto
 
 
 
-## More Information:
+More Information:
 
 - Kachiko’s morbid final farewell was tied to a Buddhist tradition that originated in India around the 3rd century CE. It was not unusual for people who could not afford a funeral to leave the bodies of their deceased family members in the open, where anyone could watch them decay. Buddhist monks were rumored to watch bodies decay to remind themselves not to be tempted by beautiful women.
  
-- item
-- item
+- The Kyōto Arashiyama train line includes a station named after the  katabira no tsuji.  (Last verified January 2015)
 
+- A nun at the Hokkeji nunnery named Zen’un once predicted that a young Kachiko would be the mother of both an emperor and an empress. Zen’un’s prediction came true when Kachiko married Emperor Saga and had a baby prince, Ninmyō (who later became the emperor) and a princess, Seishi (who married Emperor Junna and became empress). 
+
+- When she became Empress, Kachiko sent a Japanese monk to China to bring Ch’an Buddhism to Japan, where it became Zen Buddhism. She also founded a temple complex/nunnery west of Kyoto called Danrinji. Because of this, she is sometimes known as Empress Danrin.
