@@ -3,6 +3,7 @@ layout: post
 published: true
 title: Crossroad of Corpses
 category: "701-800"
+location: Japan
 ---
 
 ### Empress Tachibana no Kachiko (橘嘉智子) (786-850 CE) was head-over-heels devoted to Buddhism. But writing a sappy song or tattooing “Siddhartha 4 ever” on her bicep was too mundane for this religious ruler. Instead, ambitious Kachiko decided to teach the people of Kyōto a morbid lesson from beyond the grave.
