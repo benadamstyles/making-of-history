@@ -24,6 +24,8 @@ body {
     font-weight: 300;
     color: $text-color;
     background-image: url(../images/stripe-opt.jpg);
+    background-image: -webkit-linear-gradient(to bottom, antiquewhite, lightgrey);
+    background-image:         linear-gradient(to bottom, antiquewhite, lightgrey);
     background-size: cover;
     // background-color: $background-color;
     background-attachment: fixed;
