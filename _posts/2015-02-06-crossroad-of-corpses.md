@@ -11,7 +11,7 @@ location: Japan
 
 Empress Kachiko tried to teach Buddhist principles to everyone she met -- but her would-be students were too distracted by Kachiko’s beauty to listen. Every time the empress wanted to get cracking on some serious spiritual contemplation, she had to field catcalls and inappropriate suggestions from the men around her.
 
-![Nine_Stages_of_Decomposition_of_the_Heian_Period_Empress_Danrin,_Honolulu_Museum_of_Art_II.JPG]({{site.baseurl}}/images/Nine_Stages_of_Decomposition_of_the_Heian_Period_Empress_Danrin,_Honolulu_Museum_of_Art_II.JPG)
+![Nine_Stages_of_Decomposition_of_the_Heian_Period_Empress_Danrin,_Honolulu_Museum_of_Art_II.JPG](/images/Nine_Stages_of_Decomposition_of_the_Heian_Period_Empress_Danrin,_Honolulu_Museum_of_Art_II.JPG)
 
 _An 18th century artist’s representation of Empress Kachiko._
 
