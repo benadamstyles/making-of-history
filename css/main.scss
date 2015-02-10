@@ -24,33 +24,25 @@ $base-trans-timing: 0.15s ease-out;
 $spacing-unit:      1.3em;
 
 $text-color:        #222;
-$background-color:  #FCF9D7;
+$background-color:  #fcfbf2;
 $alt-bg:            #400403;
-$detail:            #BD8C34; // #FE0557;
-$brand-color-orig:  #FCF9D7; // ORIGINAL!
-$brand-color:       #FCF9D7;
+$detail:            #BD8C34;
+$brand-color-orig:  #fcfbf2;
+$brand-color:       #fcfbf2;
 $highlight-colour:  #f00;
 
 $grey-color:        #777;
 $grey-color-light:  lighten($grey-color, 15%);
 $grey-color-dark:   darken($grey-color, 25%);
 
-$on-palm:           600px;
-$on-laptop:         800px;
-
-
-
-// Using media queries with like this:
-// @include media-query($palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+@mixin phone {
+  @media (max-width: 760px) {@content;}
+}
+@mixin ipad {
+  @media (max-width: 769px) {@content;}
+}
+@mixin landscape {
+  @media (orientation: landscape) {@content;}
 }
 
 @mixin square($size) {

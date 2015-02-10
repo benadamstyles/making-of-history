@@ -246,7 +246,7 @@ pre {
     padding-left:  $spacing-unit;
     @extend %clearfix;
 
-    @include media-query($on-laptop) {
+    @include ipad {
         max-width: -webkit-calc(1000px - (#{$spacing-unit}));
         max-width:         calc(1000px - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;

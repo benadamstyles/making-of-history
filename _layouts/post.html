@@ -20,6 +20,7 @@ layout: default
       footerEls=(function() {
         var el=footerStart,
             a=[el];
+        el.style.fontWeight='bold';
         while (el.nextElementSibling) {
           el=el.nextElementSibling;
           a.push(el);

@@ -99,7 +99,7 @@
         }
     }
 
-    @include media-query($on-palm) {
+    @include ipad {
         position: absolute;
         top: auto;
         bottom: 0.5em;
@@ -214,7 +214,7 @@
     width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
-@include media-query($on-laptop) {
+@include ipad {
     .footer-col-1,
     .footer-col-2 {
         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
@@ -227,7 +227,7 @@
     }
 }
 
-@include media-query($on-palm) {
+@include phone {
     .footer-col {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
@@ -322,7 +322,7 @@ figure {
   text-shadow: $base-shadow-strong;
   box-shadow: $base-shadow-vert;
 
-  @include media-query($on-palm) {
+  @include ipad {
     width: 100%;
   }
 
@@ -354,7 +354,7 @@ figure {
     letter-spacing: -1px;
     line-height: 1;
 
-    @include media-query($on-laptop) {
+    @include ipad {
         font-size: 36px;
     }
 }
@@ -364,11 +364,16 @@ figure {
     -webkit-column-count: 2;
        -moz-column-count: 2;
             column-count: 2;
+    @include ipad {
+      -webkit-column-count: 1;
+         -moz-column-count: 1;
+              column-count: 1;
+    }
 
     h2 {
         font-size: 32px;
 
-        @include media-query($on-laptop) {
+        @include ipad {
             font-size: 28px;
         }
     }
@@ -376,7 +381,7 @@ figure {
     h3 {
         font-size: 26px;
 
-        @include media-query($on-laptop) {
+        @include ipad {
             font-size: 22px;
         }
     }
@@ -384,7 +389,7 @@ figure {
     h4 {
         font-size: 20px;
 
-        @include media-query($on-laptop) {
+        @include ipad {
             font-size: 18px;
         }
     }
@@ -400,8 +405,8 @@ figure {
       display: inline-block;
       box-shadow: $base-shadow;
       width: 98%;
-      padding: 20px;
-      margin-bottom: 20px;
+      padding: 1em;
+      margin-bottom: 1em;
       // border-radius: 5px;
       // border: 1px solid $grey-color-light;
     }
@@ -409,6 +414,13 @@ figure {
       -webkit-column-span: all;
          -moz-column-span: all;
               column-span: all;
+      &, & * {
+        display: block;
+        box-shadow: none;
+        background-color: transparent;
+        padding: 0;
+        margin-bottom: 1em;
+      }
     }
 }
 
