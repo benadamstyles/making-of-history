@@ -1,3 +1,5 @@
+---
+---
 window.Q=function(fn) {setTimeout(fn,0);};
 window.log=function(x) {console.log(x);};
 
@@ -27,7 +29,8 @@ function init() {
       },
       transitionEvent=whichTransitionEvent()||"transitionend",
       loadedGrisly,
-      stickyElements=document.getElementsByClassName('sticky');
+      stickyElements=document.getElementsByClassName('sticky'),
+      images=document.querySelectorAll('img[src^="/images"]');
 
   function picker(event) {
     function handler(e) {
@@ -51,6 +54,10 @@ function init() {
         prevSpan.className+=" grisly-slide-out";
       });
     }
+  }
+
+  for (var i = 0; i < images.length; i++) {
+    images[i].src="{{site.baseurl}}"+images[i].src;
   }
 
   if (txtAdj) {firstSpan.innerHTML=txtAdj;}
