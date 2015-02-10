@@ -31,7 +31,7 @@ More Information & Sources
 + When she became Empress, Kachiko sent a Japanese monk to China to bring Chan Buddhism to Japan, where it became Zen Buddhism. She also founded a temple complex/nunnery west of Kyoto called Danrinji. Because of this, she is sometimes known as Empress Danrin.
 
 
-1: 1: Hyakumonogatari.com. “Katabira no Tsuji – The Crossroad of Corpses” by Zach Davisson. Posted 10/31/2013 ; Accessed 10/14/2014.
+1: Hyakumonogatari.com. “Katabira no Tsuji – The Crossroad of Corpses” by Zach Davisson. Posted 10/31/2013 ; Accessed 10/14/2014.
 (http://hyakumonogatari.com/2013/10/31/katabira-no-tsuji-the-crossroad-of-corpses/)
 
 2: 2: Dogen's Extensive Record: A Translation of the Eihei Koroku by Eihei Dogen. P. 317. Wisdom Publications, U.S.A., 2010.
