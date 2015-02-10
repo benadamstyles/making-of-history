@@ -10,7 +10,8 @@ location: Japan
 
 Empress Kachiko tried to teach Buddhist principles to everyone she met -- but her would-be students were too distracted by Kachiko’s beauty to listen. Every time the empress wanted to get cracking on some serious spiritual contemplation, she had to field catcalls and inappropriate suggestions from the men around her.
 
-![Nine_Stages_of_Decomposition_of_the_Heian_Period_Empress_Danrin,_Honolulu_Museum_of_Art_II.JPG](_posts/Nine_Stages_of_Decomposition_of_the_Heian_Period_Empress_Danrin,_Honolulu_Museum_of_Art_II.JPG) _An 18th century artist’s representation of Empress Kachiko._
+![Nine_Stages_of_Decomposition_of_the_Heian_Period_Empress_Danrin,_Honolulu_Museum_of_Art_II.JPG](_posts/Nine_Stages_of_Decomposition_of_the_Heian_Period_Empress_Danrin,_Honolulu_Museum_of_Art_II.JPG) 
+_An 18th century artist’s representation of Empress Kachiko._
 
 When Kachiko died at 64, she left an unusual will. Instead of asking for a royal funeral, a statue, or a nice commemorative park bench, Kachiko asked for her rotting corpse to be left lying in the street. The empress hoped that seeing her beautiful body develop a smell and be torn apart by wild animals would finally teach her people to think less of earthly pleasures.
 
@@ -32,10 +33,10 @@ More Information & Sources
 1: Hyakumonogatari.com. “Katabira no Tsuji – The Crossroad of Corpses” by Zach Davisson. Posted 10/31/2013 ; Accessed 10/14/2014.
 (http://hyakumonogatari.com/2013/10/31/katabira-no-tsuji-the-crossroad-of-corpses/)
 
-2: 2: Dogen's Extensive Record: A Translation of the Eihei Koroku by Eihei Dogen. P. 317. Wisdom Publications, U.S.A., 2010.
+2: Dogen's Extensive Record: A Translation of the Eihei Koroku by Eihei Dogen. P. 317. Wisdom Publications, U.S.A., 2010.
 
-3: 3: Ryåogen and Mount Hiei: Japanese Tendai in the Tenth Century by Paul Groner. P. 268-270. Kuroda Institute, U.S.A., 2002.
+3: Ryåogen and Mount Hiei: Japanese Tendai in the Tenth Century by Paul Groner. P. 268-270. Kuroda Institute, U.S.A., 2002.
 
-4: 4: Behind the Sensationalism: Images of a Decaying Corpse in Japanese Buddhist Art, by Fusae Kanda. The Art Bulletin, vol. 87, no. 1, 2005. pp. 24-49. 
+4: Behind the Sensationalism: Images of a Decaying Corpse in Japanese Buddhist Art, by Fusae Kanda. The Art Bulletin, vol. 87, no. 1, 2005. pp. 24-49. 
 
-5: 5: The Gender of Buddhist Truth: The Female Corpse in a Group of Japanese Paintings, by Gail Chin, Japanese Journal of Religious Studies, Fall 1998, Vol. 25, no. 3-4, 1998.
+5: The Gender of Buddhist Truth: The Female Corpse in a Group of Japanese Paintings, by Gail Chin, Japanese Journal of Religious Studies, Fall 1998, Vol. 25, no. 3-4, 1998.
