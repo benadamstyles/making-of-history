@@ -28,7 +28,7 @@ function init() {
       transitionEvent=whichTransitionEvent()||"transitionend",
       loadedGrisly,
       stickyElements=document.getElementsByClassName('sticky'),
-      images=document.querySelectorAll('img[src^="/images"]');
+      images=document.querySelectorAll('img[src^="/images"], img[src^="_posts"]');
 
   function picker(event) {
     function handler(e) {
@@ -55,7 +55,9 @@ function init() {
   }
 
   for (var i = 0; i < images.length; i++) {
-    images[i].src="{{site.baseurl}}"+(images[i].src.replace('http://leeds-ebooks.github.io',''));
+    images[i].src= ~images[i].src.indexOf('_posts') ?
+      "{{site.baseurl}}"+(images[i].src.replace('http://leeds-ebooks.github.io/_posts','/images')) :
+      "{{site.baseurl}}"+(images[i].src.replace('http://leeds-ebooks.github.io',''));
   }
 
   if (txtAdj) {firstSpan.innerHTML=txtAdj;}
