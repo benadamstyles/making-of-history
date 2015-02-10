@@ -55,7 +55,7 @@ function init() {
   }
 
   for (var i = 0; i < images.length; i++) {
-    images[i].src="{{site.baseurl}}"+(images[i].src-'http://leeds-ebooks.github.io');
+    images[i].src="{{site.baseurl}}"+(images[i].src.replace('http://leeds-ebooks.github.io',''));
   }
 
   if (txtAdj) {firstSpan.innerHTML=txtAdj;}
