@@ -1,5 +1,3 @@
----
----
 window.Q=function(fn) {setTimeout(fn,0);};
 window.log=function(x) {console.log(x);};
 
