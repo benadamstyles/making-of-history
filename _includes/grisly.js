@@ -28,7 +28,7 @@ function init() {
       transitionEvent=whichTransitionEvent()||"transitionend",
       loadedGrisly,
       stickyElements=document.getElementsByClassName('sticky'),
-      images=document.querySelectorAll('img[src^="/images"], img[src~="_posts"]');
+      images=document.querySelectorAll('img[src^="/images"], img[src*="_posts"]');
 
   function picker(event) {
     function handler(e) {
