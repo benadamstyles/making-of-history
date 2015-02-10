@@ -14,9 +14,23 @@ layout: default
 </div>
 
 <script>
-  var msnry=new Masonry(".post-content", {
-    "columnWidth":"p",
-    "itemSelector":".post-content > *",
-    "gutter":20
-  });
+  var els=Array.from(document.querySelectorAll('.post-content *')),
+      // msnry,
+      footerStart=els.find(function(v) {return ~v.textContent.toLowerCase().indexOf('more information')}),
+      footerEls=(function() {
+        var el=footerStart,
+            a=[el];
+        while (el.nextElementSibling) {
+          el=el.nextElementSibling;
+          a.push(el);
+        }
+        for (var i=0;i<a.length;i++) {
+          a[i].className+=" post-footer";
+        }
+      })();
+  // msnry=new Masonry(".post-content", {
+  //   "columnWidth":"p",
+  //   "itemSelector":".post-content > *:not(.post-footer)",
+  //   "gutter":20
+  // });
 </script>

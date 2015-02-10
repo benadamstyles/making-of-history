@@ -361,6 +361,9 @@ figure {
 
 .post-content {
     margin-bottom: $spacing-unit;
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
 
     h2 {
         font-size: 32px;
@@ -386,15 +389,26 @@ figure {
         }
     }
 
+    h2, h3, h4 {
+      -webkit-column-span: all;
+         -moz-column-span: all;
+              column-span: all;
+    }
+
     p {
       background-color: $background-color;
       display: inline-block;
       box-shadow: $base-shadow;
-      width: 48%;
+      width: 98%;
       padding: 20px;
       margin-bottom: 20px;
-      border-radius: 5px;
-      border: 1px solid $grey-color-light;
+      // border-radius: 5px;
+      // border: 1px solid $grey-color-light;
+    }
+    .post-footer {
+      -webkit-column-span: all;
+         -moz-column-span: all;
+              column-span: all;
     }
 }
 
