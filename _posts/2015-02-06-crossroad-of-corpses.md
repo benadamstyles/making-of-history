@@ -11,7 +11,7 @@ location: Japan
 
 Empress Kachiko tried to teach Buddhist principles to everyone she met -- but her would-be students were too distracted by Kachiko’s beauty to listen. Every time the empress wanted to get cracking on some serious spiritual contemplation, she had to field catcalls and inappropriate suggestions from the men around her.
 
-![Nine_Stages_of_Decomposition_of_the_Heian_Period_Empress_Danrin,_Honolulu_Museum_of_Art_II.JPG](/_posts/Nine_Stages_of_Decomposition_of_the_Heian_Period_Empress_Danrin,_Honolulu_Museum_of_Art_II.JPG)
+![Nine_Stages_of_Decomposition_of_the_Heian_Period_Empress_Danrin,_Honolulu_Museum_of_Art_II.JPG](/images/Nine_Stages_of_Decomposition_of_the_Heian_Period_Empress_Danrin,_Honolulu_Museum_of_Art_II.JPG)
 
 _An 18th century artist’s representation of Empress Kachiko._
 
@@ -32,4 +32,4 @@ So Kachiko’s body was dressed in simple robes and put on the streets of Kyōto
 + When she became Empress, Kachiko sent a Japanese monk to China to bring Ch’an Buddhism to Japan, where it became Zen Buddhism. She also founded a temple complex/nunnery west of Kyoto called Danrinji. Because of this, she is sometimes known as Empress Danrin.
 
 
-1. 
+1.
