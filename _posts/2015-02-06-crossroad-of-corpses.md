@@ -20,15 +20,24 @@ So Kachiko’s body was dressed in simple robes and put on the streets of Kyōto
 
 
 
---------------------------------------------------------------------------------------More Information & Sources
+More Information & Sources
 
-+ Kachiko’s morbid final farewell was tied to a Buddhist tradition that originated in India around the 3rd century CE. It was not unusual for people who could not afford a funeral to leave the bodies of their deceased family members in the open, where anyone could watch them decay. Buddhist monks were rumored to watch bodies decay to remind themselves not to be tempted by beautiful women.
++ Kachiko’s morbid final farewell was tied to a Buddhist tradition that originated in India around the 3rd or 4th century CE. It was not unusual for people who could not afford a funeral to leave the bodies of their deceased family members in the open, where anyone could watch them decay (in Japan, internment was not common until the 14th century CE). Buddhist monks considered watching bodies decay an act of reflection, and a reminder not to be tempted by beautiful women.
  
 + The Kyōto Arashiyama train line includes a station named after the  katabira no tsuji.  (Last verified January 2015)
 
 + A nun at the Hokkeji nunnery named Zen’un once predicted that a young Kachiko would be the mother of both an emperor and an empress. Zen’un’s prediction came true when Kachiko married Emperor Saga and had a baby prince, Ninmyō (who later became the emperor) and a princess, Seishi (who married Emperor Junna and became empress). 
 
-+ When she became Empress, Kachiko sent a Japanese monk to China to bring Ch’an Buddhism to Japan, where it became Zen Buddhism. She also founded a temple complex/nunnery west of Kyoto called Danrinji. Because of this, she is sometimes known as Empress Danrin.
++ When she became Empress, Kachiko sent a Japanese monk to China to bring Chan Buddhism to Japan, where it became Zen Buddhism. She also founded a temple complex/nunnery west of Kyoto called Danrinji. Because of this, she is sometimes known as Empress Danrin.
 
 
-1.
+1. Hyakumonogatari.com. “Katabira no Tsuji – The Crossroad of Corpses” by Zach Davisson. Posted 10/31/2013 ; Accessed 10/14/2014.
+(http://hyakumonogatari.com/2013/10/31/katabira-no-tsuji-the-crossroad-of-corpses/)
+
+2. Dogen's Extensive Record: A Translation of the Eihei Koroku by Eihei Dogen. P. 317. Wisdom Publications, U.S.A., 2010.
+
+3. Ryåogen and Mount Hiei: Japanese Tendai in the Tenth Century by Paul Groner. P. 268-270. Kuroda Institute, U.S.A., 2002.
+
+4.Behind the Sensationalism: Images of a Decaying Corpse in Japanese Buddhist Art, by Fusae Kanda. The Art Bulletin, vol. 87, no. 1, 2005. pp. 24-49. 
+
+5. The Gender of Buddhist Truth: The Female Corpse in a Group of Japanese Paintings, by Gail Chin, Japanese Journal of Religious Studies, Fall 1998, Vol. 25, no. 3-4, 1998.
