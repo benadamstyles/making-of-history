@@ -40,4 +40,4 @@ More Information & Sources
 
 4: Behind the Sensationalism: Images of a Decaying Corpse in Japanese Buddhist Art, by Fusae Kanda. The Art Bulletin, vol. 87, no. 1, 2005. pp. 24-49. 
 
-5: The Gender of Buddhist Truth: The Female Corpse in a Group of Japanese Paintings, by Gail Chin, Japanese Journal of Religious Studies, Fall 1998, Vol. 25, no. 3-4, 1998.
+5: The Gender of Buddhist Truth: The Female Corpse in a Group of Japanese Paintings, by Gail Chin, Japanese Journal of Religious Studies, Fall 1998, Vol. 25, no. 3-4, 1998. pp. 277-317.
