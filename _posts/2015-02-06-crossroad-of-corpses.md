@@ -22,7 +22,7 @@ More Information & Sources
 
 + Kachiko’s morbid final farewell was tied to a Buddhist tradition that originated in India around the 3rd or 4th century CE. It was not unusual for people who could not afford a funeral to leave the bodies of their deceased family members in the open, where anyone could watch them decay (in Japan, internment was not common until the 14th century CE). Buddhist monks considered watching bodies decay an act of reflection, and a reminder not to be tempted by beautiful women.
  
-+ The Kyōto Arashiyama train line includes a station named after the  katabira no tsuji.  (Last verified January 2015)
++ The Kyōto Arashiyama train line includes a station named after the  _katabira no tsuji_.  (Last verified January 2015)
 
 + A nun at the Hokkeji nunnery named Zen’un once predicted that a young Kachiko would be the mother of both an emperor and an empress. Zen’un’s prediction came true when Kachiko married Emperor Saga and had a baby prince, Ninmyō (who later became the emperor) and a princess, Seishi (who married Emperor Junna and became empress). 
 
