@@ -361,14 +361,14 @@ figure {
 
 .post-content {
     margin-bottom: $spacing-unit;
-    -webkit-column-count: 2;
-       -moz-column-count: 2;
-            column-count: 2;
-    @include ipad {
-      -webkit-column-count: 1;
-         -moz-column-count: 1;
-              column-count: 1;
-    }
+    // -webkit-column-count: 2;
+    //    -moz-column-count: 2;
+    //         column-count: 2;
+    // @include ipad {
+    //   -webkit-column-count: 1;
+    //      -moz-column-count: 1;
+    //           column-count: 1;
+    // }
 
     h2 {
         font-size: 32px;
@@ -400,13 +400,27 @@ figure {
               column-span: all;
     }
 
+    // p {
+    //   background-color: $background-color;
+    //   display: inline-block;
+    //   box-shadow: $base-shadow;
+    //   width: 98%;
+    //   padding: 1em;
+    //   margin-bottom: 1em;
+    //   // border-radius: 5px;
+    //   // border: 1px solid $grey-color-light;
+    // }
     p {
       background-color: $background-color;
       display: inline-block;
+      max-width: 47%;
+      vertical-align: middle;
       box-shadow: $base-shadow;
-      width: 98%;
       padding: 1em;
-      margin-bottom: 1em;
+      margin: 0.5em 0.3em;
+      @include ipad {
+        max-width: 98%;
+      }
       // border-radius: 5px;
       // border: 1px solid $grey-color-light;
     }
