@@ -16,6 +16,8 @@ When Kachiko died at 64, she left an unusual will. Instead of asking for a royal
 
 So Kachiko’s body was dressed in simple robes and put on the streets of Kyōto, where it rotted away until only bone fragments were left. The spot became known as _Katabira no Tsuji_, the Crossroad of Corpses.
 
+![shunsenkatabiragatsuji.jpg](/_posts/shunsenkatabiragatsuji.jpg)
+
 
 
 More Information & Sources
