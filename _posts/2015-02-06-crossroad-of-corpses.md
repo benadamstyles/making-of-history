@@ -22,13 +22,13 @@ So Kachiko’s body was dressed in simple robes and put on the streets of Kyōto
 
 More Information & Sources
 
-+ > Kachiko’s morbid final farewell was tied to a Buddhist tradition that originated in India around the 3rd or 4th century CE. It was not unusual for people who could not afford a funeral to leave the bodies of their deceased family members in the open, where anyone could watch them decay (in Japan, internment was not common until the 14th century CE). Buddhist monks considered watching bodies decay an act of reflection, and a reminder not to be tempted by beautiful women.
+> Kachiko’s morbid final farewell was tied to a Buddhist tradition that originated in India around the 3rd or 4th century CE. It was not unusual for people who could not afford a funeral to leave the bodies of their deceased family members in the open, where anyone could watch them decay (in Japan, internment was not common until the 14th century CE). Buddhist monks considered watching bodies decay an act of reflection, and a reminder not to be tempted by beautiful women.
  
-+ > The Kyōto Arashiyama train line includes a station named after the _katabira no tsuji._ (Last verified January 2015)
+> The Kyōto Arashiyama train line includes a station named after the _katabira no tsuji._ (Last verified January 2015)
 
-+ > A nun at the Hokkeji nunnery named Zen’un once predicted that a young Kachiko would be the mother of both an emperor and an empress. Zen’un’s prediction came true when Kachiko married Emperor Saga and had a baby prince, Ninmyō (who later became the emperor) and a princess, Seishi (who married Emperor Junna and became empress). 
+> A nun at the Hokkeji nunnery named Zen’un once predicted that a young Kachiko would be the mother of both an emperor and an empress. Zen’un’s prediction came true when Kachiko married Emperor Saga and had a baby prince, Ninmyō (who later became the emperor) and a princess, Seishi (who married Emperor Junna and became empress). 
 
-+ > When she became Empress, Kachiko sent a Japanese monk to China to bring Chan Buddhism to Japan, where it became Zen Buddhism. She also founded a temple complex/nunnery west of Kyoto called Danrinji. Because of this, she is sometimes known as Empress Danrin.
+> When she became Empress, Kachiko sent a Japanese monk to China to bring Chan Buddhism to Japan, where it became Zen Buddhism. She also founded a temple complex/nunnery west of Kyoto called Danrinji. Because of this, she is sometimes known as Empress Danrin.
 
 
 1: Hyakumonogatari.com. “Katabira no Tsuji – The Crossroad of Corpses” by Zach Davisson. Posted 10/31/2013; Accessed 10/14/2014.
