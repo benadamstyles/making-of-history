@@ -425,16 +425,12 @@ figure {
       // border: 1px solid $grey-color-light;
     }
     .post-footer {
-      -webkit-column-span: all;
-         -moz-column-span: all;
-              column-span: all;
-      &, & * {
-        display: block;
-        box-shadow: none;
-        background-color: transparent;
-        padding: 0;
-        margin-bottom: 1em;
-      }
+      display: block;
+      width: 100%;
+      box-shadow: none;
+      background-color: transparent;
+      padding: 0;
+      margin-bottom: 1em;
     }
 }
 
