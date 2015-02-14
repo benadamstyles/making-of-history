@@ -14,7 +14,7 @@ Empress Kachiko tried to teach Buddhist principles to everyone she met -- but he
 
 When Kachiko died at 64, she left an unusual will. Instead of asking for a royal funeral, a statue, or a nice commemorative park bench, Kachiko asked for her rotting corpse to be left lying in the street. The empress hoped that seeing her beautiful body develop a smell and be torn apart by wild animals would finally teach her people to think less of earthly pleasures.
 
-So Kachiko’s body was dressed in simple robes and put on the streets of Kyōto, where it rotted away until only bone fragments were left. The spot became known as _Katabira no Tsuji_, the Crossroad of Corpses.
+So the empress’s body was dressed in simple robes and put on the streets of Kyōto, where it rotted away until only bone fragments were left. The spot became known as _Katabira no Tsuji_, the Crossroad of Corpses.
 
 ![shunsenkatabiragatsuji.jpg](//_posts/shunsenkatabiragatsuji.jpg)
 
