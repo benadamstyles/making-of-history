@@ -12,5 +12,4 @@ If you have something that you’d like us to consider adding to the site, send 
 
 1. All submissions must be your own work and must not use any copyrighted, trademarked, or otherwise protected material. 
 
-2. All submissions must include a detailed list of the sources for your research. If we can’t verify your stories, we won’t put them on the site.
-
+2. All submissions must include a detailed list of the sources for your research. If we can’t verify your information, we won’t put your submission on the site.
