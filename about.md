@@ -6,7 +6,7 @@ weight: 3
 published: true
 ---
 
-## Contributors:
+
 
 ### Lee Bellamy
 
