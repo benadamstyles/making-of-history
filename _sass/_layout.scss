@@ -1,10 +1,11 @@
 // Site header
 
 .hero {
-  background-image: url(http://www.wga.hu/art/zzdeco/2tapestr/2bayeux/03bayeux.jpg);
+  // background-image: url(http://www.wga.hu/art/zzdeco/2tapestr/2bayeux/03bayeux.jpg);
+  background-image: url($baseurl + "/images/Rosie_Header_1.svg");
   background-position: center center;
   background-size: cover;
-  height: 400px;
+  height: 80vh;
   width: 100%;
 }
 
