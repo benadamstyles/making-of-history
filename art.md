@@ -1,8 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Art
+permalink: /art/
 weight: 3
 published: true
 ---
-
