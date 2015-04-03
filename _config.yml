@@ -2,7 +2,8 @@
 title: The Making of History
 # email: enquiries@leeds-ebooks.co.uk
 description: > # this means to ignore newlines until "baseurl:"
-  Site description goes here.
+  History at its worst. # Pure, unfiltered history. # Untapped history. #
+  History best not repeated. # History written by the victors, mocked by us.
 baseurl: /making-of-history # the subpath of your site, e.g. /blog/
 url: http://leeds-ebooks.github.io # the base hostname & protocol for your site
 # twitter_username: BenStyles

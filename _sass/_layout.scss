@@ -1,12 +1,11 @@
-/**
- * Site header
- */
+// Site header
+
 .hero {
- width: 100%;
- height: 400px;
- background-image: url(http://www.wga.hu/art/zzdeco/2tapestr/2bayeux/03bayeux.jpg);
- background-size: cover;
- background-position: center center;
+  background-image: url(http://www.wga.hu/art/zzdeco/2tapestr/2bayeux/03bayeux.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
 }
 
 .site-header {
@@ -53,97 +52,98 @@
   z-index: 10;
 }
 
-/* grisly */
-#grisly {
-	text-shadow: 0px 0px 5px rgba(255,255,150,0.2), 2px 2px 3px rgba(0,0,0,0.3);;
-	position: relative;
-}
-.grislies {
-  @include basic-trans(top, opacity);
-	font-family: $joke-font;
-	font-size: 80%;
-	position: relative;
-	display: inline-block;
-	top: -2em;
-	opacity: 0;
-	left: 0;
-}
-.grisly-slide-in {
-	top: 0;
-	opacity: 1;
-}
-.grisly-slide-out {
-	top: 2em !important;
-	opacity: 0 !important;
-}
+// GRISLY
+// #grisly {
+// 	text-shadow: 0px 0px 5px rgba(255,255,150,0.2), 2px 2px 3px rgba(0,0,0,0.3);;
+// 	position: relative;
+// }
+// .grislies {
+//   @include basic-trans(top, opacity);
+// 	font-family: $joke-font;
+// 	font-size: 80%;
+// 	position: relative;
+// 	display: inline-block;
+// 	top: -2em;
+// 	opacity: 0;
+// 	left: 0;
+// }
+// .grisly-slide-in {
+// 	top: 0;
+// 	opacity: 1;
+// }
+// .grisly-slide-out {
+// 	top: 2em !important;
+// 	opacity: 0 !important;
+// }
+//
 .posAbs {
 	position: absolute;
 }
 
 
 .site-nav {
-    float: right;
-    line-height: 56px;
+  float: right;
+  line-height: 56px;
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+
+    // Gaps between nav items, but not on the first one
+    &:not(:first-child) {
+      margin-left: 20px;
+    }
+  }
+
+  @include ipad {
+    position: absolute;
+    top: auto;
+    bottom: 0.5em;
+    right: 30px;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: right;
 
     .menu-icon {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        margin-bottom: 8px;
+        text-align: center;
+
+        > svg {
+            width: 18px;
+            height: 15px;
+
+            path {
+                fill: $highlight-colour;
+            }
+        }
+    }
+
+    .trigger {
+        clear: both;
         display: none;
     }
 
+    &:hover .trigger {
+        display: block;
+        padding-bottom: 5px;
+    }
+
     .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
+        display: block;
+        padding: 5px 10px;
     }
-
-    @include ipad {
-        position: absolute;
-        top: auto;
-        bottom: 0.5em;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            margin-bottom: 8px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $highlight-colour;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
-    }
+  }
 }
 
 .periods {
@@ -170,6 +170,12 @@
 /**
  * Site footer
  */
+
+#sitedesc {
+  -webkit-transition: opacity 0.2s ease-in-out;
+          transition: opacity 0.2s ease-in-out;
+}
+
 .site-footer {
     border-top: 1px solid $grey-color-dark;
     padding: $spacing-unit 0;
