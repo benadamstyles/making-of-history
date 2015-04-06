@@ -2,10 +2,11 @@
 
 .hero {
   // background-image: url(http://www.wga.hu/art/zzdeco/2tapestr/2bayeux/03bayeux.jpg);
-  background-image: url($baseurl + "/images/Rosie_Header_1.svg");
-  background-position: center center;
+  // background-image: url($baseurl + "/images/Rosie_Header_1.svg");
+  background-image: url($baseurl + "/images/Bird_in_an_Air_Pump.jpg");
+  background-position: center 38.2%;
   background-size: cover;
-  height: 60vh;
+  height: 50vh;
   width: 100%;
 }
 
