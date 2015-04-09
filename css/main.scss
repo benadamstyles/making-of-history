@@ -24,17 +24,7 @@ $base-trans-timing: 0.15s ease-out;
 
 $spacing-unit:      1.3em;
 
-$text-color:        #222;
-$background-color:  #fcfbf2;
-$alt-bg:            #400403;
-$detail:            #BD8C34;
-$brand-color-orig:  #fcfbf2;
-$brand-color:       #fcfbf2;
-$highlight-colour:  #f00;
-
-$grey-color:        #777;
-$grey-color-light:  lighten($grey-color, 15%);
-$grey-color-dark:   darken($grey-color, 25%);
+@import 'color-palette';
 
 @mixin phone {
   @media (max-width: 760px) {@content;}
