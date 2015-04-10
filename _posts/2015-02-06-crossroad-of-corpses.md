@@ -16,7 +16,7 @@ When Kachiko died at 64, she left an unusual will. Instead of asking for a royal
 
 So the empress’s body was dressed in simple robes and put on the streets of Kyōto, where it rotted away until only bone fragments were left. The spot became known as _Katabira no Tsuji_, the Crossroad of Corpses.
 
-![shunsenkatabiragatsuji.jpg](//_posts/shunsenkatabiragatsuji.jpg)Illustration of Kachiko from the _Picture Book of a Hundred Tales (Ehon hyaku monogatari ) vol. 1_, Takehara Shunsensai 竹原春泉斎 and Tōkaen Michimaro 桃花園三千麿, c. 1841. (https://commons.wikimedia.org/wiki/File:ShunsenKatabiragatsuji.jpg "Wikimedia Commons")
+![shunsenkatabiragatsuji.jpg](//_posts/shunsenkatabiragatsuji.jpg "Illustration of Kachiko from the _Picture Book of a Hundred Tales - Ehon hyaku monogatari - vol. 1_, Takehara Shunsensai 竹原春泉斎 and Tōkaen Michimaro 桃花園三千麿, c. 1841.") (https://commons.wikimedia.org/wiki/File:ShunsenKatabiragatsuji.jpg "Wikimedia Commons")
 
 
 
