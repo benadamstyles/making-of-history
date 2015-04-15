@@ -26,9 +26,9 @@ More Information & Sources
 
 > The Kyōto Arashiyama train line includes a station named after the _katabira no tsuji._ (Last verified January 2015)
 
-> A nun at the Hokkeji nunnery named Zen’un once predicted that a young Kachiko would be the mother of both an emperor and an empress. Zen’un’s prediction came true when Kachiko married Emperor Saga and had a baby prince, Ninmyō (who later became the emperor) and a princess, Seishi (who married Emperor Junna and became empress).
+> A nun at the Hokkeji nunnery named Zen’un once predicted that a young Kachiko would be the mother of both an emperor and an empress. Zen’un’s prediction came true when Kachiko married Emperor Saga and had a baby prince, Ninmyō (who later became the emperor) and a princess, Seishi (who married Emperor Junna and became the empress).
 
-> When she became Empress, Kachiko sent a Japanese monk to China to bring Chan Buddhism to Japan, where it became Zen Buddhism. She also founded a temple complex/nunnery west of Kyoto called Danrinji. Because of this, she is sometimes known as Empress Danrin.
+> When she became the empress, Kachiko sent a Japanese monk to China to bring Chan Buddhism to Japan, where it became Zen Buddhism. She also founded a temple complex/nunnery west of Kyoto called Danrinji. Because of this, she is sometimes known as Empress Danrin.
 
 _Lee Bellamy_
 
