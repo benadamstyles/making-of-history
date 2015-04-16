@@ -16,7 +16,7 @@ We all tell fibs, white lies, tall tales, and fish stories. And so did our grand
 
 A historian’s job is to dig up the truth under the stories. Historians are like detectives in that way -- but all their star witnesses are liars. And dead. 
 
-All of the content on this site is based on original sources and the opinions of qualified historians, so it’s all at least probably mostly true. The stories may be outlandish, but whenever and wherever people get involved, things are bound to get weird.
+All of the content on this site is based on original sources and the opinions of qualified historians, so it’s all at least probably mostly true. The stories may be outlandish, but whenever and wherever humans get involved, things are bound to get weird.
 
 If you disagree, you can always make us feel terrible about our poor life choices by e-mailing  us a stern message in all caps. 
 
