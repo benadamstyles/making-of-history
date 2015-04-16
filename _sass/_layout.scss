@@ -417,6 +417,7 @@ figure {
   // }
   > p {
     background-color: $background-color;
+    color: $alt-bg;
     display: inline-block;
     max-width: 47%;
     vertical-align: middle;
@@ -439,28 +440,5 @@ figure {
   }
   ol.post-footer {
     font-size: 0.8em;
-  }
-}
-
-
-
-/**
- * Pricing
- */
-form#pricing {
-  label {
-    display: block;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  p {
-    font-size: 3em;
-  }
-  & + p {
-    font-size: $small-sans-size;
   }
 }
