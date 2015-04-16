@@ -15,4 +15,3 @@ If you have something that you’d like us to consider adding to the site, send 
 ##Contributors:
 
 **Lee Bellamy** is the owner, producer, editor, and all-around big whoop of The Making of History, and is appropriately sorry. Please direct all complaints, groans, and death threats to Lee at _admin@makingofhistory.com_
-
