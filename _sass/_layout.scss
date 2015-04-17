@@ -441,4 +441,8 @@ figure {
   ol.post-footer {
     font-size: 0.8em;
   }
+
+  a, a:visited {
+    color: $highlight-colour;
+  }
 }
