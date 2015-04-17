@@ -26,8 +26,8 @@ body {
     background-image: url(../images/stripe-opt.jpg);
     // background-image: -webkit-linear-gradient(to bottom, antiquewhite, lightgrey);
     // background-image:         linear-gradient(to bottom, antiquewhite, lightgrey);
-    background-image: -webkit-linear-gradient(to bottom, lighten($highlight-colour, 30%), $highlight-colour);
-    background-image:         linear-gradient(to bottom, lighten($highlight-colour, 30%), $highlight-colour);
+    background-image: -webkit-linear-gradient(to bottom, lighten($gradient-colour, 30%), $gradient-colour);
+    background-image:         linear-gradient(to bottom, lighten($gradient-colour, 30%), $gradient-colour);
     background-size: cover;
     // background-color: $background-color;
     background-attachment: fixed;
