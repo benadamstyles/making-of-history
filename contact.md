@@ -6,7 +6,9 @@ weight: 2
 published: true
 ---
 
-If you have something that you’d like us to consider adding to the site, send us an e-mail at _admin@makingofhistory.com_ and we'll leave instructions for where to send the bribe money. Also please keep these submission criteria in mind:
+If you'd like to get a hold of us, send us an e-mail at _admin@makingofhistory.com_ 
+ 
+If you have something that you’d like us to consider adding to the site, send us your pitch (and in return we'll send a list of preferred bribe amounts). Also, please keep these submission criteria in mind:
 
 1. All submissions must be your own work and must not use any copyrighted, trademarked, or otherwise protected material. 
 
@@ -15,4 +17,4 @@ If you have something that you’d like us to consider adding to the site, send 
 
 ##Contributors:
 
-**Lee Bellamy** is the owner, producer, editor, and all-around big whoop of The Making of History, and is appropriately sorry. Please direct all complaints, groans, and death threats to Lee at _admin@makingofhistory.com_
+**Lee Bellamy** is the owner, producer, editor, and all-around big cheese of The Making of History, and is appropriately sorry. Please direct all complaints, groans, and death threats to Lee at _admin@makingofhistory.com_
