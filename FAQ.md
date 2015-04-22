@@ -30,4 +30,4 @@ All varieties of submissions are welcome. Write an article, create a cartoon or 
 
 1. All submissions must be your own work and must not use any copyrighted, trademarked, or otherwise protected material. We are not fond of being sued (and we would have to pay our attorneys in instant noodle cups).
 
-2. All submissions must include a detailed list of the sources for your research. And unfortunately, your main sources cannot be rare tomes from the tomb of Tutankhamun. If we can’t verify your facts, we won’t put them on the site.
+2. All submissions must include a detailed list of the sources for your research. And unfortunately, your main sources can't be rare tomes from the tomb of Tutankhamun because if we can’t verify your facts, we won’t put them on the site.
