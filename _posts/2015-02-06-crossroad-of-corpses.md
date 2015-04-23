@@ -32,7 +32,7 @@ More Information & Sources
 
 _Lee Bellamy_
 
-1. [Hyakumonogatari.com](http://hyakumonogatari.com/2013/10/31/katabira-no-tsuji-the-crossroad-of-corpses/) "Katabira no Tsuji -- The Crossroad of Corpses" by Zach Davisson. Posted 10/31/2013; Accessed 10/14/2014.
+1. Hyakumonogatari Kaidankai: Translated Japanese Ghost Stories and Tales of the Weird and the Strange. [Hyakumonogatari.com](http://hyakumonogatari.com/2013/10/31/katabira-no-tsuji-the-crossroad-of-corpses/) "Katabira no Tsuji -- The Crossroad of Corpses" by Zach Davisson. Posted 10/31/2013; Accessed 10/14/2014.
 
 2. Dogen's Extensive Record: A Translation of the Eihei Koroku by Eihei Dogen. p. 317. Wisdom Publications, U.S.A., 2010.
 
