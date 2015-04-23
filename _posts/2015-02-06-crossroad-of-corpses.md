@@ -34,7 +34,7 @@ _Lee Bellamy_
 
 1. Hyakumonogatari Kaidankai: Translated Japanese Ghost Stories and Tales of the Weird and the Strange. [Hyakumonogatari.com](http://hyakumonogatari.com/2013/10/31/katabira-no-tsuji-the-crossroad-of-corpses/) "Katabira no Tsuji -- The Crossroad of Corpses" by Zach Davisson. Posted 10/31/2013; Accessed 10/14/2014.
 
-2. Dogen's Extensive Record: A Translation of the Eihei Koroku by Eihei Dogen. p. 317. Wisdom Publications, U.S.A., 2010.
+2. Dogen's Extensive Record: A Translation of the Eihei Koroku by Eihei Dogen. Wisdom Publications, Somerville, MA. 2010. [p. 317](https://books.google.com/books?id=9nqqLwjgzQoC&pg=PA317&lpg=PA317&dq=empress+tachibana&source=bl&ots=Y7vuDkuJNG&sig=20Lmary09OLh0sO2XRWg0Bw9v0A&hl=en&sa=X&ei=JmM9VLHJDIf4yATtw4GoDQ&ved=0CEsQ6AEwBw#v=onepage&q=empress%20tachibana&f=false)
 
 3. Ryåogen and Mount Hiei: Japanese Tendai in the Tenth Century by Paul Groner. pp. 268-270. Kuroda Institute, U.S.A., 2002.
 
