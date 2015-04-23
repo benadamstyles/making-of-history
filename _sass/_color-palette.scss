@@ -6,7 +6,7 @@
 // $detail:            #BD8C34;
 // $brand-color-orig:  #fcfbf2;
 // $brand-color:       #fcfbf2;
-// $highlight-colour:  #f00;
+// $highlight-color:  #f00;
 // $grey-color:        #777;
 // $grey-color-light:  lighten($grey-color, 15%);
 // $grey-color-dark:   darken($grey-color, 25%);
@@ -19,7 +19,7 @@
 // $detail:            #BD8C34;
 // $brand-color-orig:  #fcfbf2;
 // $brand-color:       #fcfbf2;
-// $highlight-colour:  rgb(184, 80, 6);
+// $highlight-color:  rgb(184, 80, 6);
 // $grey-color:        #444;
 // $grey-color-light:  #444;
 // $grey-color-dark:   darken($grey-color, 25%);
@@ -32,7 +32,7 @@
 // $detail:            #BD8C34;
 // $brand-color-orig:  #fcfbf2;
 // $brand-color:       #fcfbf2;
-// $highlight-colour:  rgb(90, 61, 49);
+// $highlight-color:  rgb(90, 61, 49);
 // $grey-color:        #777;
 // $grey-color-light:  lighten($grey-color, 15%);
 // $grey-color-dark:   darken($grey-color, 25%);
@@ -45,7 +45,7 @@
 // $detail:            #BD8C34;
 // $brand-color-orig:  #fcfbf2;
 // $brand-color:       $brand-color-orig;
-// $highlight-colour:  rgb(181, 49, 1);
+// $highlight-color:  rgb(181, 49, 1);
 // $grey-color:        #eee;
 // $grey-color-light:  lighten($grey-color, 15%);
 // $grey-color-dark:   darken($grey-color, 25%);
@@ -58,8 +58,9 @@ $header-bg:         rgba($alt-bg, 0.9);
 $detail:            #BD8C34;
 $brand-color-orig:  $text-color;
 $brand-color:       $text-color;
-$highlight-colour:  lighten(rgb(181, 49, 1), 10%);
-$gradient-colour:   rgb(118, 89, 69);
+$highlight-color:   lighten(rgb(181, 49, 1), 10%);
+$gradient-color:    rgb(118, 89, 69);
 $grey-color:        #eee;
 $grey-color-light:  lighten($grey-color, 15%);
-$grey-color-dark:   darken($grey-color, 25%);
+$grey-color-dark:   rgba(darken($grey-color, 25%), 0.5);
+$trans-black:       rgba(0,0,0,0.2);

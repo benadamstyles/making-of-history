@@ -37,7 +37,7 @@
 
     &,
     &:visited {
-        color: $highlight-colour;
+        color: $highlight-color;
     }
 
     img {
@@ -105,7 +105,7 @@
     top: auto;
     bottom: 0.5em;
     right: 30px;
-    background-color: $background-color;
+    background-color: $trans-black;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
@@ -125,7 +125,7 @@
             height: 15px;
 
             path {
-                fill: $highlight-colour;
+                fill: $highlight-color;
             }
         }
     }
@@ -164,7 +164,7 @@
   }
 }
 .active-period {
-  border-bottom: 3px solid $highlight-colour;
+  border-bottom: 3px solid $highlight-color;
 }
 
 
@@ -195,8 +195,9 @@
 
 .footer-col-wrapper {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: $highlight-color;
     margin-left: -$spacing-unit / 2;
+    text-shadow: $text-shadow-vis;
     @extend %clearfix;
 }
 
@@ -443,6 +444,6 @@ figure {
   }
 
   a, a:visited {
-    color: $highlight-colour;
+    color: $highlight-color;
   }
 }
