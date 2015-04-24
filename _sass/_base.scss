@@ -66,6 +66,10 @@ img {
     vertical-align: middle;
     border: none;
 }
+.post-content img {
+  width: 100%;
+}
+
 .appIcon, .mugshot {
     border-radius: 20%;
 }
