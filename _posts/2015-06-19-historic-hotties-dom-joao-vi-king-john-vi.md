@@ -7,9 +7,10 @@ category: "701-800"
 
 
 
-![1808Historic HottiesDomJoaoVI.svg]({{site.baseurl}}/images/1808Historic HottiesDomJoaoVI.svg)
 
-![1808Historic HottiesDomJoaoVIPhotos.svg]({{site.baseurl}}/images/1808Historic HottiesDomJoaoVIPhotos.svg)
+![]({{site.baseurl}}/images/1808Historic%20HottiesDomJoaoVI.svg)
+
+![]({{site.baseurl}}/images/1808Historic%20HottiesDomJoaoVIPhotos.svg)
 
 More Information & Sources
 
