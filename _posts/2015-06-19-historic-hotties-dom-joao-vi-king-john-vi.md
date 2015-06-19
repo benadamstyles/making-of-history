@@ -36,3 +36,4 @@ _Lee Bellamy & Elliott Took_
 Images Used:
 
 1. _João VI_. Artist unknown. Date unknown. [Wikimedia.](https://en.wikipedia.org/wiki/File:Jo%C3%A3o_VI.JPG)
+2. _Dom João VI - Retrato no Palacio Real d'Ajuda_. _Portrait of D. João VI (1767-1826)_. Domingos Sequeira (1768-1837 CE). 19th Century.
