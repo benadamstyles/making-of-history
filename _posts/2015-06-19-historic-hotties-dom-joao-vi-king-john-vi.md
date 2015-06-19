@@ -35,4 +35,4 @@ _Lee Bellamy & Elliott Took_
 
 Images Used:
 
-1.
+1. _João VI_. Artists unknown. Date unknown. [Wikimedia.](https://en.wikipedia.org/wiki/File:Jo%C3%A3o_VI.JPG)
