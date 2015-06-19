@@ -11,6 +11,7 @@ location: Brazil
 
 
 
+
 ![]({{site.baseurl}}/images/1808Historic%20HottiesDomJoaoVI.svg)
 
 ![]({{site.baseurl}}/images/1808Historic%20HottiesDomJoaoVIPhotos.svg)
@@ -34,15 +35,14 @@ _Lee Bellamy & Elliott Took_
 2. _1808 The Flight of the Emperor: How a Weak Prince, a Mad Queen, and the British Navy Tricked Napoleon and Changed the New World_. Laurentino Gomes, translated from Portuguese by Andrew Nevins. Connecticut: Lyons Press. 2007; translated edition 2013.
 
 Images Used:
-
 1. _João VI_. Artist unknown. Date unknown. [Wikimedia.](https://en.wikipedia.org/wiki/File:Jo%C3%A3o_VI.JPG)
-2. _Dom João VI - Retrato no Palacio Real d'Ajuda_. _Portrait of D. João VI (1767-1826)_. Domingos Sequeira (1768-1837 CE). 19th Century. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Dom_Joao_VI_-_retrato_no_Palacio_Real_d%27Ajuda.jpg)
-3. _Dom João VI_. Gianni. 19th Century. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Gianni_-_Dom_Jo%C3%A3o_VI.jpg)
-4. _Dom João VI_. Paul Tassert. 19th Century. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Paul_Tassert_-_Dom_Jo%C3%A3o_VI.jpg)
-5. _Retrato de Joao VI, Principe do Brasil (The future King João VI when Prince of Brazil)_. Giuseppe Troni (1739-1810 CE). [Wikimedia.](https://commons.wikimedia.org/wiki/File:Retrato_de_Joao_VI,_Principe_do_Brasil.jpg)
-6. _Napoleon Bonaparte_. Colored recreation after Paul Delaroche (1797-1856 CE). 19th Century. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Napoleonbonaparte_coloured_drawing.png)
-7. _Carlota Joaquina_. Nicolas Antoine Taunay (1755-1830 CE). Circa 1817. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Carlota_Joaquina_by_Taunay_1817.jpg)
+2. _Dom João VI - Retrato no Palacio Real d'Ajuda_. _Portrait of D. João VI (1767-1826)_. Domingos Sequeira (1768-1837 CE). 19th century. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Dom_Joao_VI_-_retrato_no_Palacio_Real_d%27Ajuda.jpg)
+3. _Dom João VI_. Gianni. 19th century. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Gianni_-_Dom_Jo%C3%A3o_VI.jpg)
+4. _Dom João VI_. Paul Tassert. 19th century. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Paul_Tassert_-_Dom_Jo%C3%A3o_VI.jpg)
+5. _Retrato de Joao VI, Principe do Brasil (The future King João VI when Prince of Brazil)_. Giuseppe Troni (1739-1810 CE). 18th century. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Retrato_de_Joao_VI,_Principe_do_Brasil.jpg)
+6. _Napoleon Bonaparte_. Colored recreation after Paul Delaroche (1797-1856 CE). 19th century. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Napoleonbonaparte_coloured_drawing.png)
+7. _Carlota Joaquina_. Nicolas Antoine Taunay (1755-1830 CE). c. 1817. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Carlota_Joaquina_by_Taunay_1817.jpg)
 8. _George III_. Charles Turner. 1820. [Wikimedia.](https://commons.wikimedia.org/wiki/File:George_III_1820.jpg)
-9. _Maria I of Portugal as Queen_. Unknown artist. Circa 1777. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Maria_I_of_Portugal_as_Queen_by_an_unknown_artist.jpg)
+9. _Maria I of Portugal as Queen_. Unknown artist. c. 1777. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Maria_I_of_Portugal_as_Queen_by_an_unknown_artist.jpg)
 10. _Ocypode quadrata (Martinique)_. Patrick Verdier. 2003. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Ocypode_quadrata_(Martinique).jpg)
 11. _Blister Beetle_. Encyclopedia Britannica. 1911. [Wikimedia.](https://commons.wikimedia.org/wiki/File:EB_1911_Blister_Beetle.png)
