@@ -39,3 +39,4 @@ Images Used:
 2. _Dom João VI - Retrato no Palacio Real d'Ajuda_. _Portrait of D. João VI (1767-1826)_. Domingos Sequeira (1768-1837 CE). 19th Century. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Dom_Joao_VI_-_retrato_no_Palacio_Real_d%27Ajuda.jpg)
 3. _Dom João VI_. Gianni. 19th Century. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Gianni_-_Dom_Jo%C3%A3o_VI.jpg)
 4.  _Dom João VI_. Paul Tassert. 19th Century. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Paul_Tassert_-_Dom_Jo%C3%A3o_VI.jpg)
+5. _Retrato de Joao VI, Principe do Brasil (The future King João VI when Prince of Brazil)_. Giuseppe Troni (1739-1810 CE). [Wikimedia.](https://commons.wikimedia.org/wiki/File:Retrato_de_Joao_VI,_Principe_do_Brasil.jpg)
