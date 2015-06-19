@@ -41,4 +41,4 @@ Images Used:
 4.  _Dom João VI_. Paul Tassert. 19th Century. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Paul_Tassert_-_Dom_Jo%C3%A3o_VI.jpg)
 5. _Retrato de Joao VI, Principe do Brasil (The future King João VI when Prince of Brazil)_. Giuseppe Troni (1739-1810 CE). [Wikimedia.](https://commons.wikimedia.org/wiki/File:Retrato_de_Joao_VI,_Principe_do_Brasil.jpg)
 6. _Napoleon Bonaparte_. Colored recreation after Paul Delaroche (1797-1856 CE). 19th Century. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Napoleonbonaparte_coloured_drawing.png)
-7. 
+7. _Carlota Joaquina_. Nicolas Antoine Taunay (1755-1830 CE). Circa 1817. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Carlota_Joaquina_by_Taunay_1817.jpg)
