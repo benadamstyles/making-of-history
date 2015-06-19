@@ -3,6 +3,7 @@ layout: post
 published: true
 title: "Historic Hotties: Dom Joao VI (King John VI)"
 category: "701-800"
+location: Brazil
 ---
 
 
