@@ -27,7 +27,7 @@ More Information & Sources
 
 > In Napoleon’s memoirs, he wrote that João was “the only one who tricked me.” General Andoche Junot (French ambassador to the Portuguese court 1804-5, then leader of the French invasion in 1807) remembered João in a less flattering light -- when he met João, Junot exclaimed to his wife, “My God! How ugly he is!”
 
-_Lee Bellamy_
+_Lee Bellamy & Elliott Took_
 
 1. _Dom Pedro: The Struggle for Liberty in Brazil and Portugal, 1798-1834_. Neill Macaulay. Durham: Duke University Press. 1986.
 
