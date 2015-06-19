@@ -44,3 +44,5 @@ Images Used:
 7. _Carlota Joaquina_. Nicolas Antoine Taunay (1755-1830 CE). Circa 1817. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Carlota_Joaquina_by_Taunay_1817.jpg)
 8. _George III_. Charles Turner. 1820. [Wikimedia.](https://commons.wikimedia.org/wiki/File:George_III_1820.jpg)
 9. _Maria I of Portugal as Queen_. Unknown artist. Circa 1777. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Maria_I_of_Portugal_as_Queen_by_an_unknown_artist.jpg)
+10. _Ocypode quadrata (Martinique)_. Patrick Verdier. 2003. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Ocypode_quadrata_(Martinique).jpg)
+11. _Blister Beetle_. Encyclopedia Britannica. 1911. [Wikimedia.](https://commons.wikimedia.org/wiki/File:EB_1911_Blister_Beetle.png)
