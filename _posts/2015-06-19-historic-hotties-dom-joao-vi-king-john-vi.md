@@ -12,6 +12,7 @@ location: Brazil
 
 
 
+
 ![]({{site.baseurl}}/images/1808Historic%20HottiesDomJoaoVI.svg)
 
 ![]({{site.baseurl}}/images/1808Historic%20HottiesDomJoaoVIPhotos.svg)
@@ -35,6 +36,7 @@ _Lee Bellamy & Elliott Took_
 2. _1808 The Flight of the Emperor: How a Weak Prince, a Mad Queen, and the British Navy Tricked Napoleon and Changed the New World_. Laurentino Gomes, translated from Portuguese by Andrew Nevins. Connecticut: Lyons Press. 2007; translated edition 2013.
 
 Images Used:
+
 1. _João VI_. Artist unknown. Date unknown. [Wikimedia.](https://en.wikipedia.org/wiki/File:Jo%C3%A3o_VI.JPG)
 2. _Dom João VI - Retrato no Palacio Real d'Ajuda_. _Portrait of D. João VI (1767-1826)_. Domingos Sequeira (1768-1837 CE). 19th century. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Dom_Joao_VI_-_retrato_no_Palacio_Real_d%27Ajuda.jpg)
 3. _Dom João VI_. Gianni. 19th century. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Gianni_-_Dom_Jo%C3%A3o_VI.jpg)
