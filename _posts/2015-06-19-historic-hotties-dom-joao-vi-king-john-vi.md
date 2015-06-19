@@ -6,7 +6,9 @@ category: "701-800"
 ---
 
 
+
 ![1808Historic HottiesDomJoaoVI.svg]({{site.baseurl}}/images/1808Historic HottiesDomJoaoVI.svg)
+
 ![1808Historic HottiesDomJoaoVIPhotos.svg]({{site.baseurl}}/images/1808Historic HottiesDomJoaoVIPhotos.svg)
 
 More Information & Sources
@@ -29,4 +31,4 @@ _Lee Bellamy_
 
 Images Used:
 
-1. 
+1.
