@@ -31,7 +31,7 @@ _Lee Bellamy & Elliott Took_
 
 1. _Dom Pedro: The Struggle for Liberty in Brazil and Portugal, 1798-1834_. Neill Macaulay. Durham: Duke University Press. 1986.
 
-2. _1808 The Flight of the Emperor: How a Weak Prince, a Mad Queen, and the British Navy Tricked Napoleon and Changed the New World_. Laurentino Gomes, translated from Portuguese by Andrew Nevins. Connecticut: Lyons Press. 2007; translated 2013.
+2. _1808 The Flight of the Emperor: How a Weak Prince, a Mad Queen, and the British Navy Tricked Napoleon and Changed the New World_. Laurentino Gomes, translated from Portuguese by Andrew Nevins. Connecticut: Lyons Press. 2007; translated edition 2013.
 
 Images Used:
 
