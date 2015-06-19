@@ -38,3 +38,4 @@ Images Used:
 1. _João VI_. Artist unknown. Date unknown. [Wikimedia.](https://en.wikipedia.org/wiki/File:Jo%C3%A3o_VI.JPG)
 2. _Dom João VI - Retrato no Palacio Real d'Ajuda_. _Portrait of D. João VI (1767-1826)_. Domingos Sequeira (1768-1837 CE). 19th Century. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Dom_Joao_VI_-_retrato_no_Palacio_Real_d%27Ajuda.jpg)
 3. _Dom João VI_. Gianni. 19th Century. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Gianni_-_Dom_Jo%C3%A3o_VI.jpg)
+4.  _Dom João VI_. Paul Tassert. 19th Century. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Paul_Tassert_-_Dom_Jo%C3%A3o_VI.jpg)
