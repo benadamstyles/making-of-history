@@ -16,10 +16,12 @@ location: Brazil
 
 
 
+
 ![]({{site.baseurl}}/images/TEST%201%201808Historic%20HottiesDomJoaoVI.svg)
 
 
-![]({{site.baseurl}}/images/1808Historic%20HottiesDomJoaoVIPhotos.svg)
+![TEST11808Historic HottiesDomJoaoVIPhotos.svg]({{site.baseurl}}/images/TEST11808Historic HottiesDomJoaoVIPhotos.svg)
+
 
 More Information & Sources
 
