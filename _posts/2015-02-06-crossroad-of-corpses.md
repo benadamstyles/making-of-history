@@ -2,7 +2,6 @@
 layout: post
 published: true
 title: Crossroad of Corpses
-category: "701-800"
 period: "710-760"
 location: Japan
 ---
