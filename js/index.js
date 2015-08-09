@@ -6189,15 +6189,15 @@ var _stickyfill = require('stickyfill');
 
 var _stickyfill2 = _interopRequireDefault(_stickyfill);
 
-window.Q = function (fn) {
-  setTimeout(fn, 1);
-};
-window.log = function (x) {
-  console.log(x);
-};
+var _model = require('./model');
+
+var _model2 = _interopRequireDefault(_model);
 
 function init() {
   var b = document.getElementsByTagName('body')[0],
+      Q = function Q(fn) {
+    return setTimeout(fn, 1);
+  },
       whichTransitionEvent = function whichTransitionEvent() {
     var el = document.createElement('fakeelement'),
         transitions = {
@@ -6249,10 +6249,22 @@ function init() {
     stickyfill.add(el);
   });
 
-  _rivets2['default'].bind(b, model);
+  _rivets2['default'].bind(b, _model2['default']);
 
   document.removeEventListener("DOMContentLoaded", init, false);
 }
+
 document.addEventListener('DOMContentLoaded', init, false);
 
-},{"babelify/polyfill":168,"rivets":169,"sightglass":170,"stickyfill":171}]},{},[172]);
+},{"./model":173,"babelify/polyfill":168,"rivets":169,"sightglass":170,"stickyfill":171}],173:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = {
+  // TODO
+};
+module.exports = exports["default"];
+
+},{}]},{},[172]);

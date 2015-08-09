@@ -9,7 +9,7 @@ url: http://leeds-ebooks.github.io # the base hostname & protocol for your site
 # twitter_username: BenStyles
 # github_username:  leeds-ebooks
 
-exclude: ['src', '.jshintrc', 'package.json']
+exclude: ['src', '.jshintrc', 'package.json', 'node_modules', '.gitignore']
 
 permalink: /:categories/:title/
 
