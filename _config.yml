@@ -45,7 +45,7 @@ prose:
           help: 'Paste here the url from the body of the article, without "{{site.baseurl}}" e.g. "/images/lovely-picture.jpg"'
           placeholder: "url/to/the/image.jpg"
           type: "text"
-      - name: "tags"
+      - name: "period"
         field:
           element: "text"
           label: "year (4 digits required!) or range (separated by single hyphen, no spaces)"

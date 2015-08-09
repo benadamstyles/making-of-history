@@ -1,6 +1,7 @@
 {
   "esnext": true,
   "asi": true,
+  "sub": true,
   "varstmt": true,
   "undef": true,
   "unused": "vars",

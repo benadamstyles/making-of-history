@@ -5,8 +5,11 @@ is_home: true
 
 <div class="home">
   {% assign posts = site.posts | sort: 'date' %}
-  {% for post in posts limit:10 %}
-    <a class="thumb post-link" href="{{ post.url | prepend: site.baseurl }}" style="background-image: url( {{ post.featuredimage | prepend: site.baseurl }} )">{{ post.title }}</a>
+  {% for post in posts %}
+    <a class="thumb post-link"
+       href="{{ post.url | prepend: site.baseurl }}"
+       style="background-image: url( {{ post.featuredimage | prepend: site.baseurl }} )"
+       rv-show="'{{ post.period }}' | matchesRange range.begin range.end">{{ post.title }}</a>
   {% endfor %}
 </div>
 

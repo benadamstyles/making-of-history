@@ -3,7 +3,7 @@ layout: post
 published: true
 title: Crossroad of Corpses
 category: "701-800"
-tags: "710-760"
+period: "710-760"
 location: Japan
 ---
 

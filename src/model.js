@@ -1,3 +1,6 @@
 export default {
-  // TODO
+  range: {
+    begin: '0',
+    end: '3000'
+  }
 }

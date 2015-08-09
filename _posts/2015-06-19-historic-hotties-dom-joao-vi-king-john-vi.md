@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "Historic Hotties: Dom Joao VI (King John VI)"
 category: "1701-1800"
-tags: "1738"
+period: "1738"
 location: Brazil
 ---
 
