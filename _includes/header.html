@@ -8,13 +8,14 @@
 
     <a class="site-title" href="{{ site.baseurl }}/">The Making of History</a>
     <!-- <a class="site-title" href="{{ site.baseurl }}/">The <span id="grisly"><span id="firstGrisly" class="grislies grisly-slide-in">Grisly</span></span> Making of History</a> -->
-
+    {% if page.is_home %}
     <div class="periods">
       <input type="text" rv-value="range.begin">
       <input type="range" rv-value="range.begin" min="0" rv-max="range.end">
       <input type="text" rv-value="range.end">
       <input type="range" rv-value="range.end" rv-min="range.begin" max="3000">
     </div>
+    {% endif %}
 
     <!-- <div class="periods">
       {% assign categories = site.categories | sort %}
