@@ -34,6 +34,7 @@
     line-height: 64px;
     margin-bottom: 0;
     white-space: nowrap;
+    text-align: center;
 
     &,
     &:visited {
@@ -180,6 +181,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-dark;
     padding: $spacing-unit 0;
+    color: $pale-highlight;
 }
 
 .footer-heading {
@@ -195,7 +197,7 @@
 
 .footer-col-wrapper {
     font-size: $small-font-size;
-    color: $highlight-color;
+    // color: $highlight-color;
     margin-left: -$spacing-unit / 2;
     text-shadow: $text-shadow-vis;
     @extend %clearfix;

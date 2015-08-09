@@ -1,3 +1,5 @@
+---
+---
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 // shim for using process in browser
 
@@ -6175,6 +6177,23 @@ module.exports = (function(doc, win) {
 },{}],172:[function(require,module,exports){
 'use strict';
 
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
+
+exports['default'] = function () {
+  var images = document.querySelectorAll('img[src^="/images"], img[src*="_posts"]');
+
+  Array.from(images).forEach(function (image) {
+    image.src = ~image.src.indexOf('_posts') ? "{{site.baseurl}}" + image.src.replace(/.+_posts/g, '/images') : "{{site.baseurl}}" + image.src.replace('http://leeds-ebooks.github.io', '');
+  });
+};
+
+module.exports = exports['default'];
+
+},{}],173:[function(require,module,exports){
+'use strict';
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
 require('babelify/polyfill');
@@ -6193,12 +6212,53 @@ var _model = require('./model');
 
 var _model2 = _interopRequireDefault(_model);
 
+var _siteDesc = require('./site-desc');
+
+var _siteDesc2 = _interopRequireDefault(_siteDesc);
+
+var _imageReplace = require('./image-replace');
+
+var _imageReplace2 = _interopRequireDefault(_imageReplace);
+
 function init() {
-  var b = document.getElementsByTagName('body')[0],
-      Q = function Q(fn) {
-    return setTimeout(fn, 1);
-  },
-      whichTransitionEvent = function whichTransitionEvent() {
+      var b = document.getElementsByTagName('body')[0],
+          stickyElements = document.getElementsByClassName('sticky'),
+          stickyfill = (0, _stickyfill2['default'])();
+
+      (0, _siteDesc2['default'])();
+      (0, _imageReplace2['default'])();
+
+      Array.from(stickyElements).forEach(function (el) {
+            return stickyfill.add(el);
+      });
+
+      _rivets2['default'].bind(b, _model2['default']);
+
+      document.removeEventListener("DOMContentLoaded", init, false);
+}
+
+document.addEventListener('DOMContentLoaded', init, false);
+
+},{"./image-replace":172,"./model":174,"./site-desc":175,"babelify/polyfill":168,"rivets":169,"sightglass":170,"stickyfill":171}],174:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = {
+  // TODO
+};
+module.exports = exports["default"];
+
+},{}],175:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
+
+exports['default'] = function () {
+  var whichTransitionEvent = function whichTransitionEvent() {
     var el = document.createElement('fakeelement'),
         transitions = {
       'transition': 'transitionend',
@@ -6212,9 +6272,6 @@ function init() {
     for (t in transitions) if (el.style[t] !== undefined) return transitions[t];
   },
       transitionEvent = whichTransitionEvent() || "transitionend",
-      stickyElements = document.getElementsByClassName('sticky'),
-      stickyfill = (0, _stickyfill2['default'])(),
-      images = document.querySelectorAll('img[src^="/images"], img[src*="_posts"]'),
       sitedescSep = '#',
       sitedescInt = 8000,
       sitedesc = document.getElementById('sitedesc'),
@@ -6226,9 +6283,9 @@ function init() {
     function handler() {
       sitedesc.removeEventListener(transitionEvent, handler);
       sitedesc.textContent = newText;
-      Q(function () {
+      setTimeout(function () {
         sitedesc.style.opacity = 1;
-      });
+      }, 1);
     }
     sitedesc.addEventListener(transitionEvent, handler);
     sitedesc.style.opacity = 0;
@@ -6240,31 +6297,8 @@ function init() {
     sitedescCounter = sitedescCounter < sitedescArr.length - 1 ? sitedescCounter + 1 : 0;
     changeSitedesc(sitedescArr[sitedescCounter]);
   }, sitedescInt);
-
-  Array.from(images).forEach(function (image) {
-    image.src = ~image.src.indexOf('_posts') ? "{{site.baseurl}}" + image.src.replace(/.+_posts/g, '/images') : "{{site.baseurl}}" + image.src.replace('http://leeds-ebooks.github.io', '');
-  });
-
-  Array.from(stickyElements).forEach(function (el) {
-    stickyfill.add(el);
-  });
-
-  _rivets2['default'].bind(b, _model2['default']);
-
-  document.removeEventListener("DOMContentLoaded", init, false);
-}
-
-document.addEventListener('DOMContentLoaded', init, false);
-
-},{"./model":173,"babelify/polyfill":168,"rivets":169,"sightglass":170,"stickyfill":171}],173:[function(require,module,exports){
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports["default"] = {
-  // TODO
 };
-module.exports = exports["default"];
 
-},{}]},{},[172]);
+module.exports = exports['default'];
+
+},{}]},{},[173]);

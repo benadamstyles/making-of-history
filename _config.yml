@@ -1,5 +1,6 @@
 # Site settings
 title: The Making of History
+legal: All Rights Reserved
 # email: enquiries@leeds-ebooks.co.uk
 description: >
   History at its worst. # Pure, unfiltered history. # Untapped history. #
@@ -11,7 +12,7 @@ url: http://leeds-ebooks.github.io # the base hostname & protocol for your site
 
 exclude: ['src', '.jshintrc', 'package.json', 'node_modules', '.gitignore']
 
-permalink: /:categories/:title/
+permalink: /article/:title/
 
 # Assets
 sass:

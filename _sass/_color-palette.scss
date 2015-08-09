@@ -1,55 +1,3 @@
-// ORIGINAL
-// $text-color:        #222;
-// $background-color:  #fcfbf2;
-// $alt-bg:            #400403;
-// $header-bg:         rgba(255, 255, 255, 0.9);
-// $detail:            #BD8C34;
-// $brand-color-orig:  #fcfbf2;
-// $brand-color:       #fcfbf2;
-// $highlight-color:  #f00;
-// $grey-color:        #777;
-// $grey-color-light:  lighten($grey-color, 15%);
-// $grey-color-dark:   darken($grey-color, 25%);
-
-// Trello #1
-// $text-color:        rgb(248, 227, 184);
-// $background-color:  rgb(184, 80, 6);
-// $alt-bg:            rgb(13, 48, 53);
-// $header-bg:         rgba(17, 92, 88, 0.9);
-// $detail:            #BD8C34;
-// $brand-color-orig:  #fcfbf2;
-// $brand-color:       #fcfbf2;
-// $highlight-color:  rgb(184, 80, 6);
-// $grey-color:        #444;
-// $grey-color-light:  #444;
-// $grey-color-dark:   darken($grey-color, 25%);
-
-// Trello #5
-// $text-color:        rgb(248, 227, 184);
-// $background-color:  rgb(90, 61, 49);
-// $alt-bg:            rgb(48, 0, 24);
-// $header-bg:         rgba(48, 0, 24, 0.9);
-// $detail:            #BD8C34;
-// $brand-color-orig:  #fcfbf2;
-// $brand-color:       #fcfbf2;
-// $highlight-color:  rgb(90, 61, 49);
-// $grey-color:        #777;
-// $grey-color-light:  lighten($grey-color, 15%);
-// $grey-color-dark:   darken($grey-color, 25%);
-
-// Trello #14
-// $text-color:        rgb(248, 227, 184);
-// $background-color:  #fcfbf2;
-// $alt-bg:            rgb(24, 51, 66);
-// $header-bg:         rgba($alt-bg, 0.9);
-// $detail:            #BD8C34;
-// $brand-color-orig:  #fcfbf2;
-// $brand-color:       $brand-color-orig;
-// $highlight-color:  rgb(181, 49, 1);
-// $grey-color:        #eee;
-// $grey-color-light:  lighten($grey-color, 15%);
-// $grey-color-dark:   darken($grey-color, 25%);
-
 // Trello #14 modified
 $text-color:        rgb(248, 227, 184);
 $background-color:  $text-color;
@@ -59,6 +7,7 @@ $detail:            #BD8C34;
 $brand-color-orig:  $text-color;
 $brand-color:       $text-color;
 $highlight-color:   lighten(rgb(181, 49, 1), 10%);
+$pale-highlight:    lighten($highlight-color, 30%);
 $gradient-color:    rgb(118, 89, 69);
 $grey-color:        #eee;
 $grey-color-light:  lighten($grey-color, 15%);
