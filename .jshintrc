@@ -1,0 +1,16 @@
+{
+  "esnext": true,
+  "asi": true,
+  "varstmt": true,
+  "undef": true,
+  "unused": "vars",
+  "browser": true,
+  "devel": true,
+  "nonstandard": true,
+  "globals": {
+    "Stickyfill": false,
+    "rivets": false,
+
+    "Q": false
+  }
+}
