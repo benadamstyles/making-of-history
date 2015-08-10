@@ -54,30 +54,6 @@
   z-index: 10;
 }
 
-// GRISLY
-// #grisly {
-// 	text-shadow: 0px 0px 5px rgba(255,255,150,0.2), 2px 2px 3px rgba(0,0,0,0.3);;
-// 	position: relative;
-// }
-// .grislies {
-//   @include basic-trans(top, opacity);
-// 	font-family: $joke-font;
-// 	font-size: 80%;
-// 	position: relative;
-// 	display: inline-block;
-// 	top: -2em;
-// 	opacity: 0;
-// 	left: 0;
-// }
-// .grisly-slide-in {
-// 	top: 0;
-// 	opacity: 1;
-// }
-// .grisly-slide-out {
-// 	top: 2em !important;
-// 	opacity: 0 !important;
-// }
-//
 .posAbs {
 	position: absolute;
 }
@@ -148,25 +124,57 @@
   }
 }
 
+
+// Period sliders
+
 .periods {
-  line-height: 56px;
   float: left;
-}
+  width: 60%;
 
-.period-link {
-  color: $text-color;
-
-  &:visited {
-    color: inherit;
+  @media (max-width: 768px) {
+    width: 70%;
   }
 
-  & + & {
-    margin-left: $spacing-unit;
+  > div {
+    width: 45%;
+    float: left;
+
+    // margin: 0 2.5%;
+
+    &.range-separator {
+      width: 10%;
+      text-align: center;
+    }
+
+    input {
+      width: 100%;
+      &.range-manual {
+        display: block;
+        background-color: $trans-white;
+        color: $text-color;
+        font-size: 1em;
+        text-align: center;
+        border: none;
+        // border-bottom: 1px solid $text-color;
+      }
+    }
   }
 }
-.active-period {
-  border-bottom: 3px solid $highlight-color;
-}
+
+// .period-link {
+//   color: $text-color;
+//
+//   &:visited {
+//     color: inherit;
+//   }
+//
+//   & + & {
+//     margin-left: $spacing-unit;
+//   }
+// }
+// .active-period {
+//   border-bottom: 3px solid $highlight-color;
+// }
 
 
 /**

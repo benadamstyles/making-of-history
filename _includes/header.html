@@ -10,10 +10,16 @@
     <!-- <a class="site-title" href="{{ site.baseurl }}/">The <span id="grisly"><span id="firstGrisly" class="grislies grisly-slide-in">Grisly</span></span> Making of History</a> -->
     {% if page.is_home %}
     <div class="periods">
-      <input type="text" rv-value="range.begin">
-      <input type="range" rv-value="range.begin" min="0" rv-max="range.end">
-      <input type="text" rv-value="range.end">
-      <input type="range" rv-value="range.end" rv-min="range.begin" max="3000">
+      <p>Show me articles between the years</p>
+      <div class="range-begin">
+        <input class="range-manual" type="text"  rv-value="range.begin | toBC">
+        <input type="range" rv-value="range.begin" min="-3000" rv-max="range.end">
+      </div>
+      <div class="range-separator">and</div>
+      <div class="range-end">
+        <input class="range-manual" type="text"  rv-value="range.end | toBC">
+        <input type="range" rv-value="range.end" rv-min="range.begin" max="2100">
+      </div>
     </div>
     {% endif %}
 

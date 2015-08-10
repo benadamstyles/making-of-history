@@ -11182,13 +11182,23 @@ var _rivets2 = _interopRequireDefault(_rivets);
 Object.assign(_underscoreContrib2['default'], _underscore2['default']);
 
 _rivets2['default'].formatters.matchesRange = function (range, begin, end) {
-      var isRange = range.includes('-'),
-          min = parseInt(isRange ? range.split('-')[0] : range, 10),
-          max = parseInt(isRange ? range.split('-')[1] : range, 10),
-          b = parseInt(begin, 10),
-          e = parseInt(end, 10);
+  var isRange = range.includes('-'),
+      min = parseInt(isRange ? range.split('-')[0] : range, 10),
+      max = parseInt(isRange ? range.split('-')[1] : range, 10),
+      b = parseInt(begin, 10),
+      e = parseInt(end, 10);
 
-      if (b <= min && max <= e) return true;else return false;
+  if (b <= min && max <= e) return true;else return false;
+};
+
+_rivets2['default'].formatters.toBC = {
+  read: function read(val) {
+    var int = parseInt(val, 10);
+    return int < 0 ? Math.abs(int) + ' BC' : val + ' AD';
+  },
+  publish: function publish(val) {
+    return val.includes('BC') ? '' + (0 - parseInt(val, 10)) : '' + parseInt(val, 10);
+  }
 };
 
 },{"rivets":169,"underscore":188,"underscore-contrib":172}],190:[function(require,module,exports){

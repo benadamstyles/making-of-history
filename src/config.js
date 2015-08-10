@@ -14,3 +14,11 @@ rivets.formatters.matchesRange = (range, begin, end) => {
   if (b <= min && max <= e) return true
   else return false
 }
+
+rivets.formatters.toBC = {
+  read: val => {
+    const int = parseInt(val, 10)
+    return int < 0 ? `${Math.abs(int)} BC` : `${val} AD`
+  },
+  publish: val => val.includes('BC') ? `${0 - parseInt(val, 10)}` : `${parseInt(val, 10)}`
+}

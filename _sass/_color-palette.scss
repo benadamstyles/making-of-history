@@ -12,4 +12,5 @@ $gradient-color:    rgb(118, 89, 69);
 $grey-color:        #eee;
 $grey-color-light:  lighten($grey-color, 15%);
 $grey-color-dark:   rgba(darken($grey-color, 25%), 0.5);
-$trans-black:       rgba(0,0,0,0.2);
+$trans-black:       rgba(black, 0.2);
+$trans-white:       rgba(white, 0.1);
