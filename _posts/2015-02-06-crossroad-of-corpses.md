@@ -8,23 +8,24 @@ location: Japan
 
 
 
-### Empress Tachibana no Kachiko (橘嘉智子) (786-850 CE) was head-over-heels devoted to Buddhism. But writing a sappy song or tattooing “Siddhartha 4 ever” on her bicep was too mundane for this religious ruler. Instead, ambitious Kachiko decided to teach the people of Kyōto a morbid lesson from beyond the grave.
+
+### Empress Tachibana no Kachiko (橘嘉智子) (786-850 AD) was head-over-heels devoted to Buddhism. But writing a sappy song or tattooing “Siddhartha 4 ever” on her bicep was too mundane for this religious ruler. Instead, ambitious Kachiko decided to teach the people of Kyōto a morbid lesson from beyond the grave.
 
 Empress Kachiko tried to teach Buddhist principles to everyone she met -- but her would-be students were too distracted by Kachiko’s beauty to listen. Every time the empress wanted to get cracking on some serious spiritual contemplation, she had to field catcalls and inappropriate suggestions from the men around her.
 
-![Nine_Stages_of_Decomposition_of_the_Heian_Period_Empress_Danrin_Honolulu_Museum_of_Art_II.JPG](_posts/Nine_Stages_of_Decomposition_of_the_Heian_Period_Empress_Danrin_Honolulu_Museum_of_Art_II.JPG "An anonymous 18th century artist's representation of Kachiko, titled Nine Stages of Decomposition of the Heian Period Empress Danrin. 18th century CE Japan. Honolulu Museum of Art, Richard Lane Collection.") [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Nine_Stages_of_Decomposition_of_the_Heian_Period_Empress_Danrin,_Honolulu_Museum_of_Art_II.JPG)
+![Nine_Stages_of_Decomposition_of_the_Heian_Period_Empress_Danrin_Honolulu_Museum_of_Art_II.JPG](_posts/Nine_Stages_of_Decomposition_of_the_Heian_Period_Empress_Danrin_Honolulu_Museum_of_Art_II.JPG "An anonymous 18th century artist's representation of Kachiko, titled Nine Stages of Decomposition of the Heian Period Empress Danrin. 18th century Japan. Honolulu Museum of Art, Richard Lane Collection.") [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Nine_Stages_of_Decomposition_of_the_Heian_Period_Empress_Danrin,_Honolulu_Museum_of_Art_II.JPG)
 
 When Kachiko died at 64, she left an unusual will. Instead of asking for a royal funeral, a statue, or a nice commemorative park bench, Kachiko asked for her rotting corpse to be left lying in the street. The empress hoped that seeing her beautiful body develop a smell and be torn apart by wild animals would finally teach her people to think less of earthly pleasures.
 
 So the empress’s body was dressed in simple robes and put on the streets of Kyōto, where it rotted away until only bone fragments were left. The spot became known as _Katabira no Tsuji_, the Crossroad of Corpses.
 
-![shunsenkatabiragatsuji.jpg](//_posts/shunsenkatabiragatsuji.jpg "Illustration of Kachiko from the Picture Book of a Hundred Tales - Ehon hyaku monogatari - vol. 1, Takehara Shunsensai 竹原春泉斎 and Tōkaen Michimaro 桃花園三千麿. c. 1841 CE.") [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ShunsenKatabiragatsuji.jpg)
+![shunsenkatabiragatsuji.jpg](//_posts/shunsenkatabiragatsuji.jpg "Illustration of Kachiko from the Picture Book of a Hundred Tales - Ehon hyaku monogatari - vol. 1, Takehara Shunsensai 竹原春泉斎 and Tōkaen Michimaro 桃花園三千麿. c. 1841 AD.") [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ShunsenKatabiragatsuji.jpg)
 
 
 
 More Information & Sources
 
-> Kachiko’s morbid final farewell was tied to a Buddhist tradition that originated in India around the 3rd or 4th century CE. It was not unusual for people who could not afford a funeral to leave the bodies of their deceased family members in the open, where anyone could watch them decay (in Japan, internment was not common until the 14th century CE). Buddhist monks considered watching bodies decay an act of reflection, and a reminder not to be tempted by beautiful women.
+> Kachiko’s morbid final farewell was tied to a Buddhist tradition that originated in India around the 3rd or 4th century AD. It was not unusual for people who could not afford a funeral to leave the bodies of their deceased family members in the open, where anyone could watch them decay (in Japan, internment was not common until the 14th century). Buddhist monks considered watching bodies decay an act of reflection, and a reminder not to be tempted by beautiful women.
 
 > The Kyōto Arashiyama train line includes a station named after the katabira no tsuji. (Last verified January 2015)
 
@@ -33,6 +34,7 @@ More Information & Sources
 > When she became the empress, Kachiko sent a Japanese monk to China to bring Chan Buddhism to Japan, where it became Zen Buddhism. She also founded a temple complex/nunnery west of Kyoto called Danrinji. Because of this, she is sometimes known as Empress Danrin.
 
 _Lee Bellamy_
+August 10, 2015
 
 1. Hyakumonogatari Kaidankai: Translated Japanese Ghost Stories and Tales of the Weird and the Strange. [Hyakumonogatari.com](http://hyakumonogatari.com/2013/10/31/katabira-no-tsuji-the-crossroad-of-corpses/) "Katabira no Tsuji -- The Crossroad of Corpses". Zach Davisson. Posted 10/31/2013; Accessed 10/14/2014.
 
