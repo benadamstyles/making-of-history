@@ -17,6 +17,7 @@ location: Brazil
 
 
 
+
 ![]({{site.baseurl}}/images/TEST%201%201808Historic%20HottiesDomJoaoVI.svg)
 
 
@@ -25,7 +26,7 @@ location: Brazil
 
 More Information & Sources
 
-> Dom João VI / King John VI (May 13, 1767 - March 10, 1826 CE) governed Portugal, Brazil, and the Algarves from 1792 - 1826. João’s mother, Queen Maria I, became unfit to rule in 1792 when she began having terrifying hallucinations (likely due to mixed porphyria), and João took over in her place. He officially became Prince Regent in 1799 and then King after Maria’s death in 1816. He is typically remembered as an indecisive but gentle ruler, who held daily “hand-kissing ceremonies” where his subjects of all classes and backgrounds could petition him for aid.
+> Dom João VI / King John VI (May 13, 1767 - March 10, 1826 AD) governed Portugal, Brazil, and the Algarves from 1792 - 1826. João’s mother, Queen Maria I, became unfit to rule in 1792 when she began having terrifying hallucinations (likely due to mixed porphyria), and João took over in her place. He officially became Prince Regent in 1799 and then King after Maria’s death in 1816. He is typically remembered as an indecisive but gentle ruler, who held daily “hand-kissing ceremonies” where his subjects of all classes and backgrounds could petition him for aid.
 
 > João VI was famous for several quirks. He always referred to himself as “Your Majesty”. He loved roast chicken and would eat it with his hands, carrying it around in his stained pockets. He hated change. He always slept in the same spot and got upset if his furniture was moved -- he even hated to change his clothes, and wore them until they fell apart (his servants really did repair his clothes when he took naps). He was terrified of thunder and lightning, and of crabs. There is only one reference to him taking a bath during the thirteen years he spent in Brazil, and that was under doctor’s orders: a tick bite became infected, and João had a portable bath house constructed so he could be lowered into the ocean to bathe the wound in salt water (whether he was more afraid of encountering crabs or being seen naked is up for debate).
 
