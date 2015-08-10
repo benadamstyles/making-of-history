@@ -11,6 +11,7 @@ location: Japan
 
 
 
+
 ### Empress Tachibana no Kachiko (橘嘉智子) (786-850 AD) was head-over-heels devoted to Buddhism. But writing a sappy song or tattooing “Siddhartha 4 ever” on her bicep was too mundane for this religious ruler. Instead, ambitious Kachiko decided to teach the people of Kyōto a morbid lesson from beyond the grave.
 
 Empress Kachiko tried to teach Buddhist principles to everyone she met -- but her would-be students were too distracted by Kachiko’s beauty to listen. Every time the empress wanted to get cracking on some serious spiritual contemplation, she had to field catcalls and inappropriate suggestions from the men around her.
@@ -36,7 +37,7 @@ More Information & Sources
 > When she became the empress, Kachiko sent a Japanese monk to China to bring Chan Buddhism to Japan, where it became Zen Buddhism. She also founded a temple complex/nunnery west of Kyoto called Danrinji. Because of this, she is sometimes known as Empress Danrin.
 
 _Lee Bellamy_ 
-August 10, 2015
+## August 10, 2015
 
 1. Hyakumonogatari Kaidankai: Translated Japanese Ghost Stories and Tales of the Weird and the Strange. [Hyakumonogatari.com](http://hyakumonogatari.com/2013/10/31/katabira-no-tsuji-the-crossroad-of-corpses/) "Katabira no Tsuji -- The Crossroad of Corpses". Zach Davisson. Posted 10/31/2013; Accessed 10/14/2014.
 
