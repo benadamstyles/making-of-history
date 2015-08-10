@@ -11280,7 +11280,7 @@ Object.defineProperty(exports, '__esModule', {
 exports['default'] = {
   range: {
     begin: '0',
-    end: '3000'
+    end: '' + new Date().getFullYear()
   }
 };
 module.exports = exports['default'];
