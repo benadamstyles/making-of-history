@@ -25,6 +25,12 @@
     // position: fixed;
     // z-index: 10;
     width: 100%;
+
+    p,
+    a,
+    input {
+      color: $brand-color;
+    }
 }
 
 .site-title {
@@ -68,7 +74,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: $brand-color;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the first one
@@ -151,7 +157,7 @@
       &.range-manual {
         display: block;
         background-color: $trans-white;
-        color: $text-color;
+        // color: $text-color;
         font-size: 1em;
         text-align: center;
         border: none;
@@ -187,9 +193,10 @@
 }
 
 .site-footer {
-    border-top: 1px solid $grey-color-dark;
+    // border-top: 1px solid $grey-color-dark;
     padding: $spacing-unit 0;
     color: $pale-highlight;
+    background-color: rgba($alt-bg, 0.9);
 }
 
 .footer-heading {
@@ -258,9 +265,9 @@
 /**
  * Page content
  */
-.page-content {
-    padding: $spacing-unit 0;
-}
+// .page-content {
+//     padding: $spacing-unit 0;
+// }
 
 .page-heading {
     font-size: 20px;
