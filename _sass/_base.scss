@@ -24,7 +24,8 @@ body {
   line-height: $base-line-height;
   font-weight: 300;
   color: $text-color;
-  background-image: url('../images/relic.gif');
+  // background-image: url('../images/relic.gif');
+  background-image: url('../images/vintage-scarlet.gif');
   // background-image: -webkit-linear-gradient(to bottom, antiquewhite, lightgrey);
   // background-image:         linear-gradient(to bottom, antiquewhite, lightgrey);
   // background-image: -webkit-linear-gradient(to bottom, lighten($gradient-color, 30%), $gradient-color);
@@ -35,6 +36,9 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+p {
+  letter-spacing: 0.2px;
+}
 
 
 /**
@@ -264,7 +268,7 @@ pre {
 .page-content {
   .wrapper {
     padding: $spacing-unit;
-    background-color: rgba(white, 0.97);
+    background-color: rgba(white, 0.95);
 
     @include ipad {
       padding: $spacing-unit / 2;
