@@ -7,10 +7,9 @@
   <div class="wrapper">
 
     <a class="site-title" href="{{ site.baseurl }}/">The Making of History</a>
-    <!-- <a class="site-title" href="{{ site.baseurl }}/">The <span id="grisly"><span id="firstGrisly" class="grislies grisly-slide-in">Grisly</span></span> Making of History</a> -->
     {% if page.is_home %}
     <div class="periods">
-      <p>Show me articles from...</p>
+      <p>History freshly squeezed from...</p>
       <div class="range-begin">
         <input class="range-manual" type="text"  rv-value="range.begin | toBC">
         <input type="range" rv-value="range.begin" min="-3000" rv-max="range.end">
@@ -24,17 +23,6 @@
       </div>
     </div>
     {% endif %}
-
-    <!-- <div class="periods">
-      {% assign categories = site.categories | sort %}
-      {% for period in categories %}
-        {% if page.url contains period[0] %}
-        <a class="period-link active-period" href="{{ period | first | prepend: '/' | prepend: site.baseurl }}">{{ period | first }}</a>
-        {% else %}
-        <a class="period-link" href="{{ period | first | prepend: '/' | prepend: site.baseurl }}">{{ period | first }}</a>
-        {% endif %}
-      {% endfor %}
-    </div> -->
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
