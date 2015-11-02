@@ -4,7 +4,9 @@ published: true
 title: Crossroad of Corpses
 period: "850"
 location: Japan
+featuredimage: ""
 ---
+
 
 
 
@@ -28,6 +30,7 @@ So the empress’s body was dressed in simple robes and put on the streets of Ky
 
 
 
+_Lee Bellamy_  - August 10, 2015
 More Information & Sources
 
 > Kachiko’s morbid final farewell was tied to a Buddhist tradition that originated in India around the 3rd or 4th century AD. It was not unusual for people who could not afford a funeral to leave the bodies of their deceased family members in the open, where anyone could watch them decay (in Japan, internment was not common until the 14th century). Buddhist monks considered watching bodies decay an act of reflection, and a reminder not to be tempted by beautiful women.
@@ -38,7 +41,7 @@ More Information & Sources
 
 > When she became the empress, Kachiko sent a Japanese monk to China to bring Chan Buddhism to Japan, where it became Zen Buddhism. She also founded a temple complex/nunnery west of Kyoto called Danrinji. Because of this, she is sometimes known as Empress Danrin.
 
-_Lee Bellamy_  - August 10, 2015
+
 
 1. Hyakumonogatari Kaidankai: Translated Japanese Ghost Stories and Tales of the Weird and the Strange. [Hyakumonogatari.com](http://hyakumonogatari.com/2013/10/31/katabira-no-tsuji-the-crossroad-of-corpses/) "Katabira no Tsuji -- The Crossroad of Corpses". Zach Davisson. Posted 10/31/2013; Accessed 10/14/2014.
 
