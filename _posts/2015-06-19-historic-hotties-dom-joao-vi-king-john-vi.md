@@ -4,7 +4,9 @@ published: true
 title: "Historic Hotties: Dom Joao VI (King John VI)"
 period: "1738"
 location: Brazil
+featuredimage: ""
 ---
+
 
 
 
@@ -24,6 +26,7 @@ location: Brazil
 ![TEST11808Historic HottiesDomJoaoVIPhotos.svg]({{site.baseurl}}/images/TEST11808Historic HottiesDomJoaoVIPhotos.svg)
 
 
+_Lee Bellamy & Elliott Took_
 More Information & Sources
 
 > Dom João VI / King John VI (May 13, 1767 - March 10, 1826 AD) governed Portugal, Brazil, and the Algarves from 1792 - 1826. João’s mother, Queen Maria I, became unfit to rule in 1792 when she began having terrifying hallucinations (likely due to mixed porphyria), and João took over in her place. He officially became Prince Regent in 1799 and then King after Maria’s death in 1816. He is typically remembered as an indecisive but gentle ruler, who held daily “hand-kissing ceremonies” where his subjects of all classes and backgrounds could petition him for aid.
@@ -36,13 +39,11 @@ More Information & Sources
 
 > In Napoleon’s memoirs, he wrote that João was “the only one who tricked me.” General Andoche Junot (French ambassador to the Portuguese court 1804-5, then leader of the French invasion in 1807) remembered João in a less flattering light -- when he met João, Junot exclaimed to his wife, “My God! How ugly he is!”
 
-_Lee Bellamy & Elliott Took_
-
 1. _Dom Pedro: The Struggle for Liberty in Brazil and Portugal, 1798-1834_. Neill Macaulay. Durham: Duke University Press. 1986.
 
 2. _1808 The Flight of the Emperor: How a Weak Prince, a Mad Queen, and the British Navy Tricked Napoleon and Changed the New World_. Laurentino Gomes, translated from Portuguese by Andrew Nevins. Connecticut: Lyons Press. 2007; translated edition 2013.
 
-Images Used:
+Featured Images:
 
 1. _João VI_. Artist unknown. Date unknown. [Wikimedia.](https://en.wikipedia.org/wiki/File:Jo%C3%A3o_VI.JPG)
 2. _Dom João VI - Retrato no Palacio Real d'Ajuda_. _Portrait of D. João VI (1767-1826)_. Domingos Sequeira (1768-1837 CE). 19th century. [Wikimedia.](https://commons.wikimedia.org/wiki/File:Dom_Joao_VI_-_retrato_no_Palacio_Real_d%27Ajuda.jpg)
