@@ -8,11 +8,12 @@ published: true
 
 
 
+
 If you'd like to get a hold of us, send us an e-mail at _admin@makingofhistory.com_ 
  
 If you have something that you’d like us to consider adding to the site, send us your pitch (and in return we'll send a list of preferred bribe amounts). Also, please keep these submission criteria in mind:
 
-1. All submissions must be your own work and must not use any copyrighted, trademarked, or otherwise protected material (unless you have permission from the owner(s)). 
+1. All submissions must be your own work and must not use any copyrighted, trademarked, or otherwise protected material (unless you have permission from the owner(s)). If protected material is used without permission and the relevant parties ask for it to be removed, we will have to remove your work.
 
 2. All submissions must include a detailed list of the sources for your research. If we can’t verify your information, we won’t put your submission on the site.
 
