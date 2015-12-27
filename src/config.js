@@ -1,8 +1,4 @@
-import underscore from 'underscore'
-import _ from 'underscore-contrib'
 import rivets from 'rivets'
-
-Object.assign(_, underscore)
 
 Object.assign(rivets.formatters, {
   matchesRange: (range, begin, end) => {

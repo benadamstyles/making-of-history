@@ -9,7 +9,6 @@ export default function() {
             };
 
       let t
-
       for (t in transitions) if (el.style[t] !== undefined) return transitions[t]
     },
 
