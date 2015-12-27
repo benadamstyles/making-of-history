@@ -76,9 +76,13 @@
 
 	var _imageReplace2 = _interopRequireDefault(_imageReplace);
 
-	var _util = __webpack_require__(199);
+	var _hero = __webpack_require__(199);
 
-	__webpack_require__(216);
+	var _hero2 = _interopRequireDefault(_hero);
+
+	var _util = __webpack_require__(216);
+
+	__webpack_require__(217);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -87,6 +91,7 @@
 	          stickyElements = (0, _util.$$)('.sticky'),
 	          stickyfill = (0, _stickyfill2.default)();
 
+	      (0, _hero2.default)();
 	      (0, _siteDesc2.default)();
 	      (0, _imageReplace2.default)();
 
@@ -7815,16 +7820,25 @@
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	exports.$$ = exports.$ = undefined;
+
+	exports.default = function () {
+	  var div = (0, _util.$)('.hero');
+
+	  if (div) {
+	    var srcs = ['{{ site.data.heroes | join "', '" }}'],
+	        src = _underscoreContrib2.default.sample(srcs);
+
+	    div.style.backgroundImage = 'url("' + (src.startsWith('http') ? '' : '{{ site.baseurl }}/images/') + src + '")';
+	  }
+	};
 
 	var _underscoreContrib = __webpack_require__(200);
 
 	var _underscoreContrib2 = _interopRequireDefault(_underscoreContrib);
 
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	var _util = __webpack_require__(216);
 
-	var $ = exports.$ = document.querySelector.bind(document);
-	var $$ = exports.$$ = _underscoreContrib2.default.compose(Array.from, document.querySelectorAll.bind(document));
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ },
 /* 200 */
@@ -11609,6 +11623,26 @@
 
 /***/ },
 /* 216 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.$$ = exports.$ = undefined;
+
+	var _underscoreContrib = __webpack_require__(200);
+
+	var _underscoreContrib2 = _interopRequireDefault(_underscoreContrib);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var $ = exports.$ = document.querySelector.bind(document);
+	var $$ = exports.$$ = _underscoreContrib2.default.compose(Array.from, document.querySelectorAll.bind(document));
+
+/***/ },
+/* 217 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
