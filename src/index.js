@@ -6,6 +6,7 @@ import Stickyfill from 'stickyfill'
 import model from './model'
 import initSiteDesc from './site-desc'
 import imageReplace from './image-replace'
+import hero from './hero'
 import {$$} from './util'
 import './config'
 
@@ -14,6 +15,7 @@ function init() {
         stickyElements = $$('.sticky'),
         stickyfill = Stickyfill();
 
+  hero()
   initSiteDesc()
   imageReplace()
 
