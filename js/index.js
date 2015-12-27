@@ -7825,8 +7825,9 @@
 	  var div = (0, _util.$)('.hero');
 
 	  if (div) {
-	    var srcs = ['{{ site.data.heroes | join "', '" }}'],
-	        src = _underscoreContrib2.default.sample(srcs);
+	    var srcs = ['{{ site.data.heroes | join: "', '" }}'],
+	        // FIXME
+	    src = _underscoreContrib2.default.sample(srcs);
 
 	    div.style.backgroundImage = 'url("' + (src.startsWith('http') ? '' : '{{ site.baseurl }}/images/') + src + '")';
 	  }
