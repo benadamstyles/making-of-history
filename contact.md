@@ -14,8 +14,6 @@ If you have something that you’d like us to consider adding to the site, send 
 
 2. All submissions must include a detailed list of the sources for your research. If we can’t verify your information, we won’t put your submission on the site.
 
-![abc]({{site.baseurl}}/images/PA100009.jpg)
-Just testing
 
 ##Contributors:
 
