@@ -6,10 +6,6 @@ weight: 2
 published: true
 ---
 
-
-
-
-
 If you'd like to get a hold of us, send us an e-mail at _admin@makingofhistory.com_ 
  
 If you have something that you’d like us to consider adding to the site, send us your pitch (and in return we'll send a list of preferred bribe amounts). Also, please keep these submission criteria in mind:
@@ -18,6 +14,8 @@ If you have something that you’d like us to consider adding to the site, send 
 
 2. All submissions must include a detailed list of the sources for your research. If we can’t verify your information, we won’t put your submission on the site.
 
+![abc]({{site.baseurl}}/images/PA100009.jpg)
+Just testing
 
 ##Contributors:
 
