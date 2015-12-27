@@ -6,7 +6,7 @@ export default function() {
               'OTransition': 'oTransitionEnd',
               'MozTransition': 'transitionend',
               'WebkitTransition': 'webkitTransitionEnd'
-            }
+            };
 
       let t
 

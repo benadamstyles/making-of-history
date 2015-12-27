@@ -13,7 +13,7 @@ import './config'
 function init() {
   const b = document.getElementsByTagName('body')[0],
         stickyElements = document.getElementsByClassName('sticky'),
-        stickyfill = Stickyfill()
+        stickyfill = Stickyfill();
 
   initSiteDesc()
   imageReplace()
