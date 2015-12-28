@@ -68,12 +68,12 @@ $spacing-unit:      1.3em;
 @import
   "base",
   "layout",
-  "syntax-highlighting"
+  "syntax-highlighting",
+  "../node_modules/photoswipe/src/css/main"
 ;
 // @import
 //   "base",
 //   "layout",
 //   "syntax-highlighting",
-//   "../node_modules/photoswipe/src/css/main",
 //   "../node_modules/photoswipe/src/css/default-skin/default-skin"
 // ;
