@@ -33,6 +33,7 @@ prose:
     - '_sass'
     - 'css'
     - 'js'
+    - 'liquid'
     - 'src'
     - 'timeline'
     - '_config.yml'
@@ -45,6 +46,12 @@ prose:
   metadata:
     '':
       - name: "layout"
+        field:
+          element: "hidden"
+      - name: "permalink"
+        field:
+          element: "hidden"
+      - name: "weight"
         field:
           element: "hidden"
     _posts:
