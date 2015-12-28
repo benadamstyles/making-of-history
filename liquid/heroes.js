@@ -2,8 +2,7 @@
 
 module.exports = [
   {% for hero in site.data.heroes %}
-  {% capture start %}{{ hero.src | slice: 0, 4}}{% endcapture %}
-    {% if start == "http" %}
+    {% if hero.src contains "http://" or hero.src contains "https://" %}
     {
       src: '{{ hero.src }}',
       w: {{ hero.w }},
