@@ -12,10 +12,10 @@ url: http://leeds-ebooks.github.io # the base hostname & protocol for your site
 
 exclude:
   - 'src'
-  - '.jshintrc'
+  - 'liquid'
   - 'package.json'
   - 'node_modules'
-  - '.gitignore'
+  - 'webpack.config.js'
 
 permalink: /article/:title/
 
