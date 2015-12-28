@@ -16,12 +16,13 @@ module.exports = {
     loaders: [
       {
         test: /\.js$/,
-        exclude: /node_modules/,
+        exclude: /(node_modules|liquid\/)/,
         loader: 'babel',
         query: {
           presets: ['es2015', 'stage-3']
         }
       }
-    ]
+    ],
+    noParse: /liquid\//
   }
 }

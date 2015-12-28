@@ -5,7 +5,7 @@ export default function() {
   const div = $('.hero')
 
   if (div) {
-    const srcs = ['{{ site.data.heroes | join: "', '" }}'], // FIXME
+    const srcs = ['{{ site.data.heroes | map: "src" | join: "', '" }}'],
           src = _.sample(srcs);
 
     div.style.backgroundImage = `url("${
