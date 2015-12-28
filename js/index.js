@@ -99,32 +99,55 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function init() {
-	      var b = document.getElementsByTagName('body')[0],
-	          stickyElements = (0, _util.$$)('.sticky'),
-	          stickyfill = (0, _stickyfill2.default)(),
-	          pswp = (0, _util.$)('.pswp');
+	  var b = document.getElementsByTagName('body')[0],
+	      stickyElements = (0, _util.$$)('.sticky'),
+	      stickyfill = (0, _stickyfill2.default)(),
+	      gallery = (0, _util.$)('.pswp');
 
-	      (0, _hero2.default)();
-	      (0, _siteDesc2.default)();
-	      (0, _imageReplace2.default)();
+	  (0, _hero2.default)();
+	  (0, _siteDesc2.default)();
+	  (0, _imageReplace2.default)();
 
-	      stickyElements.forEach(function (el) {
-	            return stickyfill.add(el);
+	  stickyElements.forEach(function (el) {
+	    return stickyfill.add(el);
+	  });
+
+	  if (gallery) {
+	    (function () {
+	      var thumbs = (0, _util.$$)('.pswp-thumb'),
+	          div = (0, _util.$)('.thumbnails');
+
+	      div.addEventListener('click', function (e) {
+	        var index = thumbs.indexOf(e.target);
+	        if (index >= 0) {
+	          var options = {
+	            index: index,
+	            getThumbBoundsFn: function getThumbBoundsFn(i) {
+	              var thumb = thumbs[i],
+	                  pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
+	                  rect = thumb.getBoundingClientRect();
+
+	              return {
+	                x: rect.left,
+	                y: rect.top + pageYScroll,
+	                w: rect.width
+	              };
+	            }
+	          },
+	              pswp = new _photoswipe2.default(gallery, _photoswipeUiDefault2.default, _heroes2.default, options);
+
+	          pswp.init();
+	        }
 	      });
+	    })();
+	  }
 
-	      if (pswp) {
-	            var options = {},
-	                gallery = new _photoswipe2.default(pswp, _photoswipeUiDefault2.default, _heroes2.default, options);
+	  _rivets2.default.bind(b, _model2.default);
 
-	            gallery.init();
-	      }
+	  window.rivets = _rivets2.default;
+	  window.model = _model2.default;
 
-	      _rivets2.default.bind(b, _model2.default);
-
-	      window.rivets = _rivets2.default;
-	      window.model = _model2.default;
-
-	      document.removeEventListener("DOMContentLoaded", init, false);
+	  document.removeEventListener("DOMContentLoaded", init, false);
 	}
 
 	document.addEventListener('DOMContentLoaded', init, false);
@@ -16288,6 +16311,8 @@
 /***/ },
 /* 220 */
 /***/ function(module, exports) {
+
+	/* eslint-disable */
 
 	module.exports = [
 	  {% for hero in site.data.heroes %}

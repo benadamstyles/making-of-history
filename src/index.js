@@ -17,7 +17,7 @@ function init() {
   const b = document.getElementsByTagName('body')[0],
         stickyElements = $$('.sticky'),
         stickyfill = Stickyfill(),
-        pswp = $('.pswp');
+        gallery = $('.pswp');
 
   hero()
   initSiteDesc()
@@ -25,11 +25,30 @@ function init() {
 
   stickyElements.forEach(el => stickyfill.add(el))
 
-  if (pswp) {
-    const options = {},
-          gallery = new PhotoSwipe(pswp, psui, items, options);
+  if (gallery) {
+    const thumbs = $$('.pswp-thumb'),
+          div = $('.thumbnails'),
+          getThumbBoundsFn = i => {
+            const thumb = thumbs[i],
+                  pageYScroll = window.pageYOffset ||
+                    document.documentElement.scrollTop,
+                  rect = thumb.getBoundingClientRect();
 
-    gallery.init()
+            return {
+              x: rect.left,
+              y: rect.top + pageYScroll,
+              w: rect.width
+            }
+          };
+
+    div.addEventListener('click', e => {
+      const index = thumbs.indexOf(e.target)
+      if (index >= 0) {
+        const options = {index, getThumbBoundsFn},
+              pswp = new PhotoSwipe(gallery, psui, items, options);
+        pswp.init()
+      }
+    })
   }
 
   rivets.bind(b, model)

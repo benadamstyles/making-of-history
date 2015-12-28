@@ -9,9 +9,9 @@ layout: page
     {% capture start %}{{ hero.src | slice: 0, 4}}{% endcapture %}
     <li>
       {% if start == "http" %}
-      <img src="{{ hero.src }}" />
+      <img class="pswp-thumb" src="{{ hero.src }}" />
       {% else %}
-      <img src="{{ site.baseurl }}/images/{{ hero.src }}" />
+      <img class="pswp-thumb" src="{{ site.baseurl }}/images/{{ hero.src }}" />
       {% endif %}
     </li>
     {% endfor %}

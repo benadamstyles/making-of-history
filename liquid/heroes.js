@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 module.exports = [
   {% for hero in site.data.heroes %}
   {% capture start %}{{ hero.src | slice: 0, 4}}{% endcapture %}
