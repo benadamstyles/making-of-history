@@ -43,6 +43,10 @@ prose:
     - 'package.json'
     - 'webpack.config.js'
   metadata:
+    '':
+      - name: "layout"
+        field:
+          element: "hidden"
     _posts:
       - name: "published"
         field:
