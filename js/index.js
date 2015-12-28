@@ -115,27 +115,24 @@
 	  if (gallery) {
 	    (function () {
 	      var thumbs = (0, _util.$$)('.pswp-thumb'),
-	          div = (0, _util.$)('.thumbnails');
+	          div = (0, _util.$)('.thumbnails'),
+	          getThumbBoundsFn = function getThumbBoundsFn(i) {
+	        var thumb = thumbs[i],
+	            pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
+	            rect = thumb.getBoundingClientRect();
+
+	        return {
+	          x: rect.left,
+	          y: rect.top + pageYScroll,
+	          w: rect.width
+	        };
+	      };
 
 	      div.addEventListener('click', function (e) {
 	        var index = thumbs.indexOf(e.target);
 	        if (index >= 0) {
-	          var options = {
-	            index: index,
-	            getThumbBoundsFn: function getThumbBoundsFn(i) {
-	              var thumb = thumbs[i],
-	                  pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
-	                  rect = thumb.getBoundingClientRect();
-
-	              return {
-	                x: rect.left,
-	                y: rect.top + pageYScroll,
-	                w: rect.width
-	              };
-	            }
-	          },
+	          var options = { index: index, getThumbBoundsFn: getThumbBoundsFn },
 	              pswp = new _photoswipe2.default(gallery, _photoswipeUiDefault2.default, _heroes2.default, options);
-
 	          pswp.init();
 	        }
 	      });
