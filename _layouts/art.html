@@ -6,9 +6,8 @@ layout: page
 <div class="thumbnails">
   <ul>
     {% for hero in site.data.heroes %}
-    {% capture start %}{{ hero.src | slice: 0, 4}}{% endcapture %}
     <li>
-      {% if start == "http" %}
+      {% if hero.src contains "http://" or hero.src contains "https://" %}
       <img class="pswp-thumb" src="{{ hero.src }}" />
       {% else %}
       <img class="pswp-thumb" src="{{ site.baseurl }}/images/{{ hero.src }}" />
