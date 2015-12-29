@@ -4,19 +4,20 @@
 # no extraneous spaces, returns or anything like that!
 # On a new line, simply put a hyphen, followed by a
 # space, followed by src:, a space, and the filename
-# of the image surrounded by single quotes. The
-# filename can be a full URL to an image from another
-# website, or the filename of an image in the "images"
-# folder. We also need the width and height of the
-# image, in pixels. On a new line, put 2 spaces,
-# followed by w:, a space, and then the width as a
-# plain number, and then the height on the next line
-# in the same way.
+# of the image. The filename can be a full URL to an
+# image from another website, or the filename of an
+# image in the "images" folder. We also need the
+# width and height of the image, in pixels. On a new
+# line, put 2 spaces, followed by w:, a space, and
+# then the width as a plain number, and then the
+# height on the next line in the same way.
 
-- src: 'Bird_in_an_Air_Pump.jpg'
+- src: Bird_in_an_Air_Pump.jpg
   w: 5639
   h: 4226
+  title: An Experiment on a Bird in the Air Pump, Joseph Wright 'of Derby', 1768
 
-- src: 'http://www.flooringvillage.co.uk/ekmps/shops/flooringvillage/images/request-a-sample--547-p.jpg'
+- src: http://www.flooringvillage.co.uk/ekmps/shops/flooringvillage/images/request-a-sample--547-p.jpg
   w: 1000
   h: 672
+  title: Just a sample image

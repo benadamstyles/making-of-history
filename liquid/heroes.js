@@ -6,13 +6,15 @@ module.exports = [
     {
       src: '{{ hero.src }}',
       w: {{ hero.w }},
-      h: {{ hero.h }}
+      h: {{ hero.h }},
+      title: `{{ hero.title }}`
     },
     {% else %}
     {
       src: '{{ site.baseurl }}/images/{{ hero.src }}',
       w: {{ hero.w }},
-      h: {{ hero.h }}
+      h: {{ hero.h }},
+      title: `{{ hero.title }}`
     },
     {% endif %}
   {% endfor %}
