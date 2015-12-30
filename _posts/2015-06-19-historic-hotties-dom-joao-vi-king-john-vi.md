@@ -7,23 +7,9 @@ location: Brazil
 featuredimage: ""
 ---
 
+![1808Historic HottiesDomJoaoVI.png]({{site.baseurl}}/images/1808Historic HottiesDomJoaoVI.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-![]({{site.baseurl}}/images/TEST%201%201808Historic%20HottiesDomJoaoVI.svg)
-
-
-![TEST11808Historic HottiesDomJoaoVIPhotos.svg]({{site.baseurl}}/images/TEST11808Historic HottiesDomJoaoVIPhotos.svg)
+![1808Historic HottiesDomJoaoVIPhotos.png]({{site.baseurl}}/images/1808Historic HottiesDomJoaoVIPhotos.png)
 
 
 _Lee Bellamy & Elliott Took_
