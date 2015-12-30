@@ -7,6 +7,7 @@ location: Brazil
 featuredimage: ""
 ---
 
+
 ![]({{site.baseurl}}/images/1808Historic%20HottiesDomJoaoVI.png)
 
 ![]({{site.baseurl}}/images/1808Historic%20HottiesDomJoaoVIPhotos.png)
