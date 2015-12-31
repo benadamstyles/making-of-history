@@ -7,6 +7,10 @@ location: Brazil
 featuredimage: ""
 ---
 
+![1808Historic HottiesDomJoaoVI.png]({{site.baseurl}}/1808Historic HottiesDomJoaoVI.png)
+
+
+![1808Historic HottiesDomJoaoVIPhotos.png]({{site.baseurl}}/1808Historic HottiesDomJoaoVIPhotos.png)
 
 
 
