@@ -8,9 +8,7 @@ featuredimage: ""
 ---
 
 
-![]({{site.baseurl}}/images/1808Historic%20HottiesDomJoaoVI.png)
 
-![]({{site.baseurl}}/images/1808Historic%20HottiesDomJoaoVIPhotos.png)
 
 _Lee Bellamy & Elliott Took_
 More Information & Sources
