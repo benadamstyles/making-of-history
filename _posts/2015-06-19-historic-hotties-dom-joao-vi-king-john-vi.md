@@ -9,10 +9,13 @@ featuredimage: ""
 
 
 
+![]({{site.baseurl}}/1808Historic%20HottiesDomJoaoVI.png)
 
+![]({{site.baseurl}}/1808Historic%20HottiesDomJoaoVIPhotos.png)
 
 
 _Lee Bellamy & Elliott Took_
+
 More Information & Sources
 
 > Dom João VI / King John VI (May 13, 1767 - March 10, 1826 AD) governed Portugal, Brazil, and the Algarves from 1792 - 1826. João’s mother, Queen Maria I, became unfit to rule in 1792 when she began having terrifying hallucinations (likely due to mixed porphyria), and João took over in her place. He officially became Prince Regent in 1799 and then King after Maria’s death in 1816. He is typically remembered as an indecisive but gentle ruler, who held daily “hand-kissing ceremonies” where his subjects of all classes and backgrounds could petition him for aid.
