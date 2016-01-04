@@ -7,14 +7,14 @@ module.exports = [
       src: '{{ hero.src }}',
       w: {{ hero.w }},
       h: {{ hero.h }},
-      title: `{{ hero.title }}`
+      title: "{{ hero.title | replace: '"', ''' }}"
     },
     {% else %}
     {
       src: '{{ site.baseurl }}/images/{{ hero.src }}',
       w: {{ hero.w }},
       h: {{ hero.h }},
-      title: `{{ hero.title }}`
+      title: "{{ hero.title | replace: '"', ''' }}"
     },
     {% endif %}
   {% endfor %}
