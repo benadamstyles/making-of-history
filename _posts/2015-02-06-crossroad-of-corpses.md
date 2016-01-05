@@ -17,6 +17,7 @@ featuredimage: ""
 
 
 
+
 ### Empress Tachibana no Kachiko (橘嘉智子) (786-850 AD) was head-over-heels devoted to Buddhism. But writing a sappy song or tattooing “Siddhartha 4 ever” on her bicep was too mundane for this religious ruler. Instead, ambitious Kachiko decided to teach the people of Kyōto a morbid lesson from beyond the grave.
 
 Empress Kachiko tried to teach Buddhist principles to everyone she met -- but her would-be students were too distracted by Kachiko’s beauty to listen. Every time the empress wanted to get cracking on some serious spiritual contemplation, she had to field catcalls and inappropriate suggestions from the men around her.
@@ -32,6 +33,7 @@ So the empress’s body was dressed in simple robes and put on the streets of Ky
 
 
 _Lee Bellamy_  - August 10, 2015
+
 More Information & Sources
 
 > Kachiko’s morbid final farewell was tied to a Buddhist tradition that originated in India around the 3rd or 4th century AD. It was not unusual for people who could not afford a funeral to leave the bodies of their deceased family members in the open, where anyone could watch them decay (in Japan, internment was not common until the 14th century). Buddhist monks considered watching bodies decay an act of reflection, and a reminder not to be tempted by beautiful women.
