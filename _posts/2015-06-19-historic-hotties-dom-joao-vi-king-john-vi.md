@@ -9,12 +9,13 @@ featuredimage: ""
 
 
 
+
 ![]({{site.baseurl}}/1808Historic%20HottiesDomJoaoVI.png)
 
 ![]({{site.baseurl}}/1808Historic%20HottiesDomJoaoVIPhotos.png)
 
 
-_Lee Bellamy & Elliott Took_
+_Lee Bellamy & Elliott Took_ - October 11, 2015
 
 More Information & Sources
 
