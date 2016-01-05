@@ -99,18 +99,22 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function init() {
-	  var b = document.getElementsByTagName('body')[0],
-	      stickyElements = (0, _util.$$)('.sticky'),
-	      stickyfill = (0, _stickyfill2.default)(),
-	      gallery = (0, _util.$)('.pswp');
-
 	  (0, _hero2.default)();
 	  (0, _siteDesc2.default)();
 	  (0, _imageReplace2.default)();
 
-	  stickyElements.forEach(function (el) {
-	    return stickyfill.add(el);
-	  });
+	  var b = document.getElementsByTagName('body')[0],
+	      gallery = (0, _util.$)('.pswp'),
+	      width = window.innerWidth || document.documentElement.clientWidth || b.clientWidth;
+
+	  if (width > 760) {
+	    (function () {
+	      var stickyfill = (0, _stickyfill2.default)();
+	      (0, _util.$$)('.sticky').forEach(function (el) {
+	        return stickyfill.add(el);
+	      });
+	    })();
+	  }
 
 	  if (gallery) {
 	    (function () {
@@ -141,8 +145,8 @@
 
 	  _rivets2.default.bind(b, _model2.default);
 
-	  window.rivets = _rivets2.default;
-	  window.model = _model2.default;
+	  // window.rivets = rivets
+	  // window.model = model
 
 	  document.removeEventListener("DOMContentLoaded", init, false);
 	}

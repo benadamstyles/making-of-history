@@ -14,16 +14,20 @@ import psui from 'photoswipe/dist/photoswipe-ui-default'
 import items from '../liquid/heroes'
 
 function init() {
-  const b = document.getElementsByTagName('body')[0],
-        stickyElements = $$('.sticky'),
-        stickyfill = Stickyfill(),
-        gallery = $('.pswp');
-
   hero()
   initSiteDesc()
   imageReplace()
 
-  stickyElements.forEach(el => stickyfill.add(el))
+  const b = document.getElementsByTagName('body')[0],
+        gallery = $('.pswp'),
+        width = window.innerWidth ||
+          document.documentElement.clientWidth ||
+          b.clientWidth;
+
+  if (width > 760) {
+    const stickyfill = Stickyfill()
+    $$('.sticky').forEach(el => stickyfill.add(el))
+  }
 
   if (gallery) {
     const thumbs = $$('.pswp-thumb'),
@@ -53,8 +57,8 @@ function init() {
 
   rivets.bind(b, model)
 
-  window.rivets = rivets
-  window.model = model
+  // window.rivets = rivets
+  // window.model = model
 
   document.removeEventListener("DOMContentLoaded", init, false)
 }
