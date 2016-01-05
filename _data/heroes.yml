@@ -14,6 +14,8 @@
 #
 # NOTE: Unfortunately you can't start any of the
 # entries with a quote character (" or ').
+#
+# NOTE: No accents in the src field!
 
 - src: Bird_in_an_Air_Pump.jpg
   w: 5639
@@ -25,7 +27,7 @@
   w: 1870
   title: Picture of Wind and Thunder Gods. Tawaraya Sotatsu, 17th Century AD.
 
-- src: La_naissance_de_Vénus.jpg
+- src: La_naissance_de_Venus.jpg
   h: 750
   w: 1276
   title: The Birth of Venus. Sandro Botticelli, 1484-1486 AD.
