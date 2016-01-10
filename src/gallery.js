@@ -26,6 +26,8 @@ export default function(parent) {
           totalWidths = Math.ceil(widths.reduce((x, y) => x + y)),
           ratio = parentWidth / (totalWidths + totalGaps);
 
+    console.log(rowSeq.size())
+
     rowSeq.each((item, i) => {
       item.style.height = `${Math.floor(item.offsetHeight * ratio) - 0.5}px`
       if (i > 0) item.style.marginLeft = `${gap}px`

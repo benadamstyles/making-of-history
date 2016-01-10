@@ -16377,6 +16377,8 @@
 	    })),
 	        ratio = parentWidth / (totalWidths + totalGaps);
 
+	    console.log(rowSeq.size());
+
 	    rowSeq.each(function (item, i) {
 	      item.style.height = Math.floor(item.offsetHeight * ratio) - 0.5 + 'px';
 	      if (i > 0) item.style.marginLeft = gap + 'px';
