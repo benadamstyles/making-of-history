@@ -21,6 +21,7 @@
   "dependencies": {
     "babel-polyfill": "^6.3.14",
     "classlist-polyfill": "^1.0.2",
+    "imagesloaded": "^4.0.0",
     "lazy.js": "^0.4.2",
     "photoswipe": "^4.1.1",
     "rivets": "^0.8.1",
@@ -34,6 +35,7 @@
     "babel-loader": "^6.2.0",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-stage-3": "^6.3.13",
+    "imports-loader": "^0.6.5",
     "webpack": "^1.12.9"
   }
 }

@@ -14,6 +14,7 @@ import PhotoSwipe from 'photoswipe'
 import psui from 'photoswipe/dist/photoswipe-ui-default'
 import items from '../liquid/heroes'
 import runGallery from './gallery'
+import imagesLoaded from 'imagesloaded'
 
 function init() {
   hero()
@@ -58,7 +59,7 @@ function init() {
 
     const galleryRunner = _.partial(runGallery, div)
 
-    galleryRunner()
+    imagesLoaded(div, galleryRunner)
 
     window.addEventListener('resize', _.throttle(galleryRunner, 100, {leading: false}))
   }

@@ -21,6 +21,9 @@ module.exports = {
         query: {
           presets: ['es2015', 'stage-3']
         }
+      }, {
+        test: /imagesloaded|wolfy87-eventemitter/,
+        loader: 'imports?define=>false&this=>window'
       }
     ],
     noParse: /liquid\//
