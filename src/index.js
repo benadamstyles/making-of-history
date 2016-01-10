@@ -1,6 +1,7 @@
 import 'babel-polyfill'
 import 'classlist-polyfill'
 import 'sightglass'
+import _ from 'underscore-contrib'
 import rivets from 'rivets'
 import Stickyfill from 'stickyfill'
 import model from './model'
@@ -12,6 +13,7 @@ import './config'
 import PhotoSwipe from 'photoswipe'
 import psui from 'photoswipe/dist/photoswipe-ui-default'
 import items from '../liquid/heroes'
+import runGallery from './gallery'
 
 function init() {
   hero()
@@ -53,6 +55,12 @@ function init() {
         pswp.init()
       }
     })
+
+    const galleryRunner = _.partial(runGallery, div)
+
+    galleryRunner()
+
+    window.addEventListener('resize', _.throttle(galleryRunner, 100, {leading: false}))
   }
 
   rivets.bind(b, model)

@@ -368,7 +368,9 @@ figure {
   }
 
   li {
-    display: inline-block;
+    display: block;
+    float: left;
+    margin-top: 5px;
   }
 
   img {
