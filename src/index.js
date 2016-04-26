@@ -5,13 +5,13 @@ import _ from 'underscore-contrib'
 import rivets from 'rivets'
 import Stickyfill from 'stickyfill'
 import model from './model'
+import hero from './hero'
 import initSiteDesc from './site-desc'
 import imageReplace from './image-replace'
-import hero from './hero'
+import footerSetup from './footer-setup'
+import photoswipeSetup from './photoswipe-setup'
 import {$, $$} from './util'
 import './config'
-import PhotoSwipe from 'photoswipe'
-import psui from 'photoswipe/dist/photoswipe-ui-default'
 import items from '../liquid/heroes'
 import runGallery from './gallery'
 import imagesLoaded from 'imagesloaded'
@@ -20,48 +20,44 @@ function init() {
   hero()
   initSiteDesc()
   imageReplace()
+  footerSetup()
 
   const b = document.getElementsByTagName('body')[0],
-        gallery = $('.pswp'),
         width = window.innerWidth ||
-          document.documentElement.clientWidth ||
-          b.clientWidth;
+                document.documentElement.clientWidth ||
+                b.clientWidth;
 
   if (width > 760) {
     const stickyfill = Stickyfill()
     $$('.sticky').forEach(el => stickyfill.add(el))
   }
 
-  if (gallery) {
-    const thumbs = $$('.pswp-thumb'),
-          div = $('.thumbnails'),
-          getThumbBoundsFn = i => {
-            const thumb = thumbs[i],
-                  pageYScroll = window.pageYOffset ||
-                    document.documentElement.scrollTop,
-                  rect = thumb.getBoundingClientRect();
+  if (window.isGallery) {
+    const div = $('.thumbnails'),
+          thumbs = $$('.pswp-thumb'),
+          images = items.map(({src, title}, i) => ({
+            src,
+            title,
+            w: thumbs[i].naturalWidth,
+            h: thumbs[i].naturalHeight
+          }));
 
-            return {
-              x: rect.left,
-              y: rect.top + pageYScroll,
-              w: rect.width
-            }
-          };
-
-    div.addEventListener('click', e => {
-      const index = thumbs.indexOf(e.target)
-      if (index >= 0) {
-        const options = {index, getThumbBoundsFn},
-              pswp = new PhotoSwipe(gallery, psui, items, options);
-        pswp.init()
-      }
-    })
+    photoswipeSetup(div, thumbs, images)
 
     const galleryRunner = _.partial(runGallery, div)
-
     imagesLoaded(div, galleryRunner)
-
     window.addEventListener('resize', _.throttle(galleryRunner, 100, {leading: false}))
+  }
+
+  if (window.isArticle) {
+    const thumbs = $$('.post-content img'),
+          images = thumbs.map(({src, naturalWidth, naturalHeight}) => ({
+            src,
+            w: naturalWidth,
+            h: naturalHeight
+          }));
+
+    photoswipeSetup($('.post-content'), thumbs, images)
   }
 
   rivets.bind(b, model)

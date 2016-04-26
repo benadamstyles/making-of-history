@@ -2,20 +2,13 @@
 
 module.exports = [
   {% for hero in site.data.heroes %}
-    {% if hero.src contains "http://" or hero.src contains "https://" %}
     {
+      {% if hero.src contains "http://" or hero.src contains "https://" %}
       src: '{{ hero.src }}',
-      w: {{ hero.w }},
-      h: {{ hero.h }},
-      title: "{{ hero.title | replace: '"', ''' }}"
-    },
-    {% else %}
-    {
+      {% else %}
       src: '{{ site.baseurl }}/images/{{ hero.src }}',
-      w: {{ hero.w }},
-      h: {{ hero.h }},
+      {% endif %}
       title: "{{ hero.title | replace: '"', ''' }}"
     },
-    {% endif %}
   {% endfor %}
 ]
