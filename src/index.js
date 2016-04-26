@@ -34,17 +34,20 @@ function init() {
 
   if (window.isGallery) {
     const div = $('.thumbnails'),
-          thumbs = $$('.pswp-thumb'),
-          images = heroes.map(({src, title}, i) => ({
-            src,
-            title,
-            w: thumbs[i].naturalWidth,
-            h: thumbs[i].naturalHeight
-          }));
+          thumbs = $$('.pswp-thumb');
 
     const galleryRunner = _.partial(runGallery, div)
     imagesLoaded(div, () => {
-      photoswipeSetup(div, thumbs, images)
+      photoswipeSetup(
+        div,
+        thumbs,
+        heroes.map(({src, title}, i) => ({
+          src,
+          title,
+          w: thumbs[i].naturalWidth,
+          h: thumbs[i].naturalHeight
+        }))
+      )
       galleryRunner()
     })
     window.addEventListener('resize', _.throttle(galleryRunner, 100, {leading: false}))
@@ -52,15 +55,18 @@ function init() {
 
   if (window.isArticle) {
     const div = $('.post-content'),
-          thumbs = $$('.post-content img'),
-          images = thumbs.map(({src, naturalWidth, naturalHeight}) => ({
-            src,
-            w: naturalWidth,
-            h: naturalHeight
-          }));
+          thumbs = $$('.post-content img');
 
     imagesLoaded(div, () => {
-      photoswipeSetup(div, thumbs, images)
+      photoswipeSetup(
+        div,
+        thumbs,
+        thumbs.map(({src, naturalWidth, naturalHeight}) => ({
+          src,
+          w: naturalWidth,
+          h: naturalHeight
+        }))
+      )
     })
   }
 

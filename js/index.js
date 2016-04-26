@@ -131,21 +131,20 @@
 	  if (window.isGallery) {
 	    (function () {
 	      var div = (0, _util.$)('.thumbnails'),
-	          thumbs = (0, _util.$$)('.pswp-thumb'),
-	          images = _heroes2.default.map(function (_ref, i) {
-	        var src = _ref.src;
-	        var title = _ref.title;
-	        return {
-	          src: src,
-	          title: title,
-	          w: thumbs[i].naturalWidth,
-	          h: thumbs[i].naturalHeight
-	        };
-	      });
+	          thumbs = (0, _util.$$)('.pswp-thumb');
 
 	      var galleryRunner = (0, _partial3.default)(_gallery2.default, div);
 	      (0, _imagesloaded2.default)(div, function () {
-	        (0, _photoswipeSetup2.default)(div, thumbs, images);
+	        (0, _photoswipeSetup2.default)(div, thumbs, _heroes2.default.map(function (_ref, i) {
+	          var src = _ref.src;
+	          var title = _ref.title;
+	          return {
+	            src: src,
+	            title: title,
+	            w: thumbs[i].naturalWidth,
+	            h: thumbs[i].naturalHeight
+	          };
+	        }));
 	        galleryRunner();
 	      });
 	      window.addEventListener('resize', (0, _throttle3.default)(galleryRunner, 100, { leading: false }));
@@ -155,20 +154,19 @@
 	  if (window.isArticle) {
 	    (function () {
 	      var div = (0, _util.$)('.post-content'),
-	          thumbs = (0, _util.$$)('.post-content img'),
-	          images = thumbs.map(function (_ref2) {
-	        var src = _ref2.src;
-	        var naturalWidth = _ref2.naturalWidth;
-	        var naturalHeight = _ref2.naturalHeight;
-	        return {
-	          src: src,
-	          w: naturalWidth,
-	          h: naturalHeight
-	        };
-	      });
+	          thumbs = (0, _util.$$)('.post-content img');
 
 	      (0, _imagesloaded2.default)(div, function () {
-	        (0, _photoswipeSetup2.default)(div, thumbs, images);
+	        (0, _photoswipeSetup2.default)(div, thumbs, thumbs.map(function (_ref2) {
+	          var src = _ref2.src;
+	          var naturalWidth = _ref2.naturalWidth;
+	          var naturalHeight = _ref2.naturalHeight;
+	          return {
+	            src: src,
+	            w: naturalWidth,
+	            h: naturalHeight
+	          };
+	        }));
 	      });
 	    })();
 	  }
