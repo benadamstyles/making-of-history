@@ -43,52 +43,54 @@ prose:
     - 'index.html'
     - 'package.json'
     - 'webpack.config.js'
+    - 'CNAME'
   metadata:
     '':
-      - name: "layout"
+      - name: layout
         field:
-          element: "hidden"
-      - name: "permalink"
+          element: hidden
+      - name: permalink
         field:
-          element: "hidden"
-      - name: "weight"
+          element: hidden
+      - name: weight
         field:
-          element: "hidden"
+          element: hidden
     _posts:
-      - name: "published"
+      - name: published
         field:
-          element: "hidden"
-          value: "true"
-      - name: "layout"
+          element: hidden
+          value: true
+      - name: layout
         field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
+          element: hidden
+          value: post
+      - name: title
         field:
-          element: "text"
-          label: "article title"
-          type: "text"
-      - name: "featuredimage"
+          element: text
+          label: Article title
+          type: text
+      - name: featuredimage
         field:
-          element: "text"
-          label: "featured image url"
-          help: 'Paste here the url from the body of the article, without "{{site.baseurl}}" e.g. "/images/lovely-picture.jpg"'
-          placeholder: "url/to/the/image.jpg"
-          type: "text"
-      - name: "period"
+          element: text
+          label: Featured image URL
+          help: Paste here the url from the body of the article, without "{{site.baseurl}}" e.g. "/images/lovely-picture.jpg"
+          placeholder: url/to/the/image.jpg
+          type: text
+      - name: period
         field:
-          element: "text"
-          label: "year (4 digits required!) or range (separated by single hyphen, no spaces)"
-          help: 'e.g. 1735 or 1730-1736'
-          type: "text"
-      - name: "location"
+          element: text
+          label: Year (4 digits required!) or range (separated by single hyphen, no spaces)
+          help: e.g. 1735 or 1730-1736
+          type: text
+      - name: location
         field:
-          element: "text"
-          label: "city or country"
-          type: "text"
+          element: text
+          label: City or country
+          type: text
       - name: author
         field:
           element: select
+          label: Author
           options:
             - name: Lee Bellamy
               value: lee-bellamy
