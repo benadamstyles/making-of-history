@@ -10,9 +10,9 @@ featuredimage: ""
 
 
 
-![]({{site.baseurl}}/1808Historic%20HottiesDomJoaoVI.png)
+![]({{site.baseurl}}/1808Historic%20HottiesDomJoaoVI.png) [Select image to enlarge]
 
-![]({{site.baseurl}}/1808Historic%20HottiesDomJoaoVIPhotos.png)
+![]({{site.baseurl}}/1808Historic%20HottiesDomJoaoVIPhotos.png) [Select image to enlarge]
 
 
 _Lee Bellamy & Elliott Took_ - October 11, 2015
