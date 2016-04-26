@@ -2,6 +2,7 @@
 
 var path = require('path')
 var webpack = require('webpack')
+var DedupePlugin = require('webpack/lib/optimize/DedupePlugin')
 
 module.exports = {
   entry: path.join(__dirname, 'src', 'index.js'),
@@ -10,7 +11,8 @@ module.exports = {
     filename: 'index.js'
   },
   plugins: [
-    new webpack.BannerPlugin("---\n---\n\n", {raw: true})
+    new webpack.BannerPlugin("---\n---\n\n", {raw: true}),
+    new DedupePlugin()
   ],
   module: {
     loaders: [
@@ -19,7 +21,8 @@ module.exports = {
         exclude: /(node_modules|liquid\/)/,
         loader: 'babel',
         query: {
-          presets: ['es2015', 'stage-3']
+          presets: ['es2015', 'stage-3'],
+          plugins: ['lodash']
         }
       }, {
         test: /imagesloaded|wolfy87-eventemitter/,

@@ -6,7 +6,7 @@ export default function() {
   console.info(`${images.length} replaced images`)
 
   images.forEach(image => {
-    image.src = ~image.src.indexOf('_posts') ?
+    image.src = image.src.includes('_posts') ?
       "{{site.baseurl}}" + image.src.replace(/.+_posts/g, '/images') :
       "{{site.baseurl}}" + image.src.replace('http://leeds-ebooks.github.io', '')
   })

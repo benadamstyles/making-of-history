@@ -1,25 +1,25 @@
 import 'babel-polyfill'
 import 'classlist-polyfill'
 import 'sightglass'
-import _ from 'underscore-contrib'
+import _ from 'lodash'
 import rivets from 'rivets'
 import Stickyfill from 'stickyfill'
 import model from './model'
 import hero from './hero'
 import initSiteDesc from './site-desc'
-import imageReplace from './image-replace'
+// import imageReplace from './image-replace'
 import footerSetup from './footer-setup'
 import photoswipeSetup from './photoswipe-setup'
 import {$, $$} from './util'
 import './config'
-import items from '../liquid/heroes'
+import heroes from '../liquid/heroes'
 import runGallery from './gallery'
 import imagesLoaded from 'imagesloaded'
 
 function init() {
   hero()
   initSiteDesc()
-  imageReplace()
+  // imageReplace()
   footerSetup()
 
   const b = document.getElementsByTagName('body')[0],
@@ -35,29 +35,33 @@ function init() {
   if (window.isGallery) {
     const div = $('.thumbnails'),
           thumbs = $$('.pswp-thumb'),
-          images = items.map(({src, title}, i) => ({
+          images = heroes.map(({src, title}, i) => ({
             src,
             title,
             w: thumbs[i].naturalWidth,
             h: thumbs[i].naturalHeight
           }));
 
-    photoswipeSetup(div, thumbs, images)
-
     const galleryRunner = _.partial(runGallery, div)
-    imagesLoaded(div, galleryRunner)
+    imagesLoaded(div, () => {
+      photoswipeSetup(div, thumbs, images)
+      galleryRunner()
+    })
     window.addEventListener('resize', _.throttle(galleryRunner, 100, {leading: false}))
   }
 
   if (window.isArticle) {
-    const thumbs = $$('.post-content img'),
+    const div = $('.post-content'),
+          thumbs = $$('.post-content img'),
           images = thumbs.map(({src, naturalWidth, naturalHeight}) => ({
             src,
             w: naturalWidth,
             h: naturalHeight
           }));
 
-    photoswipeSetup($('.post-content'), thumbs, images)
+    imagesLoaded(div, () => {
+      photoswipeSetup(div, thumbs, images)
+    })
   }
 
   rivets.bind(b, model)
