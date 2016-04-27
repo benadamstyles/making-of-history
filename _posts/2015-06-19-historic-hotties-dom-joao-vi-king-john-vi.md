@@ -5,6 +5,9 @@ title: "Historic Hotties: Dom Joao VI (King John VI)"
 period: "1738"
 location: Brazil
 featuredimage: ""
+author: 
+  - "lee-bellamy"
+  - "elliott-took"
 ---
 
 
