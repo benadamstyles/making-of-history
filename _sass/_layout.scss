@@ -471,7 +471,10 @@ figure {
   ol.post-footer {
     font-size: 0.8em;
   }
+}
 
+.post-content,
+.page-content {
   a, a:visited {
     color: $pale-highlight;
   }
