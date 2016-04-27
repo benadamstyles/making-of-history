@@ -1,0 +1,13 @@
+---
+layout: page
+---
+
+<ol>
+  {% for post in site.posts %}
+    {% if post.author contains page.author %}
+      <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ol>

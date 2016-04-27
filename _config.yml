@@ -7,8 +7,21 @@ description: >
   History best not repeated. # History written by the victors, mocked by us.
 baseurl: /making-of-history # the subpath of your site, e.g. /blog/
 url: http://leeds-ebooks.github.io # the base hostname & protocol for your site
-# twitter_username: BenStyles
-# github_username:  leeds-ebooks
+
+authors: &AUTHORS
+  - value: 'lee-bellamy'
+    name: 'Lee Bellamy'
+  - value: 'elliott-took'
+    name: 'Elliott Took'
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: posts
+    values:
+      author:
+        - lee-bellamy
 
 exclude:
   - 'src'
@@ -55,6 +68,9 @@ prose:
       - name: weight
         field:
           element: hidden
+      - name: show_in_menu
+        field:
+          element: hidden
     _posts:
       - name: published
         field:
@@ -91,8 +107,4 @@ prose:
         field:
           element: multiselect
           label: Author
-          options:
-            - name: Lee Bellamy
-              value: lee-bellamy
-            - name: Elliott Took
-              value: elliott-took
+          options: *AUTHORS

@@ -1,0 +1,31 @@
+---
+layout: page
+title: Authors
+weight: 2
+show_in_menu: true
+---
+
+<!-- % assign authors = '' | split: '|' %
+
+% for post in site.posts %
+  % for author in post.author %
+    % assign authors = authors | push: author %
+  % endfor %
+% endfor %
+
+% assign authors = authors | uniq % -->
+
+{% assign authors = site.authors %}
+
+<ul>
+  {% for author in authors %}
+    <li>
+      <h3>{{ author.name }}</h3>
+      <p>
+        <a href="{{ author.value | prepend: '/authors/' | prepend: site.baseurl }}">
+          View all articles written by {{ author.name }}
+        </a>
+      </p>
+    </li>
+  {% endfor %}
+</ul>

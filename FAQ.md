@@ -1,5 +1,6 @@
 ---
 weight: 1
+show_in_menu: true
 permalink: /faq/
 layout: page
 title: FAQ
@@ -10,19 +11,19 @@ published: true
 
 
 
-## Q: There are a lot of weird stories on this site. Are all of them are true?
+## Q: There are a lot of weird stories on this site. Are all of them true?
 
 Short Answer: Yes.
 
-Long Answer: Mostly yes. 
+Long Answer: Mostly yes.
 
 We all tell fibs, white lies, tall tales, and fish stories. And so did our grandparents, and their grandparents, and their grandparents, right up to the original lie (which was told by Ugg to Ugg Jr. when the caveboy asked where babies come from). Our ancestors lied to make themselves look better, to make their enemies look worse, and just to liven things up when they got dull.
 
-A historian’s job is to dig up the truth under the stories. Historians are like detectives in that way -- but all their star witnesses are liars. And dead. 
+A historian’s job is to dig up the truth under the stories. Historians are like detectives in that way -- but all their star witnesses are liars. And dead.
 
 And all of the content on this site is based on original sources and the opinions of qualified historians, so it’s at least probably (mostly) true. The stories may be outlandish, but whenever and wherever humans get involved things are bound to get weird.
 
-If you disagree, you can always make us feel terrible about our poor life choices by e-mailing  us a stern message. 
+If you disagree, you can always make us feel terrible about our poor life choices by e-mailing  us a stern message.
 
 ## Q: Can I submit something?
 

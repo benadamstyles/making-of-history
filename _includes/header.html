@@ -36,8 +36,10 @@
       <div class="trigger">
         {% assign pages = site.pages | sort:"weight" %}
         {% for page in pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% if page.show_in_menu %}
+            {% if page.title %}
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
           {% endif %}
         {% endfor %}
       </div>
