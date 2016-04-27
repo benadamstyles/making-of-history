@@ -5,6 +5,8 @@ title: Crossroad of Corpses
 period: "850"
 location: Japan
 featuredimage: ""
+author: 
+  - "lee-bellamy"
 ---
 
 
