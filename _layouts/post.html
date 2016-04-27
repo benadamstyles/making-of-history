@@ -9,6 +9,27 @@ layout: default
 
   <article class="post-content">
     {{ content }}
+
+    <address class="author">
+      {% assign authors = '' | split: ',' %}
+
+      {% for author in site.authors %}
+        {% if page.author contains author.value %}
+          {% assign authors = authors | push: author %}
+        {% endif %}
+      {% endfor %}
+
+      By
+      {% for author in authors %}
+        <a rel="author" href="{{ author.value | prepend: '/authors/' | prepend: site.baseurl }}">
+          {{ author.name }}
+        </a>
+        {% unless forloop.last %}
+          and
+        {% endunless %}
+      {% endfor %}
+    </address>
+    <!-- on <time pubdate datetime="2011-08-28" title="August 28th, 2011">8/28/11</time> -->
   </article>
 
 </div>
