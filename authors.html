@@ -5,20 +5,8 @@ weight: 2
 show_in_menu: true
 ---
 
-<!-- % assign authors = '' | split: '|' %
-
-% for post in site.posts %
-  % for author in post.author %
-    % assign authors = authors | push: author %
-  % endfor %
-% endfor %
-
-% assign authors = authors | uniq % -->
-
-{% assign authors = site.authors %}
-
 <ul>
-  {% for author in authors %}
+  {% for author in site.authors %}
     <li>
       <h3>{{ author.name }}</h3>
       <p>
