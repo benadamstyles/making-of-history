@@ -89,7 +89,7 @@ prose:
           type: text
       - name: author
         field:
-          element: select
+          element: multiselect
           label: Author
           options:
             - name: Lee Bellamy
