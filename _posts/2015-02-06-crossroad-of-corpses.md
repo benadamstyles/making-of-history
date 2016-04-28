@@ -5,20 +5,9 @@ title: Crossroad of Corpses
 period: "850"
 location: Japan
 featuredimage: ""
-author: 
+author:
   - "lee-bellamy"
 ---
-
-
-
-
-
-
-
-
-
-
-
 
 ### Empress Tachibana no Kachiko (橘嘉智子) (786-850 AD) was head-over-heels devoted to Buddhism. But writing a sappy song or tattooing “Siddhartha 4 ever” on her bicep was too mundane for this religious ruler. Instead, ambitious Kachiko decided to teach the people of Kyōto a morbid lesson from beyond the grave.
 
@@ -32,9 +21,6 @@ So the empress’s body was dressed in simple robes and put on the streets of Ky
 
 ![Illustration of Kachiko from the Picture Book of a Hundred Tales - Ehon hyaku monogatari - vol. 1, Takehara Shunsensai 竹原春泉斎 and Tōkaen Michimaro 桃花園三千麿. c. 1841 AD.]({{site.baseurl}}/images/shunsenkatabiragatsuji.jpg "Illustration of Kachiko from the Picture Book of a Hundred Tales - Ehon hyaku monogatari - vol. 1, Takehara Shunsensai 竹原春泉斎 and Tōkaen Michimaro 桃花園三千麿. c. 1841 AD.") [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ShunsenKatabiragatsuji.jpg)
 
-
-
-_Lee Bellamy_  - August 10, 2015
 
 More Information & Sources
 
