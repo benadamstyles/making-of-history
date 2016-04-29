@@ -5,8 +5,8 @@ legal: All Rights Reserved
 description: >
   History at its worst. # Pure, unfiltered history. # Untapped history. #
   History best not repeated. # History written by the victors, mocked by us.
-baseurl: /making-of-history # the subpath of your site, e.g. /blog/
-url: http://leeds-ebooks.github.io # the base hostname & protocol for your site
+baseurl: / # the subpath of your site, e.g. /blog/
+url: http://www.makingofhistory.com # the base hostname & protocol for your site
 
 authors: &AUTHORS
   - value: 'lee-bellamy'
