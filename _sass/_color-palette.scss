@@ -1,11 +1,11 @@
 // Trello #14 modified
 $text-color:        lighten(black, 20%);
-$background-color:  rgb(248, 227, 184);
+$background-color:  #FFF4DC;
 $alt-bg:            rgb(24, 51, 66);
 $header-bg:         rgba($alt-bg, 0.9);
 $detail:            #BD8C34;
-$brand-color-orig:  $background-color;
-$brand-color:       $background-color;
+$brand-color-orig:  rgb(248, 227, 184);
+$brand-color:       $brand-color-orig;
 $highlight-color:   lighten(rgb(181, 49, 1), 10%);
 $pale-highlight:    lighten($highlight-color, 20%);
 $gradient-color:    rgb(118, 89, 69);
