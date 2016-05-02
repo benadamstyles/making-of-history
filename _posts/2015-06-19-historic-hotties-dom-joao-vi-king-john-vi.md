@@ -5,7 +5,7 @@ title: "Historic Hotties: Dom Joao VI (King John VI)"
 period: "1738"
 location: Brazil
 featuredimage: ""
-author:
+author: 
   - "lee-bellamy"
   - "elliott-took"
 ---
@@ -20,11 +20,11 @@ More Information & Sources
 
 > João VI was famous for several quirks. He always referred to himself as “Your Majesty”. He loved roast chicken and would eat it with his hands, carrying it around in his stained pockets. He hated change. He always slept in the same spot and got upset if his furniture was moved -- he even hated to change his clothes, and wore them until they fell apart (his servants really did repair his clothes when he took naps). He was terrified of thunder and lightning, and of crabs. There is only one reference to him taking a bath during the thirteen years he spent in Brazil, and that was under doctor’s orders: a tick bite became infected, and João had a portable bath house constructed so he could be lowered into the ocean to bathe the wound in salt water (whether he was more afraid of encountering crabs or being seen naked is up for debate).
 
-> The real João VI may not have been interested in online dating (though there’s always the allure of finding that special someone who can appreciate greasy chicken pockets and rampant skin infections). Sources suggest that he was only mildly interested in women or men, and more out of a need for convenience than for passion.
+> The real João VI may not have been interested in online dating (though there’s always the allure of finding that special someone who can appreciate greasy chicken pockets and rampant skin infections). Sources suggest that he was only mildly interested in women or men, and more based on convenience than  passion.
 
-> During João VI rule, Napoleon Bonaparte (Napoleon I) had taken over much of Europe and forced many European nations to close their ports to British trade. João agreed to close Portugal’s ports in the Treaty of Badajoz (1801)  but never followed through. Instead, with the help of the British, João and his court escaped to the Brazilian colonies. João did not return to Portugal until 1821.
+> During João's rule, Napoleon Bonaparte (Napoleon I) had taken over much of Europe and forced many European nations to close their ports to British trade. João agreed to close Portugal’s ports in the Treaty of Badajoz (1801)  but never followed through. Instead, with the help of the British, João and his court escaped to the Brazilian colonies. João did not return to Portugal until 1821.
 
-> In Napoleon’s memoirs, he wrote that João was “the only one who tricked me.” General Andoche Junot (French ambassador to the Portuguese court 1804-5, then leader of the French invasion in 1807) remembered João in a less flattering light -- when he met João, Junot exclaimed to his wife, “My God! How ugly he is!”
+> In Napoleon’s memoirs, he wrote that João was “the only one who tricked me.” General Andoche Junot (French ambassador to the Portuguese court 1804-5, and leader of the French invasion in 1807) remembered João in a less flattering light -- when he met João, Junot exclaimed to his wife, “My God! How ugly he is!”
 
 1. _Dom Pedro: The Struggle for Liberty in Brazil and Portugal, 1798-1834_. Neill Macaulay. Durham: Duke University Press. 1986.
 
