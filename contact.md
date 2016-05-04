@@ -1,6 +1,6 @@
 ---
-weight: 3
 show_in_menu: true
+weight: 3
 permalink: /contact/
 layout: page
 title: Contact
@@ -13,7 +13,7 @@ If you'd like to get a hold of us, or if you have something that you’d like us
 
 If you would like to submit content for the site, please read the FAQ page first.
 
-##Contributors:
+## Contributors:
 
 **Lee Bellamy** is the owner, producer, editor, and all-around big cheese of The Making of History. Please direct all complaints, groans, and death threats to Lee at _admin@makingofhistory.com_
 
