@@ -84,36 +84,44 @@
 
 	var _siteDesc2 = _interopRequireDefault(_siteDesc);
 
-	var _footerSetup = __webpack_require__(382);
+	var _imageZoomHint = __webpack_require__(382);
+
+	var _imageZoomHint2 = _interopRequireDefault(_imageZoomHint);
+
+	var _footerSetup = __webpack_require__(384);
 
 	var _footerSetup2 = _interopRequireDefault(_footerSetup);
 
-	var _photoswipeSetup = __webpack_require__(383);
+	var _photoswipeSetup = __webpack_require__(385);
 
 	var _photoswipeSetup2 = _interopRequireDefault(_photoswipeSetup);
 
 	var _util = __webpack_require__(375);
 
-	__webpack_require__(386);
+	__webpack_require__(388);
 
-	var _heroes = __webpack_require__(387);
+	var _heroes = __webpack_require__(389);
 
 	var _heroes2 = _interopRequireDefault(_heroes);
 
-	var _gallery = __webpack_require__(388);
+	var _gallery = __webpack_require__(390);
 
 	var _gallery2 = _interopRequireDefault(_gallery);
 
-	var _imagesloaded = __webpack_require__(391);
+	var _imagesloaded = __webpack_require__(393);
 
 	var _imagesloaded2 = _interopRequireDefault(_imagesloaded);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+	// import imageReplace from './image-replace'
+
+
 	function init() {
 	  (0, _hero2.default)();
 	  (0, _siteDesc2.default)();
 	  // imageReplace()
+	  (0, _imageZoomHint2.default)();
 	  (0, _footerSetup2.default)();
 
 	  var b = document.getElementsByTagName('body')[0],
@@ -178,8 +186,6 @@
 
 	  document.removeEventListener("DOMContentLoaded", init, false);
 	}
-	// import imageReplace from './image-replace'
-
 
 	document.addEventListener('DOMContentLoaded', init, false);
 
@@ -13628,6 +13634,207 @@
 
 /***/ },
 /* 382 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	exports.default = function () {
+	  var imgs = Array.from(document.querySelectorAll('.post-content img'));
+
+	  console.info(imgs.length + ' imgs');
+
+	  imgs.forEach(function (img) {
+	    var hint = (0, _crel2.default)('div', { 'class': 'zoom-hint ion-ios-search-strong' }),
+	        parent = img.parentElement;
+
+	    if (!parent.style.position || parent.style.position === 'static') {
+	      parent.style.position = 'relative';
+	    }
+
+	    Object.assign(hint.style, {
+	      top: '1em',
+	      left: 'auto',
+	      right: '1.25em'
+	    });
+
+	    parent.appendChild(hint);
+	  });
+	};
+
+	var _crel = __webpack_require__(383);
+
+	var _crel2 = _interopRequireDefault(_crel);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/***/ },
+/* 383 */
+/***/ function(module, exports, __webpack_require__) {
+
+	//Copyright (C) 2012 Kory Nunn
+
+	//Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+	//The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+	//THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+	/*
+
+	    This code is not formatted for readability, but rather run-speed and to assist compilers.
+
+	    However, the code's intention should be transparent.
+
+	    *** IE SUPPORT ***
+
+	    If you require this library to work in IE7, add the following after declaring crel.
+
+	    var testDiv = document.createElement('div'),
+	        testLabel = document.createElement('label');
+
+	    testDiv.setAttribute('class', 'a');
+	    testDiv['className'] !== 'a' ? crel.attrMap['class'] = 'className':undefined;
+	    testDiv.setAttribute('name','a');
+	    testDiv['name'] !== 'a' ? crel.attrMap['name'] = function(element, value){
+	        element.id = value;
+	    }:undefined;
+
+
+	    testLabel.setAttribute('for', 'a');
+	    testLabel['htmlFor'] !== 'a' ? crel.attrMap['for'] = 'htmlFor':undefined;
+
+
+
+	*/
+
+	(function (root, factory) {
+	    if (true) {
+	        module.exports = factory();
+	    } else if (typeof define === 'function' && define.amd) {
+	        define(factory);
+	    } else {
+	        root.crel = factory();
+	    }
+	}(this, function () {
+	    var fn = 'function',
+	        obj = 'object',
+	        nodeType = 'nodeType',
+	        textContent = 'textContent',
+	        setAttribute = 'setAttribute',
+	        attrMapString = 'attrMap',
+	        isNodeString = 'isNode',
+	        isElementString = 'isElement',
+	        d = typeof document === obj ? document : {},
+	        isType = function(a, type){
+	            return typeof a === type;
+	        },
+	        isNode = typeof Node === fn ? function (object) {
+	            return object instanceof Node;
+	        } :
+	        // in IE <= 8 Node is an object, obviously..
+	        function(object){
+	            return object &&
+	                isType(object, obj) &&
+	                (nodeType in object) &&
+	                isType(object.ownerDocument,obj);
+	        },
+	        isElement = function (object) {
+	            return crel[isNodeString](object) && object[nodeType] === 1;
+	        },
+	        isArray = function(a){
+	            return a instanceof Array;
+	        },
+	        appendChild = function(element, child) {
+	          if(!crel[isNodeString](child)){
+	              child = d.createTextNode(child);
+	          }
+	          element.appendChild(child);
+	        };
+
+
+	    function crel(){
+	        var args = arguments, //Note: assigned to a variable to assist compilers. Saves about 40 bytes in closure compiler. Has negligable effect on performance.
+	            element = args[0],
+	            child,
+	            settings = args[1],
+	            childIndex = 2,
+	            argumentsLength = args.length,
+	            attributeMap = crel[attrMapString];
+
+	        element = crel[isElementString](element) ? element : d.createElement(element);
+	        // shortcut
+	        if(argumentsLength === 1){
+	            return element;
+	        }
+
+	        if(!isType(settings,obj) || crel[isNodeString](settings) || isArray(settings)) {
+	            --childIndex;
+	            settings = null;
+	        }
+
+	        // shortcut if there is only one child that is a string
+	        if((argumentsLength - childIndex) === 1 && isType(args[childIndex], 'string') && element[textContent] !== undefined){
+	            element[textContent] = args[childIndex];
+	        }else{
+	            for(; childIndex < argumentsLength; ++childIndex){
+	                child = args[childIndex];
+
+	                if(child == null){
+	                    continue;
+	                }
+
+	                if (isArray(child)) {
+	                  for (var i=0; i < child.length; ++i) {
+	                    appendChild(element, child[i]);
+	                  }
+	                } else {
+	                  appendChild(element, child);
+	                }
+	            }
+	        }
+
+	        for(var key in settings){
+	            if(!attributeMap[key]){
+	                element[setAttribute](key, settings[key]);
+	            }else{
+	                var attr = attributeMap[key];
+	                if(typeof attr === fn){
+	                    attr(element, settings[key]);
+	                }else{
+	                    element[setAttribute](attr, settings[key]);
+	                }
+	            }
+	        }
+
+	        return element;
+	    }
+
+	    // Used for mapping one kind of attribute to the supported version of that in bad browsers.
+	    crel[attrMapString] = {};
+
+	    crel[isElementString] = isElement;
+
+	    crel[isNodeString] = isNode;
+
+	    if(typeof Proxy !== 'undefined'){
+	        crel.proxy = new Proxy(crel, {
+	            get: function(target, key){
+	                !(key in crel) && (crel[key] = crel.bind(null, key));
+	                return crel[key];
+	            }
+	        });
+	    }
+
+	    return crel;
+	}));
+
+
+/***/ },
+/* 384 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -13656,7 +13863,7 @@
 	};
 
 /***/ },
-/* 383 */
+/* 385 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13683,11 +13890,11 @@
 
 	var _util = __webpack_require__(375);
 
-	var _photoswipe = __webpack_require__(384);
+	var _photoswipe = __webpack_require__(386);
 
 	var _photoswipe2 = _interopRequireDefault(_photoswipe);
 
-	var _photoswipeUiDefault = __webpack_require__(385);
+	var _photoswipeUiDefault = __webpack_require__(387);
 
 	var _photoswipeUiDefault2 = _interopRequireDefault(_photoswipeUiDefault);
 
@@ -13705,7 +13912,7 @@
 	}
 
 /***/ },
-/* 384 */
+/* 386 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*! PhotoSwipe - v4.1.1 - 2015-12-24
@@ -17428,7 +17635,7 @@
 	});
 
 /***/ },
-/* 385 */
+/* 387 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*! PhotoSwipe Default UI - 4.1.1 - 2015-12-24
@@ -18295,7 +18502,7 @@
 
 
 /***/ },
-/* 386 */
+/* 388 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -18331,7 +18538,7 @@
 	});
 
 /***/ },
-/* 387 */
+/* 389 */
 /***/ function(module, exports) {
 
 	/* eslint-disable */
@@ -18351,7 +18558,7 @@
 
 
 /***/ },
-/* 388 */
+/* 390 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -18388,7 +18595,7 @@
 
 	var _util = __webpack_require__(375);
 
-	var _lazy = __webpack_require__(389);
+	var _lazy = __webpack_require__(391);
 
 	var _lazy2 = _interopRequireDefault(_lazy);
 
@@ -18407,7 +18614,7 @@
 	}
 
 /***/ },
-/* 389 */
+/* 391 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(setImmediate, clearImmediate) {/*
@@ -24823,10 +25030,10 @@
 	  return Lazy;
 	});
 
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(390).setImmediate, __webpack_require__(390).clearImmediate))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(392).setImmediate, __webpack_require__(392).clearImmediate))
 
 /***/ },
-/* 390 */
+/* 392 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(setImmediate, clearImmediate) {var nextTick = __webpack_require__(346).nextTick;
@@ -24905,10 +25112,10 @@
 	exports.clearImmediate = typeof clearImmediate === "function" ? clearImmediate : function(id) {
 	  delete immediateIds[id];
 	};
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(390).setImmediate, __webpack_require__(390).clearImmediate))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(392).setImmediate, __webpack_require__(392).clearImmediate))
 
 /***/ },
-/* 391 */
+/* 393 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
@@ -24937,7 +25144,7 @@
 	    // CommonJS
 	    module.exports = factory(
 	      window,
-	      __webpack_require__(392)
+	      __webpack_require__(394)
 	    );
 	  } else {
 	    // browser global
@@ -25289,7 +25496,7 @@
 	}.call(window));
 
 /***/ },
-/* 392 */
+/* 394 */
 /***/ function(module, exports) {
 
 	/*** IMPORTS FROM imports-loader ***/
