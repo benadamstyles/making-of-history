@@ -8,7 +8,7 @@ show_in_menu: true
 <ul>
   {% for author in site.authors %}
     <li>
-      <h3>{{ author.name }}</h3>
+      {{ author.bio | prepend: '** ' | prepend: author.name | prepend: '**' | markdownify }}
       <p>
         <a href="{{ author.value | prepend: '/authors/' | prepend: site.baseurl }}">
           View all articles written by {{ author.name }}
