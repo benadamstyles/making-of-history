@@ -13645,8 +13645,6 @@
 	exports.default = function () {
 	  var imgs = Array.from(document.querySelectorAll('.post-content img'));
 
-	  console.info(imgs.length + ' imgs');
-
 	  imgs.forEach(function (img) {
 	    var hint = (0, _crel2.default)('div', { 'class': 'zoom-hint ion-ios-search-strong' }),
 	        parent = img.parentElement;
