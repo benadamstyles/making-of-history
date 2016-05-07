@@ -10,7 +10,7 @@
     "build": "webpack",
     "webpack-serve": "webpack --watch",
     "jekyll-serve": "jekyll build --watch",
-    "browser-sync": "browser-sync start --server _site --files _site --reload-debounce 100",
+    "browser-sync": "browser-sync start --server _site --files _site --reload-debounce 100 --no-notify",
     "serve": "npm run prebuild && npm-run-parallel webpack-serve jekyll-serve browser-sync"
   },
   "repository": {
@@ -26,6 +26,7 @@
   "dependencies": {
     "babel-polyfill": "^6.3.14",
     "classlist-polyfill": "^1.0.2",
+    "crel": "^3.0.0",
     "imagesloaded": "^4.0.0",
     "lazy.js": "^0.4.2",
     "lodash": "^4.11.1",

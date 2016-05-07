@@ -8,6 +8,7 @@ import model from './model'
 import hero from './hero'
 import initSiteDesc from './site-desc'
 // import imageReplace from './image-replace'
+import imageZoomHint from './image-zoom-hint'
 import footerSetup from './footer-setup'
 import photoswipeSetup from './photoswipe-setup'
 import {$, $$} from './util'
@@ -20,6 +21,7 @@ function init() {
   hero()
   initSiteDesc()
   // imageReplace()
+  imageZoomHint()
   footerSetup()
 
   const b = document.getElementsByTagName('body')[0],
