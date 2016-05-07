@@ -18314,14 +18314,16 @@
 	        b = parseInt(begin, 10),
 	        e = parseInt(end, 10);
 
-	    if (b <= min && max <= e) return true;else return false;
+	    return b <= min && max <= e;
 	  },
+
 
 	  toBC: {
 	    read: function read(val) {
-	      var int = parseInt(val, 10);
-	      return int < 0 ? Math.abs(int) + ' BC' : val + ' AD';
+	      var int = Number.parseInt(val, 10);
+	      return int < 0 ? Math.abs(int) + ' BC' : (Number.isNaN(int) ? 0 : val) + ' AD';
 	    },
+
 	    publish: function publish(val) {
 	      return val.includes('BC') ? '' + (0 - parseInt(val, 10)) : '' + parseInt(val, 10);
 	    }
