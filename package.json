@@ -8,7 +8,10 @@
     "authors": "node scripts/author-pages.js",
     "prebuild": "npm run authors",
     "build": "webpack",
-    "serve": "npm run build && jekyll serve"
+    "webpack-serve": "webpack --watch",
+    "jekyll-serve": "jekyll build --watch",
+    "browser-sync": "browser-sync start --server _site --files _site --reload-debounce 100",
+    "serve": "npm run prebuild && npm-run-parallel webpack-serve jekyll-serve browser-sync"
   },
   "repository": {
     "type": "git",
