@@ -2,7 +2,7 @@
 show_in_menu: true
 weight: 3
 permalink: /contact/
-layout: page
+layout: contact
 title: Contact
 published: true
 ---

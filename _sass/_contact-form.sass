@@ -1,0 +1,68 @@
+.contact-form
+  $margin-top: 1.5em
+  $tint: rgb(142, 148, 166)
+
+  label,
+  input,
+  textarea
+    display: block
+    width: 100%
+
+  input,
+  textarea,
+  button,
+  span
+    border: none
+    font-family: inherit
+    font-size: inherit
+    padding: 0.2em 0.5em
+
+  input,
+  textarea,
+    margin-top: $margin-top
+    color: transparent
+
+    &:focus,
+    &:valid
+      color: inherit
+
+      & + span
+        -webkit-transform: translate(-0.8em, -#{$margin-top + 0.1em}) scale(0.8)
+        transform: translate(-0.8em, -#{$margin-top + 0.1em}) scale(0.8)
+        // color: inherit
+
+  label
+    position: relative
+    outline: 5px solid rgba(0,0,0,0.02)
+
+    > span
+      -webkit-transition: all 0.1s ease-out
+      transition: all 0.1s ease-out
+
+      -webkit-transition-property: -webkit-transform
+      transition-property: -webkit-transform
+      transition-property: transform
+      transition-property: transform, -webkit-transform
+
+      color: $tint
+      position: absolute
+      top: 0
+      left: 0
+      cursor: text
+
+  button
+    -webkit-transition: all 0.1s ease-out
+    transition: all 0.1s ease-out
+
+    -webkit-transition-property: color, background-color
+    transition-property: color, background-color
+
+    margin-top: 1em
+    padding: 0.2em 2em
+    background-color: white
+    border: 2px solid $header-bg
+    cursor: pointer
+
+    &:hover
+      color: white
+      background-color: $header-bg
