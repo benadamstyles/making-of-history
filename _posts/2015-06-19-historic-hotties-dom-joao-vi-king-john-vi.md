@@ -21,7 +21,7 @@ More Information & Sources
 
 > The real João VI may not have been interested in online dating (though there’s always the allure of finding that special someone who can appreciate greasy chicken pockets and rampant skin infections). Sources suggest that he was only mildly interested in women or men, and more based on convenience than  passion.
 
-> During João's rule, Napoleon Bonaparte (Napoleon I) had taken over much of Europe and forced many European nations to close their ports to British trade. João agreed to close Portugal’s ports in the Treaty of Badajoz (1801)  but never followed through. Instead, with the help of the British, João and his court escaped to the Brazilian colonies. João did not return to Portugal until 1821.
+> During João's rule, Napoleon Bonaparte (Napoleon I) had taken over much of Europe and forced many European nations to close their ports to British trade. João agreed to close Portugal’s ports in the Treaty of Badajoz (1801)  but never followed through. Instead, with the help of the British, João and his court escaped to the Brazilian colonies in 1808. João did not return to Portugal until 1821.
 
 > In Napoleon’s memoirs, he wrote that João was “the only one who tricked me.” General Andoche Junot (French ambassador to the Portuguese court 1804-5, and leader of the French invasion in 1807) remembered João in a less flattering light -- when he met João, Junot exclaimed to his wife, “My God! How ugly he is!”
 
