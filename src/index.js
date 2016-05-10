@@ -7,7 +7,6 @@ import Stickyfill from 'stickyfill'
 import model from './model'
 import hero from './hero'
 import initSiteDesc from './site-desc'
-// import imageReplace from './image-replace'
 import imageZoomHint from './image-zoom-hint'
 import footerSetup from './footer-setup'
 import photoswipeSetup from './photoswipe-setup'
@@ -16,11 +15,11 @@ import './config'
 import heroes from '../liquid/heroes'
 import runGallery from './gallery'
 import imagesLoaded from 'imagesloaded'
+import loadMap from './map'
 
 function init() {
   hero()
   initSiteDesc()
-  // imageReplace()
   imageZoomHint()
   footerSetup()
 
@@ -70,6 +69,10 @@ function init() {
         }))
       )
     })
+  }
+
+  if (window.isMap) {
+    loadMap($('#map'))
   }
 
   rivets.bind(b, model)

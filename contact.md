@@ -1,6 +1,6 @@
 ---
 show_in_menu: true
-weight: 3
+weight: 4
 permalink: /contact/
 layout: contact
 title: Contact

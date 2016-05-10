@@ -2,7 +2,7 @@
 layout: art
 title: Gallery
 permalink: /art/
-weight: 4
+weight: 2
 show_in_menu: true
 published: true
 ---
