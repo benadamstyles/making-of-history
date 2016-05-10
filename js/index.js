@@ -112,15 +112,15 @@
 
 	var _imagesloaded2 = _interopRequireDefault(_imagesloaded);
 
+	var _map = __webpack_require__(395);
+
+	var _map2 = _interopRequireDefault(_map);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	// import imageReplace from './image-replace'
-
 
 	function init() {
 	  (0, _hero2.default)();
 	  (0, _siteDesc2.default)();
-	  // imageReplace()
 	  (0, _imageZoomHint2.default)();
 	  (0, _footerSetup2.default)();
 
@@ -177,6 +177,10 @@
 	        }));
 	      });
 	    })();
+	  }
+
+	  if (window.isMap) {
+	    (0, _map2.default)((0, _util.$)('#map'));
 	  }
 
 	  _rivets2.default.bind(b, _model2.default);
@@ -25612,6 +25616,463 @@
 	}));
 
 	}.call(window));
+
+/***/ },
+/* 395 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _templateObject = _taggedTemplateLiteral(['\n                  <h2>\n                    <a href="', '">', '</a>\n                  </h2>\n                  <p>\n                    <strong>', '</strong>\n                  </p>\n                  <p>\n                    by ', '\n                  </p>\n                '], ['\n                  <h2>\n                    <a href="', '">', '</a>\n                  </h2>\n                  <p>\n                    <strong>', '</strong>\n                  </p>\n                  <p>\n                    by ', '\n                  </p>\n                ']);
+
+	exports.default = function (container) {
+	  var _this = this;
+
+	  _googleMaps2.default.load(function (google) {
+	    var maps = google.maps,
+	        geocoder = new maps.Geocoder(),
+	        map = new maps.Map(container, {
+	      center: new maps.LatLng(20, 0),
+	      zoom: 1,
+	      mapTypeId: maps.MapTypeId.TERRAIN,
+	      scrollwheel: false
+	    }),
+	        infoWindows = [];
+
+	    function geocode(address) {
+	      return new Promise(function (resolve, reject) {
+	        geocoder.geocode({ address: address }, function (res, status) {
+	          if (status === maps.GeocoderStatus.OK) {
+	            resolve(res[0].geometry.location);
+	          } else {
+	            reject(status);
+	          }
+	        });
+	      });
+	    }
+
+	    function getHandler(infoWindow, marker) {
+	      return function () {
+	        infoWindows.forEach(function (infoWindow) {
+	          return infoWindow.close();
+	        });
+	        infoWindow.open(map, marker);
+	      };
+	    }
+
+	    _articles2.default.forEach(function () {
+	      var ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee(_ref) {
+	        var title = _ref.title;
+	        var location = _ref.location;
+	        var url = _ref.url;
+	        var authors = _ref.authors;
+	        var period = _ref.period;
+	        var infoWindow, marker;
+	        return regeneratorRuntime.wrap(function _callee$(_context) {
+	          while (1) {
+	            switch (_context.prev = _context.next) {
+	              case 0:
+	                _context.prev = 0;
+	                infoWindow = new maps.InfoWindow({
+	                  content: (0, _dedent2.default)(_templateObject, url, title, period, authors.map(function (author) {
+	                    return '<a href="' + author.url + '">' + author.name + '</a>';
+	                  }).join(', '))
+	                });
+	                _context.t0 = maps.Marker;
+	                _context.t1 = map;
+	                _context.next = 6;
+	                return geocode(location);
+
+	              case 6:
+	                _context.t2 = _context.sent;
+	                _context.t3 = {
+	                  map: _context.t1,
+	                  position: _context.t2
+	                };
+	                marker = new _context.t0(_context.t3);
+
+
+	                infoWindows.push(infoWindow);
+
+	                marker.addListener('click', getHandler(infoWindow, marker));
+	                marker.addListener('mouseover', getHandler(infoWindow, marker));
+	                _context.next = 17;
+	                break;
+
+	              case 14:
+	                _context.prev = 14;
+	                _context.t4 = _context['catch'](0);
+
+	                console.error(_context.t4);
+
+	              case 17:
+	              case 'end':
+	                return _context.stop();
+	            }
+	          }
+	        }, _callee, _this, [[0, 14]]);
+	      }));
+
+	      return function (_x) {
+	        return ref.apply(this, arguments);
+	      };
+	    }());
+	  });
+	};
+
+	var _googleMaps = __webpack_require__(396);
+
+	var _googleMaps2 = _interopRequireDefault(_googleMaps);
+
+	var _dedent = __webpack_require__(397);
+
+	var _dedent2 = _interopRequireDefault(_dedent);
+
+	var _articles = __webpack_require__(398);
+
+	var _articles2 = _interopRequireDefault(_articles);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+	function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { return step("next", value); }, function (err) { return step("throw", err); }); } } return step("next"); }); }; }
+
+	_googleMaps2.default.KEY = 'AIzaSyAzKKPS4jEeie2IDq57BXYZILzbJhZCctE';
+	_googleMaps2.default.LANGUAGE = 'en';
+
+/***/ },
+/* 396 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;(function(root, factory) {
+
+		if (root === null) {
+			throw new Error('Google-maps package can be used only in browser');
+		}
+
+		if (true) {
+			!(__WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+		} else if (typeof exports === 'object') {
+			module.exports = factory();
+		} else {
+			root.GoogleMapsLoader = factory();
+		}
+
+	})(typeof window !== 'undefined' ? window : null, function() {
+
+
+		'use strict';
+
+
+		var googleVersion = '3.18';
+
+		var script = null;
+
+		var google = null;
+
+		var loading = false;
+
+		var callbacks = [];
+
+		var onLoadEvents = [];
+
+		var originalCreateLoaderMethod = null;
+
+
+		var GoogleMapsLoader = {};
+
+
+		GoogleMapsLoader.URL = 'https://maps.googleapis.com/maps/api/js';
+
+		GoogleMapsLoader.KEY = null;
+
+		GoogleMapsLoader.LIBRARIES = [];
+
+		GoogleMapsLoader.CLIENT = null;
+
+		GoogleMapsLoader.CHANNEL = null;
+
+		GoogleMapsLoader.LANGUAGE = null;
+
+		GoogleMapsLoader.REGION = null;
+
+		GoogleMapsLoader.VERSION = googleVersion;
+
+		GoogleMapsLoader.WINDOW_CALLBACK_NAME = '__google_maps_api_provider_initializator__';
+
+
+		GoogleMapsLoader._googleMockApiObject = {};
+
+
+		GoogleMapsLoader.load = function(fn) {
+			if (google === null) {
+				if (loading === true) {
+					if (fn) {
+						callbacks.push(fn);
+					}
+				} else {
+					loading = true;
+
+					window[GoogleMapsLoader.WINDOW_CALLBACK_NAME] = function() {
+						ready(fn);
+					};
+
+					GoogleMapsLoader.createLoader();
+				}
+			} else if (fn) {
+				fn(google);
+			}
+		};
+
+
+		GoogleMapsLoader.createLoader = function() {
+			script = document.createElement('script');
+			script.type = 'text/javascript';
+			script.src = GoogleMapsLoader.createUrl();
+
+			document.body.appendChild(script);
+		};
+
+
+		GoogleMapsLoader.isLoaded = function() {
+			return google !== null;
+		};
+
+
+		GoogleMapsLoader.createUrl = function() {
+			var url = GoogleMapsLoader.URL;
+
+			url += '?callback=' + GoogleMapsLoader.WINDOW_CALLBACK_NAME;
+
+			if (GoogleMapsLoader.KEY) {
+				url += '&key=' + GoogleMapsLoader.KEY;
+			}
+
+			if (GoogleMapsLoader.LIBRARIES.length > 0) {
+				url += '&libraries=' + GoogleMapsLoader.LIBRARIES.join(',');
+			}
+
+			if (GoogleMapsLoader.CLIENT) {
+				url += '&client=' + GoogleMapsLoader.CLIENT + '&v=' + GoogleMapsLoader.VERSION;
+			}
+
+			if (GoogleMapsLoader.CHANNEL) {
+				url += '&channel=' + GoogleMapsLoader.CHANNEL;
+			}
+
+			if (GoogleMapsLoader.LANGUAGE) {
+				url += '&language=' + GoogleMapsLoader.LANGUAGE;
+			}
+
+			if (GoogleMapsLoader.REGION) {
+				url += '&region=' + GoogleMapsLoader.REGION;
+			}
+
+			return url;
+		};
+
+
+		GoogleMapsLoader.release = function(fn) {
+			var release = function() {
+				GoogleMapsLoader.KEY = null;
+				GoogleMapsLoader.LIBRARIES = [];
+				GoogleMapsLoader.CLIENT = null;
+				GoogleMapsLoader.CHANNEL = null;
+				GoogleMapsLoader.LANGUAGE = null;
+				GoogleMapsLoader.REGION = null;
+				GoogleMapsLoader.VERSION = googleVersion;
+
+				google = null;
+				loading = false;
+				callbacks = [];
+				onLoadEvents = [];
+
+				if (typeof window.google !== 'undefined') {
+					delete window.google;
+				}
+
+				if (typeof window[GoogleMapsLoader.WINDOW_CALLBACK_NAME] !== 'undefined') {
+					delete window[GoogleMapsLoader.WINDOW_CALLBACK_NAME];
+				}
+
+				if (originalCreateLoaderMethod !== null) {
+					GoogleMapsLoader.createLoader = originalCreateLoaderMethod;
+					originalCreateLoaderMethod = null;
+				}
+
+				if (script !== null) {
+					script.parentElement.removeChild(script);
+					script = null;
+				}
+
+				if (fn) {
+					fn();
+				}
+			};
+
+			if (loading) {
+				GoogleMapsLoader.load(function() {
+					release();
+				});
+			} else {
+				release();
+			}
+		};
+
+
+		GoogleMapsLoader.onLoad = function(fn) {
+			onLoadEvents.push(fn);
+		};
+
+
+		GoogleMapsLoader.makeMock = function() {
+			originalCreateLoaderMethod = GoogleMapsLoader.createLoader;
+
+			GoogleMapsLoader.createLoader = function() {
+				window.google = GoogleMapsLoader._googleMockApiObject;
+				window[GoogleMapsLoader.WINDOW_CALLBACK_NAME]();
+			};
+		};
+
+
+		var ready = function(fn) {
+			var i;
+
+			loading = false;
+
+			if (google === null) {
+				google = window.google;
+			}
+
+			for (i = 0; i < onLoadEvents.length; i++) {
+				onLoadEvents[i](google);
+			}
+
+			if (fn) {
+				fn(google);
+			}
+
+			for (i = 0; i < callbacks.length; i++) {
+				callbacks[i](google);
+			}
+
+			callbacks = [];
+		};
+
+
+		return GoogleMapsLoader;
+
+	});
+
+
+/***/ },
+/* 397 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	function dedent(strings) {
+
+	  var raw = undefined;
+	  if (typeof strings === "string") {
+	    // dedent can be used as a plain function
+	    raw = [strings];
+	  } else {
+	    raw = strings.raw;
+	  }
+
+	  // first, perform interpolation
+	  var result = "";
+
+	  for (var _len = arguments.length, values = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+	    values[_key - 1] = arguments[_key];
+	  }
+
+	  for (var i = 0; i < raw.length; i++) {
+	    result += raw[i].
+	    // join lines when there is a suppressed newline
+	    replace(/\\\n[ \t]*/g, "").
+
+	    // handle escaped backticks
+	    replace(/\\`/g, "`");
+
+	    if (i < values.length) {
+	      result += values[i];
+	    }
+	  }
+
+	  // dedent eats leading and trailing whitespace too
+	  result = result.trim();
+
+	  // now strip indentation
+	  var lines = result.split("\n");
+	  var mindent = null;
+	  lines.forEach(function (l) {
+	    var m = l.match(/^ +/);
+	    if (m) {
+	      var indent = m[0].length;
+	      if (!mindent) {
+	        // this is the first indented line
+	        mindent = indent;
+	      } else {
+	        mindent = Math.min(mindent, indent);
+	      }
+	    }
+	  });
+
+	  if (mindent !== null) {
+	    result = lines.map(function (l) {
+	      return l[0] === " " ? l.slice(mindent) : l;
+	    }).join("\n");
+	  }
+
+	  // handle escaped newlines at the end to ensure they don't get stripped too
+	  return result.replace(/\\n/g, "\n");
+	}
+
+	if (true) {
+	  module.exports = dedent;
+	}
+
+/***/ },
+/* 398 */
+/***/ function(module, exports) {
+
+	/* eslint-disable */
+
+	module.exports = [
+	  {% for post in site.posts %}
+
+	    {% assign authors = '' | split: ',' %}
+
+	    {% for author in site.authors %}
+	      {% if post.author contains author.value %}
+	        {% assign authors = authors | push: author %}
+	      {% endif %}
+	    {% endfor %}
+
+	    {
+	      title: "{{ post.title }}",
+	      url: "{{ post.url }}",
+	      authors: [
+	        {% for author in authors %}
+	          {
+	            name: "{{ author.name }}",
+	            url: "{{ author.value | prepend: '/authors/' | prepend: site.baseurl }}"
+	          },
+	        {% endfor %}
+	      ],
+	      period: "{{ post.period }}",
+	      location: "{{ post.location }}"
+	    },
+	  {% endfor %}
+	]
+
 
 /***/ }
 /******/ ]);
