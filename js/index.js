@@ -13853,8 +13853,6 @@
 	      return textContent.trim().toLowerCase().startsWith('more information');
 	    });
 
-	    footerStart.style.fontWeight = 'bold';
-
 	    var el = footerStart;
 
 	    while (el.nextElementSibling) {
