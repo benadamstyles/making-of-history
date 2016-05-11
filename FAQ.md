@@ -36,3 +36,7 @@ All types of submissions are welcome. Write an article, create a cartoon or piec
 1. All submissions must be your own work and must not use any copyrighted, trademarked, or otherwise protected material (unless you have permission from the owner(s)). We are not fond of being sued (and we have to pay our attorneys in instant noodle cups, and it makes them cranky). If protected materials are used without permission and the rightful owners ask for the materials to be removed, we will remove them -- that may mean we have to remove your submission.
 
 2. When you send your submissions, please include a detailed list of the sources for your information. And unfortunately, your main sources can't be rare hieroglyphs from the tomb of Tutankhamun because if we can’t verify your facts, we won’t put them on the site. Unless of course you'd like to give us a private tour of the tomb of King Tut, in which case rules shmules.
+
+## Q: Can I use something from your site for my presentation/website/themed birthday party?
+
+All content on this site is protected by intellectual property laws and belongs to its original creator(s). In legalese, that means you may not modify, publish, copy, transmit, transfer, sell, reproduce, create derivative works from, license, distribute, frame, hyperlink, download, repost, perform, display or in any way commercially exploit any of the content without express permission from the owner(s). Please use our contact form if you would like to request to use something from the site.
