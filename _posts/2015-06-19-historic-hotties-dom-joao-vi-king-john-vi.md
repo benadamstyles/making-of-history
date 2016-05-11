@@ -5,16 +5,16 @@ title: "Historic Hotties: Dom Joao VI (King John VI)"
 period: "1738"
 location: Brazil
 featuredimage: ""
-author: 
+author:
   - "lee-bellamy"
   - "elliott-took"
 ---
 
-![]({{site.baseurl}}/images/1808Historic-HottiesDomJoaoVI.jpg)
+![](/images/1808Historic-HottiesDomJoaoVI.jpg)
 
-![]({{site.baseurl}}/images/1808Historic-HottiesDomJoaoVIPhotos.jpg)
+![](/images/1808Historic-HottiesDomJoaoVIPhotos.jpg)
 
-More Information & Sources
+### More Information & Sources
 
 > Dom João VI / King John VI (May 13, 1767 - March 10, 1826 AD) governed Portugal, Brazil, and the Algarves from 1792 - 1826. João’s mother, Queen Maria I, became unfit to rule in 1792 when she began having terrifying hallucinations (likely due to mixed porphyria), and João took over in her place. He officially became Prince Regent in 1799 and then King after Maria’s death in 1816. He is typically remembered as an indecisive but gentle ruler, who held daily “hand-kissing ceremonies” where his subjects of all classes and backgrounds could petition him for aid.
 

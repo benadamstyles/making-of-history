@@ -8,8 +8,6 @@ export default function() {
             textContent.trim().toLowerCase().startsWith('more information')
           );
 
-    footerStart.style.fontWeight = 'bold'
-
     let el = footerStart
 
     while (el.nextElementSibling) {

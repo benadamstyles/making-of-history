@@ -1,3 +1,71 @@
+.post-header
+  margin-bottom: $spacing-unit
+
+.post-title
+  font-size: 42px
+  letter-spacing: -0.025em
+  line-height: 1
+
+  +ipad
+    font-size: 36px
+
+.post-content
+  margin-bottom: $spacing-unit
+
+  h2
+    font-size: 32px
+
+    +ipad
+      font-size: 28px
+
+  h3
+    font-size: 26px
+
+    +ipad
+      font-size: 22px
+
+  h4
+    font-size: 20px
+    font-family: 'Roboto Slab', serif
+    // font-family: 'Merriweather', serif
+    letter-spacing: -0.01em
+
+    +ipad
+      font-size: 18px
+
+  h2,
+  h3,
+  h4
+    max-width: 100%
+
+  > p
+    background-color: $background-color
+    color: $alt-bg
+    display: inline-block
+    max-width: 47%
+    vertical-align: middle
+    box-shadow: $base-shadow
+    padding: 1em
+    margin: 0.5em 0.3em
+
+    +ipad
+      max-width: 98%
+
+  .post-footer
+    display: block
+    max-width: 100%
+    box-shadow: none
+    background-color: transparent
+    margin-top: 1em
+
+  ol.post-footer
+    font-size: 0.8em
+
+.post-content,
+.page-content
+  a, a:visited
+    color: $pale-highlight
+
 .zoom-hint
   position: absolute
   font-size: 2em

@@ -40,7 +40,7 @@ sass:
 
 prose:
   rooturl: ""
-  siteurl: "http://leeds-ebooks.github.io/making-of-history"
+  siteurl: "http://www.makingofhistory.com"
   media: "images"
   ignore:
     - '_includes'
