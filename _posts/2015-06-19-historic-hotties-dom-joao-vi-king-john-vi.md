@@ -9,8 +9,7 @@ author:
   - "elliott-took"
 ---
 
-#### Dom João VI / King John VI (May 13, 1767 - March 10, 1826 AD) governed Portugal, Brazil, and the Algarves from 1792 - 1826. He sailed to Brazil in 1808 as the French invaded Portugal, and remained in the Brazilian colonies until 1821. 
-#### João was well-known for several unusual habits, from keeping roast chicken in his pockets to wearing his clothes until they nearly rotted off his body. Imagine if he had an online dating profile...
+#### Dom João VI / King John VI (May 13, 1767 - March 10, 1826 AD) governed Portugal, Brazil, and the Algarves from 1792 - 1826. He sailed to Brazil in 1808 as the French invaded Portugal, and remained in the Brazilian colonies until 1821. João VI was well-known for several unusual habits, from keeping roast chicken in his pockets to wearing his clothes until they nearly rotted off his body. Imagine if he had an online dating profile...
 
 ![](/images/1808Historic-HottiesDomJoaoVI.jpg)
 
