@@ -56,8 +56,8 @@ $spacing-unit:      1.3em;
 }
 
 @mixin basic-trans($properties...) {
-  -webkit-transition: all 0.3s ease-out;
-          transition: all 0.3s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+          transition: all 0.2s ease-out;
   -webkit-transition-property: $properties;
           transition-property: $properties;
 }
