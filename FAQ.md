@@ -39,8 +39,8 @@ All types of submissions are welcome. Write an article, create a cartoon or piec
 
 ## Q: Can I use something from your site for my presentation / website / themed birthday party?
 
-All original content on this site is protected by intellectual property laws and belongs to its original creator(s). In legalese, that means you may not modify, publish, sell, reproduce, create derivative works from, license, distribute, or in any way commercially exploit any of the content displayed on this site without explicit permission from the owner(s). 
+All original content on this site is protected by intellectual property laws. In legalese, that means you may not modify, publish, sell, reproduce, create derivative works from, license, distribute, or in any way commercially exploit any of the content displayed on this site without explicit permission. 
 
-Sometimes we do use images which are considered 'fair use', and you can find the credits and links for those images beneath the articles where they are featured. 
+Sometimes we also incorporate images which are considered 'fair use', and you can find the credits and links for those images beneath the articles where they are featured. 
 
-Please use our contact form if you would like to request to use something from the site. 
+Please use our contact form if you would like to request to use something from the site.
