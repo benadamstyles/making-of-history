@@ -7,7 +7,7 @@ author:
   - "lee-bellamy"
 location: "Rome, Italy, Vatican City, Corsica, Sardinia, Sicily, Malta, Spain, Macedonia, Greece, Slovenia, Croatia, Bosnia and Herzegovina, Montenegro, Albania, England, Wales, Portugal, Andorra, France, Monaco, Luxembourg, Belgium, The Netherlands, Switzerland, Liechtenstein, San Marino, Austria, Turkey, Armenia, Georgia, Azerbaijan, Syria, Iraq, Cyprus, Lebanon, Jordan, Israel, Egypt, Morocco, Hungary, Serbia, Romania, Germany, Algeria, Tunisia, Libya"
 ---
-####Fascinus was a minor deity in Ancient Rome. So minor, that he was not so much a god as part of one - a disembodied penis and scrotum, roaming free and touching lives with his phallic benevolence. This virile member of the Roman pantheon was popular from approximately 753 BC - 100 AD. Roman men, women, and especially children wore Fascinus charms to protect themselves from the ‘evil eye’ - the powerful envy of other people and the bad luck it could bring. So when a Roman general celebrated a triumph, naturally the Vestal Virgins would hang a charm under his chariot to protect against the resentment of peers and enemies.
+####Fascinus was a minor deity in Ancient Rome. In fact he was not so much a god as _part_ of one - a disembodied penis and scrotum, roaming free and touching lives with his phallic benevolence. This virile member of the pantheon was popular from approximately 753 BC - 100 AD. Roman men, women, and especially children wore Fascinus charms to protect themselves from the ‘evil eye’, envy, and dark magic. When a Roman general celebrated a triumph, Vestal Virgins would hang a charm under his chariot.
 
 ![fascinus-hi-res.png]({{site.baseurl}}/images/fascinus-hi-res.png)
 
