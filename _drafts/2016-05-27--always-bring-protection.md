@@ -2,11 +2,15 @@
 layout: post
 published: true
 title: "\"Always Bring Protection\""
+period: "-753-100"
+author: 
+  - "lee-bellamy"
+location: "Rome, Italy, Vatican City, Corsica, Sardinia, Sicily, Malta, Spain, Macedonia, Greece, Slovenia, Croatia, Bosnia and Herzegovina, Montenegro, Albania, England, Wales, Portugal, Andorra, France, Monaco, Luxembourg, Belgium, The Netherlands, Switzerland, Liechtenstein, San Marino, Austria, Turkey, Armenia, Georgia, Azerbaijan, Syria, Iraq, Cyprus, Lebanon, Jordan, Israel, Egypt, Morocco, Hungary, Serbia, Romania, Germany, Algeria, Tunisia, Libya"
+featuredimage: ""
 ---
 ##“Always Bring Protection!”
 Fascinus was a minor deity in Ancient Rome. So minor, that he was not so much a god as part of one -- a disembodied penis and scrotum, roaming free and touching lives with his phallic benevolence. This virile member of the Roman pantheon was popular from approximately 753 BC - 100 AD. Roman men, women, and especially children wore Fascinus charms to protect themselves from the ‘evil eye’ - the powerful envy of other people and the bad luck it could bring. So when a Roman general celebrated a triumph, naturally the Vestal Virgins would hang a charm under his chariot to protect against the resentment of peers and enemies.
 
-By Lee Bellamy
 Art by Peter Violini
 
 More Information & Sources:
@@ -16,4 +20,4 @@ More Information & Sources:
 
 
 1. The Idea of a Town: The Anthropology of Urban Form in Rome, Italy and the Ancient World. Joseph Rykwert. Massachusetts: MIT Press. 1976, 1988. P. 159. [Google Books](https://books.google.com/books?id=Jq78Ff2TYHAC&pg=PA159&dq=fascinus&lr=&as_drrb_is=b&as_minm_is=0&as_miny_is=1988&as_maxm_is=0&as_maxy_is=2010&num=100&as_brr=3&cd=2&hl=en#v=onepage&q=fascinus&f=false). 
-2. Dictionary of Greek and Roman Antiquities. Sir William Smith. Boston. 1865. P. 521. [Internet Archive](http://archive.org/stream/dictionaryofgree00smituoft#page/520/mode/2up). 
+2. Dictionary of Greek and Roman Antiquities. Sir William Smith. Boston. 1865. P. 521. [Internet Archive](http://archive.org/stream/dictionaryofgree00smituoft#page/520/mode/2up).
