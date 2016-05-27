@@ -1,10 +1,20 @@
 import rivets from 'rivets'
 
+function normalizeYear(str) {
+  return parseInt(str.replace(/\D/g, '').trim(), 10) * (
+    str.toLowerCase().includes('bc') ? -1 : 1
+  )
+}
+
 Object.assign(rivets.formatters, {
   matchesRange(range, begin, end) {
     const isRange = range.includes('-'),
-          min = parseInt(isRange ? range.split('-')[0] : range, 10),
-          max = parseInt(isRange ? range.split('-')[1] : range, 10),
+          min = normalizeYear(
+            isRange ? range.split('-')[0] : range
+          ),
+          max = normalizeYear(
+            isRange ? range.split('-')[1] : range
+          ),
           b = parseInt(begin, 10),
           e = parseInt(end, 10);
 
