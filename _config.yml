@@ -9,12 +9,15 @@ baseurl: '' # the subpath of your site, e.g. /blog/
 url: http://www.makingofhistory.com # the base hostname & protocol for your site
 
 authors: &AUTHORS
-  - value: 'lee-bellamy'
-    name: 'Lee Bellamy'
-    bio: 'is the owner, producer, editor, and all-around big cheese of The Making of History. Please direct all complaints, groans, and death threats to Lee at _admin@makingofhistory.com_'
-  - value: 'elliott-took'
-    name: 'Elliott Took'
-    bio: 'has contributed to the writings of a Los Angeles-based author who will remain anonymous. A science and history enthusiast, Elliott is currently working on more content for Making of History to be revealed at a later date. Maybe Thursday...'
+  - value: lee-bellamy
+    name: Lee Bellamy
+    bio: is the owner, producer, editor, and all-around big cheese of The Making of History. Please direct all complaints, groans, and death threats to Lee at _admin@makingofhistory.com_.
+  - value: elliott-took
+    name: Elliott Took
+    bio: has contributed to the writings of a Los Angeles-based author who will remain anonymous. A science and history enthusiast, Elliott is currently working on more content for Making of History to be revealed at a later date. Maybe Thursday...
+  - value: peter-violini
+    name: Peter Violini
+    bio: is a fantasy cartoonist, samurai illustrator, and professional dog-petter. You can admire his skills at [http://petarvee.tumblr.com/](http://petarvee.tumblr.com/) or enjoy his collaborative comic with Brian Richmond, “The Sisters”, at [http://thesisters-comic.com/](http://thesisters-comic.com/). Contact Peter on Twitter ([@Petarvee](https://twitter.com/Petarvee)) or Instagram ([Petarvee](https://www.instagram.com/petarvee/)).
 
 defaults:
   -
