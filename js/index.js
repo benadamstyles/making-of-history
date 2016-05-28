@@ -18513,13 +18513,17 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+	function parseYear(str) {
+	  return Number.parseInt(str.replace(/\D/g, '').trim(), 10) * (str.toLowerCase().includes('bc') ? -1 : 1);
+	}
+
 	Object.assign(_rivets2.default.formatters, {
 	  matchesRange: function matchesRange(range, begin, end) {
 	    var isRange = range.includes('-'),
-	        min = parseInt(isRange ? range.split('-')[0] : range, 10),
-	        max = parseInt(isRange ? range.split('-')[1] : range, 10),
-	        b = parseInt(begin, 10),
-	        e = parseInt(end, 10);
+	        min = parseYear(isRange ? range.split('-')[0] : range),
+	        max = parseYear(isRange ? range.split('-')[1] : range),
+	        b = Number.parseInt(begin, 10),
+	        e = Number.parseInt(end, 10);
 
 	    return b <= min && max <= e;
 	  },
@@ -18531,9 +18535,7 @@
 	      return int < 0 ? Math.abs(int) + ' BC' : (Number.isNaN(int) ? 0 : val) + ' AD';
 	    },
 
-	    publish: function publish(val) {
-	      return val.includes('BC') ? '' + (0 - parseInt(val, 10)) : '' + parseInt(val, 10);
-	    }
+	    publish: parseYear
 	  }
 	});
 
