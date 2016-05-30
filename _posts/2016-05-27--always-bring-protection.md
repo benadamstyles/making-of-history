@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: "\"Always Bring Protection!\""
-period: "753 BC-100"
+period: "100-753 BC"
 author: 
   - "lee-bellamy"
   - "peter-violini"
