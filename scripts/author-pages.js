@@ -8,7 +8,7 @@ mkdirp.sync('authors')
 
 trash(['authors/*'])
 .then(() => yaml('_config.yml'))
-.then(data => {
+.then(data =>
   data.authors.forEach(author => {
     const text = dedent`
       ---
@@ -19,7 +19,7 @@ trash(['authors/*'])
 
     fs.writeFileSync(`authors/${author.value}.html`, text, 'utf8')
   })
-})
+)
 .then(() =>
   console.log('\x1b[32m%s\x1b[0m', '✔︎ Author pages in place')
 )
