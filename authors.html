@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Authors
+title: Meet the Buffs
 weight: 3
 show_in_menu: true
 ---
@@ -11,7 +11,7 @@ show_in_menu: true
       {{ author.bio | prepend: '** ' | prepend: author.name | prepend: '**' | markdownify }}
       <p>
         <a href="{{ author.value | prepend: '/authors/' | prepend: site.baseurl }}">
-          View all articles written by {{ author.name }}
+          View all articles by {{ author.name }}
         </a>
       </p>
     </li>
