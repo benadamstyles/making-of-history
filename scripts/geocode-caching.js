@@ -1,14 +1,11 @@
 const fm       = require('front-matter')
 const globby   = require('globby')
-const trash    = require('trash')
-// const dedent   = require('dedent')
 const fsp      = require('fs-promise')
+const prep     = require('prepend-file')
 const _        = require('lodash')
 const Geocoder = require('batch-geocoder')
 
-trash(['_data/geocodes.csv'])
-
-.then(() => globby(['_posts/*']))
+globby(['_posts/*'])
 
 .then(paths =>
   Promise.all(
@@ -39,10 +36,16 @@ trash(['_data/geocodes.csv'])
   })
 )
 
-.then(res => console.log(res))
+.then(() =>
+  new Promise((resolve, reject) =>
+    prep('_data/geocodes.csv', 'address;lat;lng\n', err => err ? reject(err) : resolve())
+  )
+)
 
 .then(() =>
   console.log('\x1b[32m%s\x1b[0m', '✔︎ Geocodes cache in place')
 )
 
-.catch(console.error.bind(console))
+.catch(err =>
+  console.error('\x1b[31m%s\x1b[0m', err)
+)
