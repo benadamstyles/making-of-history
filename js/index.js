@@ -18815,12 +18815,14 @@
 	Object.assign(_rivets2.default.formatters, {
 	  matchesRange: function matchesRange(range, begin, end) {
 	    var isRange = range.includes('-'),
-	        min = parseYear(isRange ? range.split('-')[0] : range),
-	        max = parseYear(isRange ? range.split('-')[1] : range),
+	        yearA = parseYear(isRange ? range.split('-')[0] : range),
+	        yearB = parseYear(isRange ? range.split('-')[1] : range),
+	        min = Math.min(yearA, yearB),
+	        max = Math.max(yearA, yearB),
 	        b = Number.parseInt(begin, 10),
 	        e = Number.parseInt(end, 10);
 
-	    return b <= min && max <= e;
+	    return b <= max && min <= e;
 	  },
 
 
