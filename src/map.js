@@ -1,6 +1,7 @@
 import googlemaps from 'google-maps'
 import dedent from 'dedent'
 import articles from '../liquid/articles'
+import geocodes from '../liquid/geocodes'
 
 googlemaps.KEY = 'AIzaSyAzKKPS4jEeie2IDq57BXYZILzbJhZCctE'
 googlemaps.LANGUAGE = 'en'
@@ -38,6 +39,8 @@ export default function(container) {
         infoWindow.open(map, marker)
       }
     }
+
+    console.log(geocodes)
 
     articles.forEach(async ({title, location, url, authors, period}) => {
       try {

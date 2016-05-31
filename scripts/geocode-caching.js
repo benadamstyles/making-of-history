@@ -1,9 +1,10 @@
 const fm       = require('front-matter')
 const globby   = require('globby')
 const fsp      = require('fs-promise')
-const prep     = require('prepend-file')
+const trash    = require('trash')
 const _        = require('lodash')
 const Geocoder = require('batch-geocoder')
+const yaml     = require('node-yaml')
 
 globby(['_posts/*'])
 
@@ -29,17 +30,16 @@ globby(['_posts/*'])
 
 .then(locations =>
   new Promise((resolve, reject) => {
-    const geocoder = new Geocoder('_data/geocodes.csv')
+    const geocoder = new Geocoder('scripts/geocodes.csv')
     geocoder.on('finish', resolve)
     geocoder.on('error', reject)
     geocoder.find(locations)
   })
 )
 
-.then(() =>
-  new Promise((resolve, reject) =>
-    prep('_data/geocodes.csv', 'address;lat;lng\n', err => err ? reject(err) : resolve())
-  )
+.then(collection =>
+  trash(['_data/geocodes.yml'])
+  .then(() => yaml.writePromise('_data/geocodes.yml', collection))
 )
 
 .then(() =>
