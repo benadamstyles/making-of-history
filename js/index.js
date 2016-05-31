@@ -25665,56 +25665,118 @@
 	    }
 
 	    _articles2.default.forEach(function () {
-	      var ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee(_ref) {
+	      var ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee3(_ref) {
 	        var title = _ref.title;
 	        var location = _ref.location;
 	        var url = _ref.url;
 	        var authors = _ref.authors;
 	        var period = _ref.period;
-	        var infoWindow, marker;
-	        return regeneratorRuntime.wrap(function _callee$(_context) {
+	        return regeneratorRuntime.wrap(function _callee3$(_context3) {
 	          while (1) {
-	            switch (_context.prev = _context.next) {
+	            switch (_context3.prev = _context3.next) {
 	              case 0:
-	                _context.prev = 0;
-	                infoWindow = new maps.InfoWindow({
-	                  content: (0, _dedent2.default)(_templateObject, url, title, period, authors.map(function (author) {
-	                    return '<a href="' + author.url + '">' + author.name + '</a>';
-	                  }).join(', '))
-	                });
-	                _context.t0 = maps.Marker;
-	                _context.t1 = map;
-	                _context.next = 6;
-	                return geocode(location);
+	                _context3.prev = 0;
+	                return _context3.delegateYield(regeneratorRuntime.mark(function _callee2() {
+	                  var infoWindow, normalizedLocations, markers;
+	                  return regeneratorRuntime.wrap(function _callee2$(_context2) {
+	                    while (1) {
+	                      switch (_context2.prev = _context2.next) {
+	                        case 0:
+	                          infoWindow = new maps.InfoWindow({
+	                            content: (0, _dedent2.default)(_templateObject, url, title, period, authors.map(function (author) {
+	                              return '<a href="' + author.url + '">' + author.name + '</a>';
+	                            }).join(', '))
+	                          });
+	                          normalizedLocations = location.split('|').map(function (loc) {
+	                            return loc.trim().toLowerCase();
+	                          });
+	                          _context2.next = 4;
+	                          return Promise.all(normalizedLocations.map(function () {
+	                            var ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee(loc) {
+	                              var cachedGeocode;
+	                              return regeneratorRuntime.wrap(function _callee$(_context) {
+	                                while (1) {
+	                                  switch (_context.prev = _context.next) {
+	                                    case 0:
+	                                      cachedGeocode = _geocodes2.default.find(function (_ref2) {
+	                                        var address = _ref2.address;
+	                                        return address === loc;
+	                                      });
+	                                      _context.t0 = maps.Marker;
+	                                      _context.t1 = map;
 
-	              case 6:
-	                _context.t2 = _context.sent;
-	                _context.t3 = {
-	                  map: _context.t1,
-	                  position: _context.t2
-	                };
-	                marker = new _context.t0(_context.t3);
+	                                      if (!cachedGeocode) {
+	                                        _context.next = 7;
+	                                        break;
+	                                      }
+
+	                                      _context.t2 = { lat: cachedGeocode.lat, lng: cachedGeocode.lng };
+	                                      _context.next = 10;
+	                                      break;
+
+	                                    case 7:
+	                                      _context.next = 9;
+	                                      return geocode(loc);
+
+	                                    case 9:
+	                                      _context.t2 = _context.sent;
+
+	                                    case 10:
+	                                      _context.t3 = _context.t2;
+	                                      _context.t4 = {
+	                                        map: _context.t1,
+	                                        position: _context.t3
+	                                      };
+	                                      return _context.abrupt('return', new _context.t0(_context.t4));
+
+	                                    case 13:
+	                                    case 'end':
+	                                      return _context.stop();
+	                                  }
+	                                }
+	                              }, _callee, _this);
+	                            }));
+
+	                            return function (_x2) {
+	                              return ref.apply(this, arguments);
+	                            };
+	                          }()));
+
+	                        case 4:
+	                          markers = _context2.sent;
 
 
-	                infoWindows.push(infoWindow);
+	                          infoWindows.push(infoWindow);
 
-	                marker.addListener('click', getHandler(infoWindow, marker));
-	                marker.addListener('mouseover', getHandler(infoWindow, marker));
-	                _context.next = 17;
+	                          markers.forEach(function (marker) {
+	                            marker.addListener('click', getHandler(infoWindow, marker));
+	                            marker.addListener('mouseover', getHandler(infoWindow, marker));
+	                          });
+
+	                        case 7:
+	                        case 'end':
+	                          return _context2.stop();
+	                      }
+	                    }
+	                  }, _callee2, _this);
+	                })(), 't0', 2);
+
+	              case 2:
+	                _context3.next = 7;
 	                break;
 
-	              case 14:
-	                _context.prev = 14;
-	                _context.t4 = _context['catch'](0);
+	              case 4:
+	                _context3.prev = 4;
+	                _context3.t1 = _context3['catch'](0);
 
-	                console.error(_context.t4);
+	                console.error(_context3.t1);
 
-	              case 17:
+	              case 7:
 	              case 'end':
-	                return _context.stop();
+	                return _context3.stop();
 	            }
 	          }
-	        }, _callee, _this, [[0, 14]]);
+	        }, _callee3, _this, [[0, 4]]);
 	      }));
 
 	      return function (_x) {
@@ -25735,6 +25797,10 @@
 	var _articles = __webpack_require__(398);
 
 	var _articles2 = _interopRequireDefault(_articles);
+
+	var _geocodes = __webpack_require__(399);
+
+	var _geocodes2 = _interopRequireDefault(_geocodes);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -26069,6 +26135,23 @@
 	      ],
 	      period: "{{ post.period }}",
 	      location: "{{ post.location }}"
+	    },
+	  {% endfor %}
+	]
+
+
+/***/ },
+/* 399 */
+/***/ function(module, exports) {
+
+	/* eslint-disable */
+
+	module.exports = [
+	  {% for geocode in site.data.geocodes %}
+	    {
+	      address: "{{ geocode.address }}",
+	      lat: {{ geocode.lat }},
+	      lng: {{ geocode.lng }}
 	    },
 	  {% endfor %}
 	]
