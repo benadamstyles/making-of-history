@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: "\"Always Bring Protection!\""
-period: "753 BC-100"
+period: "100-753 BC"
 author: 
   - "lee-bellamy"
   - "peter-violini"
@@ -17,7 +17,7 @@ location: "Rome, Italy, Vatican City, Corsica, Sardinia, Sicily, Malta, Spain, M
 
 > The terms ‘fascinus’ and ‘fascinum’ were derived from the verb ‘fascinare’: to enchant or bewitch. The same verb is the root of the modern English word ‘fascinate’.
 
-> The truck accessory featured in the second panel is known as ‘truck nutz’, ‘cargonads’, ‘drive-thru danglers’ and ‘trucksticles’, among other things. It is widely available for purchase online, but buyer beware: several U.S. states have already tried to impose fines for using them. [Wikipedia](https://en.wikipedia.org/wiki/Truck_nuts).  
+> The hitch accessory featured in the second panel is known as ‘truck nutz’, ‘cargonads’, ‘drive-thru danglers’ and ‘trucksticles’, among other things. It is widely available for purchase online, but buyer beware: several U.S. states have already tried to impose fines for using them. [Wikipedia](https://en.wikipedia.org/wiki/Truck_nuts).  
 
 1. The Idea of a Town: The Anthropology of Urban Form in Rome, Italy and the Ancient World. Joseph Rykwert. Massachusetts: MIT Press. 1976, 1988. P. 159. [Google Books](https://books.google.com/books?id=Jq78Ff2TYHAC&pg=PA159&dq=fascinus&lr=&as_drrb_is=b&as_minm_is=0&as_miny_is=1988&as_maxm_is=0&as_maxy_is=2010&num=100&as_brr=3&cd=2&hl=en#v=onepage&q=fascinus&f=false).
 2. Dictionary of Greek and Roman Antiquities. Sir William Smith. Boston. 1865. P. 521. [Internet Archive](http://archive.org/stream/dictionaryofgree00smituoft#page/520/mode/2up).
