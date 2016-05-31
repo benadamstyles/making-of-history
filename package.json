@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "authors": "node scripts/author-pages.js",
     "geocode": "node scripts/geocode-caching.js",
-    "prebuild": "npm run authors",
+    "prebuild": "npm run authors && npm run geocode",
     "build": "webpack",
     "webpack-serve": "webpack --watch",
     "jekyll-serve": "jekyll build --watch",

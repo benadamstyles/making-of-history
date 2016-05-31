@@ -106,7 +106,8 @@ prose:
       - name: location
         field:
           element: text
-          label: City or country
+          label: City or country (separate multiple locations with a | character)
+          help: e.g. "Rome | Paris | Leeds, UK"
           type: text
       - name: author
         field:

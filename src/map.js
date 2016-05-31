@@ -40,8 +40,6 @@ export default function(container) {
       }
     }
 
-    console.log(geocodes)
-
     articles.forEach(async ({title, location, url, authors, period}) => {
       try {
         const infoWindow = new maps.InfoWindow({

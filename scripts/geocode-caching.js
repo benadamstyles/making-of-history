@@ -20,7 +20,7 @@ globby(['_posts/*'])
   _.flatten(
     frontMatterObjects.map(fmo =>
       fmo.attributes.location
-      .split(',')
+      .split('|')
       .map(str =>
         str.trim().toLowerCase()
       )
@@ -37,9 +37,20 @@ globby(['_posts/*'])
   })
 )
 
-.then(collection =>
+.then(collectionObj =>
   trash(['_data/geocodes.yml'])
-  .then(() => yaml.writePromise('_data/geocodes.yml', collection))
+  .then(() =>
+    yaml.writePromise(
+      '_data/geocodes.yml',
+      _.toPairs(collectionObj).map(pair =>
+        ({
+          address: pair[0],
+          lat: pair[1].lat,
+          lng: pair[1].lng
+        })
+      )
+    )
+  )
 )
 
 .then(() =>
