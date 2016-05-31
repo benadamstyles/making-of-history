@@ -12,7 +12,7 @@ module.exports = [
     {% endfor %}
 
     {
-      title: "{{ post.title | smartify }}",
+      title: '{{ post.title | smartify }}',
       url: "{{ post.url }}",
       authors: [
         {% for author in authors %}

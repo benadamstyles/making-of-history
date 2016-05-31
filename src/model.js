@@ -1,6 +1,6 @@
 export default {
   range: {
-    begin: '0',
+    begin: '-2000',
     end: `${(new Date()).getFullYear()}`
   }
 }

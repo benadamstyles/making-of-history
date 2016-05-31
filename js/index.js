@@ -12690,7 +12690,7 @@
 	});
 	exports.default = {
 	  range: {
-	    begin: '0',
+	    begin: '-2000',
 	    end: '' + new Date().getFullYear()
 	  }
 	};
@@ -26057,7 +26057,7 @@
 	    {% endfor %}
 
 	    {
-	      title: "{{ post.title | smartify }}",
+	      title: '{{ post.title | smartify }}',
 	      url: "{{ post.url }}",
 	      authors: [
 	        {% for author in authors %}
