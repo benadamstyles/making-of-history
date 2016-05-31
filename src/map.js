@@ -59,15 +59,31 @@ export default function(container) {
                   </p>
                 `
               }),
-              marker = new maps.Marker({
-                map,
-                position: await geocode(location)
-              });
+              normalizedLocations = location
+                .split('|')
+                .map(loc =>
+                  loc.trim().toLowerCase()
+                ),
+              markers = await Promise.all(
+                normalizedLocations.map(async loc => {
+                  const cachedGeocode = geocodes.find(
+                    ({address}) => address === loc
+                  )
+                  return new maps.Marker({
+                    map,
+                    position: cachedGeocode ?
+                      {lat: cachedGeocode.lat, lng: cachedGeocode.lng} :
+                      await geocode(loc)
+                  })
+                })
+              );
 
         infoWindows.push(infoWindow)
 
-        marker.addListener('click', getHandler(infoWindow, marker))
-        marker.addListener('mouseover', getHandler(infoWindow, marker))
+        markers.forEach(marker => {
+          marker.addListener('click', getHandler(infoWindow, marker))
+          marker.addListener('mouseover', getHandler(infoWindow, marker))
+        })
       } catch (e) {
         console.error(e)
       }
