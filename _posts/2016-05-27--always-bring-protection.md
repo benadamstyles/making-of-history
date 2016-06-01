@@ -2,8 +2,8 @@
 layout: post
 published: true
 title: "\"Always Bring Protection!\""
-period: "100-753 BC"
-author:
+period: "753 BC-100"
+author: 
   - "lee-bellamy"
   - "peter-violini"
 location: "Rome | Italy | Vatican City | Corsica | Sardinia | Sicily | Malta | Spain | Macedonia | Greece | Slovenia | Croatia | Bosnia and Herzegovina | Montenegro | Albania | England | Wales | Portugal | Andorra | France | Monaco | Luxembourg | Belgium | The Netherlands | Switzerland | Liechtenstein | San Marino | Austria | Turkey | Armenia | Georgia | Azerbaijan | Syria | Iraq | Cyprus | Lebanon | Jordan | Israel | Egypt | Morocco | Hungary | Serbia | Romania | Germany | Algeria | Tunisia | Libya"
