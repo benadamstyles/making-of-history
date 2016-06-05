@@ -1,12 +1,12 @@
 ---
 layout: post
 published: true
-title: "Historic Hotties: Dom Joao VI (King John VI)"
-period: "1808-1821"
-location: Brazil
-author: 
-  - "lee-bellamy"
-  - "elliott-took"
+title: 'Historic Hotties: Dom Joao VI (King John VI)'
+period: 1808-1821
+location: 'Rio de Janeiro, Brazil'
+author:
+  - lee-bellamy
+  - elliott-took
 ---
 
 #### Dom João VI / King John VI (May 13, 1767 - March 10, 1826 AD) governed Portugal, Brazil, and the Algarves from 1792 - 1826. He sailed to Brazil in 1808 as the French invaded Portugal, and remained in the Brazilian colonies until 1821. João VI was well-known for several unusual habits, from keeping roast chicken in his pockets (and in his servant's saddlebags) to wearing the same clothes until they fell apart. Imagine if he had an online dating profile...
