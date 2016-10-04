@@ -9,7 +9,7 @@ author:
 ---
 #### Dr. Samuel Cartwright was a 19th century physician who practiced in the antebellum American South. In the course of his work, the good doctor had noticed a concerning mental health epidemic. Other physicians were familiar with the symptoms, but Cartwright claimed he was the first to discover the cause… and the questionable cure.
 
-![Samuelcartwright.jpg]({{site.baseurl}}/images/Samuelcartwright.jpg) [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Samuelcartwright.jpg )
+![Samuelcartwright.jpg]({{site.baseurl}}/images/Samuelcartwright.jpg "Samuel A. Cartwright, Psychiatrist") [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Samuelcartwright.jpg )
 
 In 1851 Dr. Samuel Cartwright published an article in the magazine DeBow’s Review - “Diseases and the Peculiarities of the Negro Race”. In the article Cartwright announced that he had made a landmark discovery. He had observed that black slaves were fleeing from white owners in the South, escaping to the North where slavery was abolished. Why did the slaves keep running away? 
 
