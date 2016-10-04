@@ -19,8 +19,9 @@ According to Cartwright, if a slave appeared ‘sulky’, that slave was sufferi
 
 But both illnesses were preventable. Cartwright recommended handling budding drapetomaniacs by ‘whipping the devil out’ of them and other violent treatments. It was an excellent way of reminding slaves what they would be missing, if they ran away. If slave owners followed his instructions, Cartwright promised slaves would have no interest in escaping, even “though the slaves be located on the borders of a free state, within a stone's throw of the abolitionists.” But if former slaves became legally free, these mental illnesses would consume them permanently.
 
-More Information & Sources:
+### More Information & Sources:
+
 > Cartwright’s article was widely circulated in the South, but openly mocked in the North. The Buffalo Medical Journal wrote a satirical editorial review of Cartwright’s article in 1855. (“Editorial Department” Buffalo Medical Journal. v.10 1854-1855 Jun-May. Pp. 438-43. HathiTrust Digital Library. [HathiTrust.org](https://babel.hathitrust.org/cgi/pt?id=mdp.39015076701682;view=1up;seq=450) HathiTrust.org. Accessed 8/19/2016
 https://babel.hathitrust.org/cgi/pt?id=mdp.39015076701682;view=1up;seq=450)
 
-“Diseases and the Peculiarities of the Negro Race”. Samuel Cartwright. DeBow’s Review; Southern and Western States. Vol. 11. New Orleans. 1851. AMS Press, Inc.: New York. 1967. [PBS.org](http://www.pbs.org/wgbh/aia/part4/4h3106t.html)PBS.org. Accessed 6/21/16. http://www.pbs.org/wgbh/aia/part4/4h3106t.html
+1. “Diseases and the Peculiarities of the Negro Race”. Samuel Cartwright. DeBow’s Review; Southern and Western States. Vol. 11. New Orleans. 1851. AMS Press, Inc.: New York. 1967. [PBS.org](http://www.pbs.org/wgbh/aia/part4/4h3106t.html)PBS.org. Accessed 6/21/16. http://www.pbs.org/wgbh/aia/part4/4h3106t.html
