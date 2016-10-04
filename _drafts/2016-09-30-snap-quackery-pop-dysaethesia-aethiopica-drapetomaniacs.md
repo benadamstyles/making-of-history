@@ -7,7 +7,7 @@ location: 'Mississippi, USA / Louisiana, USA / Alabama, USA'
 author:
   - lee-bellamy
 ---
-## Dr. Samuel Cartwright was a 19th century physician who practiced in the antebellum American South. In the course of his work, the good doctor had noticed a concerning mental health epidemic. Other physicians were familiar with the symptoms, but Cartwright claimed he was the first to discover the cause… and the questionable cure.
+#### Dr. Samuel Cartwright was a 19th century physician who practiced in the antebellum American South. In the course of his work, the good doctor had noticed a concerning mental health epidemic. Other physicians were familiar with the symptoms, but Cartwright claimed he was the first to discover the cause… and the questionable cure.
 
 ![Samuelcartwright.jpg]({{site.baseurl}}/images/Samuelcartwright.jpg) [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Samuelcartwright.jpg )
 
