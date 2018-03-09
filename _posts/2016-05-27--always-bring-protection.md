@@ -17,7 +17,7 @@ location: >-
 ---
 #### Fascinus was a minor deity in Ancient Rome. In fact he was not so much a god as _part_ of one - a disembodied penis and scrotum, roaming free and touching lives with his phallic benevolence. This virile member of the pantheon was popular from approximately 753 BC - 100 AD. Roman men, women, and especially children wore Fascinus charms to protect themselves from the ‘evil eye’ and dark magic. When a Roman general celebrated a triumph, Vestal Virgins would hang a charm under his chariot to shield him from the envy of his peers and enemies.
 
-![fascinus-hi-res.png]({{site.baseurl}}/images/fascinus-hi-res.png) [[Peter Violini](http://www.peterviolini.com/)
+![fascinus-hi-res.png]({{site.baseurl}}/images/fascinus-hi-res.png) [Peter Violini](http://www.peterviolini.com/)
 
 ### More Information & Sources:
 >Fascinus charms (called fascinum) were often made of wood or metal, showing an erect penis and scrotum with miniature wings, a penile tail, or, in the more subtle models, a second penis between little penis-shaped feet. Images of Fascinus have been found in wind chimes, jewelry, and art throughout the former Roman empire.
