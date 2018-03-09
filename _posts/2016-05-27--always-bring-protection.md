@@ -5,7 +5,6 @@ title: '"Always Bring Protection!"'
 period: 753 BC-100
 author:
   - lee-bellamy
-  - peter-violini
 location: >-
   Rome | Italy | Vatican City | Corsica | Sardinia | Sicily | Malta | Spain |
   Macedonia | Greece | Slovenia | Croatia | Bosnia and Herzegovina | Montenegro
