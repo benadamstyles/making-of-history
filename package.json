@@ -14,7 +14,9 @@
     "browser-sync": "browser-sync start --server _site --files _site --reload-debounce 100 --no-notify",
     "serve": "npm run prebuild && npm-run-parallel webpack-serve jekyll-serve browser-sync",
     "stage": "surge ./_site makingofhistory.surge.sh",
-    "unstage": "surge teardown makingofhistory.surge.sh"
+    "unstage": "surge teardown makingofhistory.surge.sh",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -37,7 +39,8 @@
     "photoswipe": "^4.1.1",
     "rivets": "^0.8.1",
     "sightglass": "^0.2.4",
-    "stickyfill": "^1.1.1"
+    "stickyfill": "^1.1.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "babel-core": "^6.3.26",
@@ -61,5 +64,6 @@
     "surge": "^0.18.0",
     "trash": "^3.4.1",
     "webpack": "^1.12.9"
-  }
+  },
+  "snyk": true
 }
